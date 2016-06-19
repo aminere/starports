@@ -1,0 +1,40 @@
+
+precision mediump float;
+uniform sampler2D uTexture0; // diffuse
+uniform vec4 uAmbientColor;
+uniform vec4 uLightColors;//[4];
+//uniform int uLightCount;
+uniform vec3 uLightPositions;//[4];
+uniform vec4 uFogColor;
+uniform vec3 uCameraPos;
+uniform float uLightAttenuation;
+
+varying vec3 vVertPos;
+varying vec3 vVertNorm;
+varying vec2 vTexCoord;
+
+void main()
+{	
+	vec4 texColor = texture2D(uTexture0, vTexCoord);
+
+	//diffuse
+	vec3 toLight = uLightPositions - vVertPos;
+	float toLightDist = length(toLight);
+	vec3 toLightDir = toLight / toLightDist;
+    float diffuseCoefficient = max(0.0, dot(vVertNorm, toLightDir));
+    vec3 diffuse = diffuseCoefficient * texColor.rgb * uLightColors.rgb * 1.3; //* light.intensities;
+	
+	//attenuation
+    float attenuation = 1.0 / (1.0 + uLightAttenuation * pow(toLightDist, 2.0));
+
+	// fog
+	float maxDist = 500.0;
+	float minDist = 100.0;
+	float distToCamera = length(uCameraPos-vVertPos);
+	float fogDistFactor = ((clamp(distToCamera, minDist, maxDist)-minDist)/(maxDist-minDist));	
+	float fogFactor = clamp((fogDistFactor*fogDistFactor), 0.0, 1.0);
+	
+	//linear color (color before gamma correction)
+    vec3 linearColor = uAmbientColor.rgb + attenuation*(diffuse);
+	gl_FragColor = vec4(linearColor, uAmbientColor.a)*(1.0-fogFactor) + (uFogColor*fogFactor);	
+}

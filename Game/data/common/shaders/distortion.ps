@@ -1,0 +1,25 @@
+
+precision mediump float;
+uniform sampler2D uSceneRT; // scene rt
+uniform sampler2D uEffectRT; // effect rt
+uniform sampler2D uTexture0; // distortion map
+uniform vec4 uAmbientColor;
+uniform vec2 uPixelSize;
+
+varying vec2 vScreenCoord;
+varying vec2 vLocalCoord;
+
+void main()
+{	
+	vec2 adjust = vec2(sin(radians(vLocalCoord.x*180.0)), sin(radians(vLocalCoord.y*180.0)));	
+	//vec2 offset = vec2(clamp(cos(radians(angle.x)), 0.0, 1.0), clamp(cos(radians(angle.y)), 0.0, 1.0)) * adjust.x*adjust.y;	
+	
+	vec2 toCenter = normalize(vec2(0.5, 0.5) - vLocalCoord);
+	float factor = 40.0;	
+	float distortion = length(texture2D(uTexture0, vLocalCoord).rgb);
+	vec2 displacement = (uPixelSize * toCenter) * factor * distortion * (adjust.x*adjust.y);
+	vec2 texCoord = (vScreenCoord*0.5)+0.5; // convert from [-1, 1] => [0, 1]	
+	vec4 texColor = texture2D(uSceneRT, texCoord+displacement);
+	vec4 effectColor = texture2D(uEffectRT, texCoord+displacement);
+	gl_FragColor = (texColor + effectColor) * uAmbientColor;
+}

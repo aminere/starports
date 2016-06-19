@@ -1,0 +1,51 @@
+<MeshEntity>
+  <Properties>
+    <uint Name="ID" Value="5f2baeb5" />
+    <string Name="Name" Value="Hexagon" />
+    <bool Name="Visible" Value="1" />
+    <bool Name="Enabled" Value="1" />
+    <vec3D Name="Position" Value="0 0 0" />
+    <vec3D Name="Rotation" Value="0 0 0" />
+    <vec3D Name="Scale" Value="1 1 1" />
+    <vec3D Name="Center" Value="0 0 0" />
+    <bool Name="AlwaysActive" Value="0" />
+    <ref Name="Mesh" TemplatePath="ingame/mesh/hexagonmesh.xml" />
+  </Properties>
+  <SubMesh>
+    <Properties>
+      <uint Name="ID" Value="9f1d3116" />
+      <string Name="Name" Value="Mesh_001" />
+      <bool Name="Visible" Value="1" />
+      <bool Name="Enabled" Value="1" />
+      <vec3D Name="Position" Value="0 -0 0" />
+      <vec3D Name="Rotation" Value="0 0 0" />
+      <vec3D Name="Scale" Value="4 4 0.5" />
+      <vec3D Name="Center" Value="0 0 0" />
+      <bool Name="AlwaysActive" Value="0" />
+    </Properties>
+    <Components>
+      <ref Name="" ClassName="GraphicComponent">
+        <uint Name="ID" Value="c8948adc" />
+        <string Name="Name" Value="" />
+        <uint Name="RenderingPriority" Value="0" />
+        <enum Name="RenderingPass" Value="1" />
+        <bool Name="ShadowCaster" Value="0" />
+        <array Name="Materials">
+          <ref ClassName="Material">
+            <uint Name="ID" Value="6851d63b" />
+            <string Name="Name" Value="" />
+            <struct Name="CreationInfo">
+              <bool Name="AlphaBlending" Value="0" />
+              <enum Name="SrcBlendFactor" Value="4" />
+              <enum Name="DestBlendFactor" Value="5" />
+              <enum Name="CullMode" Value="1" />
+              <color Name="Color" Value="0 0 0" />
+              <float Name="Alpha" Value="1" />
+              <ref Name="Shader" TemplatePath="common/shaders/shadow.xml" />
+            </struct>
+          </ref>
+        </array>
+      </ref>
+    </Components>
+  </SubMesh>
+</MeshEntity>

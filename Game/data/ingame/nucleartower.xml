@@ -1,0 +1,363 @@
+<NuclearTower>
+	<Properties>
+		<uint Name="ID" Value="cf02024f"/>
+		<string Name="Name" Value=""/>
+		<bool Name="Visible" Value="1"/>
+		<bool Name="Enabled" Value="1"/>
+		<vec3D Name="Position" Value="0 0 0"/>
+		<vec3D Name="Rotation" Value="0 0 0"/>
+		<vec3D Name="Scale" Value="1 1 1"/>
+		<vec3D Name="Center" Value="0 0 0"/>
+		<bool Name="AlwaysActive" Value="0"/>
+		<enum Name="ActorType" Value="4"/>
+		<enum Name="ActorLevel" Value="0"/>
+		<bool Name="Immune" Value="0"/>
+		<bool Name="ShakeOnExplode" Value="0"/>
+		<float Name="ExplosionScaleFactor" Value="1"/>
+		<ref Name="Missile" TemplatePath="ingame/nuclearmissile.xml"/>
+		<ref Name="Explosion" TemplatePath="ingame/nuclearexplosion.xml"/>
+	</Properties>
+	<MeshEntity>
+		<Properties>
+			<uint Name="ID" Value="623026b9"/>
+			<string Name="Name" Value="BaseMesh"/>
+			<bool Name="Visible" Value="1"/>
+			<bool Name="Enabled" Value="1"/>
+			<vec3D Name="Position" Value="0 0 0"/>
+			<vec3D Name="Rotation" Value="0 0 0"/>
+			<vec3D Name="Scale" Value="0.8 0.8 0.8"/>
+			<vec3D Name="Center" Value="0 0 0"/>
+			<bool Name="AlwaysActive" Value="0"/>
+			<ref Name="Mesh" TemplatePath="ingame/silo/Silo_mainmesh.xml"/>
+		</Properties>
+		<SubMesh>
+			<Properties>
+				<uint Name="ID" Value="ea659356"/>
+				<string Name="Name" Value="LidLeft"/>
+				<bool Name="Visible" Value="1"/>
+				<bool Name="Enabled" Value="1"/>
+				<vec3D Name="Position" Value="-1 -3.7e-014 7.4"/>
+				<vec3D Name="Rotation" Value="0 0 0"/>
+				<vec3D Name="Scale" Value="1 1 1"/>
+				<vec3D Name="Center" Value="0 0 0"/>
+				<bool Name="AlwaysActive" Value="0"/>
+			</Properties>
+			<Components>
+				<ref Name="" ClassName="GraphicComponent">
+					<uint Name="ID" Value="4a49934e"/>
+					<string Name="Name" Value=""/>
+					<uint Name="RenderingPriority" Value="0"/>
+					<enum Name="RenderingPass" Value="1"/>
+					<bool Name="ShadowCaster" Value="0"/>
+					<array Name="Materials">
+						<ref ClassName="Material">
+							<uint Name="ID" Value="c2a84d7"/>
+							<string Name="Name" Value=""/>
+							<struct Name="CreationInfo">
+								<bool Name="AlphaBlending" Value="0"/>
+								<enum Name="SrcBlendFactor" Value="4"/>
+								<enum Name="DestBlendFactor" Value="5"/>
+								<enum Name="CullMode" Value="1"/>
+								<color Name="Color" Value="0.811765 0.811765 0.811765"/>
+								<float Name="Alpha" Value="1"/>
+								<array Name="Textures">
+									<ref TemplatePath="ingame/silo/Silo_doors.xml"/>
+									<ref TemplatePath="ingame/silo/Silo_doors.xml"/>
+								</array>
+								<ref Name="Shader" TemplatePath="common/shaders/light.xml"/>
+								<bool Name="UseTextureRenderTarget" Value="0"/>
+								<array Name="ShaderParams">
+									<ref ClassName="MaterialParameterFloat">
+										<string Name="Name" Value="uShininess"/>
+										<float Name="Value" Value="3"/>
+									</ref>
+								</array>
+							</struct>
+						</ref>
+					</array>
+				</ref>
+				<ref Name="" ClassName="Rotation3DVisitor">
+					<uint Name="ID" Value="c6203881"/>
+					<string Name="Name" Value="Open"/>
+					<bool Name="AutoStart" Value="0"/>
+					<enum Name="PlaybackType" Value="0"/>
+					<int Name="MaxPlayCount" Value="-1"/>
+					<struct Name="Src">
+						<vec3D Name="Value" Value="0 0 0"/>
+						<enum Name="Type" Value="0"/>
+					</struct>
+					<struct Name="Dest">
+						<vec3D Name="Value" Value="0 137 0"/>
+						<enum Name="Type" Value="0"/>
+					</struct>
+					<float Name="Duration" Value="1.5"/>
+					<bool Name="Randomize" Value="0"/>
+				</ref>
+				<ref Name="" ClassName="Rotation3DVisitor">
+					<uint Name="ID" Value="4240f60b"/>
+					<string Name="Name" Value="Close"/>
+					<bool Name="AutoStart" Value="0"/>
+					<enum Name="PlaybackType" Value="0"/>
+					<int Name="MaxPlayCount" Value="-1"/>
+					<struct Name="Src">
+						<vec3D Name="Value" Value="0 0 0"/>
+						<enum Name="Type" Value="1"/>
+					</struct>
+					<struct Name="Dest">
+						<vec3D Name="Value" Value="0 0 0"/>
+						<enum Name="Type" Value="0"/>
+					</struct>
+					<float Name="Duration" Value="1.5"/>
+					<bool Name="Randomize" Value="0"/>
+				</ref>
+			</Components>
+		</SubMesh>
+		<SubMesh>
+			<Properties>
+				<uint Name="ID" Value="d3ce060c"/>
+				<string Name="Name" Value="LidRight"/>
+				<bool Name="Visible" Value="1"/>
+				<bool Name="Enabled" Value="1"/>
+				<vec3D Name="Position" Value="1 -2.9e-014 7.4"/>
+				<vec3D Name="Rotation" Value="0 0 0"/>
+				<vec3D Name="Scale" Value="1 1 1"/>
+				<vec3D Name="Center" Value="0 0 0"/>
+				<bool Name="AlwaysActive" Value="0"/>
+			</Properties>
+			<Components>
+				<ref Name="" ClassName="GraphicComponent">
+					<uint Name="ID" Value="2fd24c10"/>
+					<string Name="Name" Value=""/>
+					<uint Name="RenderingPriority" Value="0"/>
+					<enum Name="RenderingPass" Value="1"/>
+					<bool Name="ShadowCaster" Value="0"/>
+					<array Name="Materials">
+						<ref ClassName="Material">
+							<uint Name="ID" Value="c2a84d7"/>
+							<string Name="Name" Value=""/>
+							<struct Name="CreationInfo">
+								<bool Name="AlphaBlending" Value="0"/>
+								<enum Name="SrcBlendFactor" Value="4"/>
+								<enum Name="DestBlendFactor" Value="5"/>
+								<enum Name="CullMode" Value="1"/>
+								<color Name="Color" Value="0.811765 0.811765 0.811765"/>
+								<float Name="Alpha" Value="1"/>
+								<array Name="Textures">
+									<ref TemplatePath="ingame/silo/Silo_doors.xml"/>
+									<ref TemplatePath="ingame/silo/Silo_doors.xml"/>
+								</array>
+								<ref Name="Shader" TemplatePath="common/shaders/light.xml"/>
+								<bool Name="UseTextureRenderTarget" Value="0"/>
+								<array Name="ShaderParams">
+									<ref ClassName="MaterialParameterFloat">
+										<string Name="Name" Value="uShininess"/>
+										<float Name="Value" Value="3"/>
+									</ref>
+								</array>
+							</struct>
+						</ref>
+					</array>
+				</ref>
+				<ref Name="" ClassName="Rotation3DVisitor">
+					<uint Name="ID" Value="55d4b11f"/>
+					<string Name="Name" Value="Open"/>
+					<bool Name="AutoStart" Value="0"/>
+					<enum Name="PlaybackType" Value="0"/>
+					<int Name="MaxPlayCount" Value="-1"/>
+					<struct Name="Src">
+						<vec3D Name="Value" Value="0 0 0"/>
+						<enum Name="Type" Value="0"/>
+					</struct>
+					<struct Name="Dest">
+						<vec3D Name="Value" Value="0 -137 0"/>
+						<enum Name="Type" Value="0"/>
+					</struct>
+					<float Name="Duration" Value="1.5"/>
+					<bool Name="Randomize" Value="0"/>
+				</ref>
+				<ref Name="" ClassName="Rotation3DVisitor">
+					<uint Name="ID" Value="83d9054"/>
+					<string Name="Name" Value="Close"/>
+					<bool Name="AutoStart" Value="0"/>
+					<enum Name="PlaybackType" Value="0"/>
+					<int Name="MaxPlayCount" Value="-1"/>
+					<struct Name="Src">
+						<vec3D Name="Value" Value="0 0 0"/>
+						<enum Name="Type" Value="1"/>
+					</struct>
+					<struct Name="Dest">
+						<vec3D Name="Value" Value="0 0 0"/>
+						<enum Name="Type" Value="0"/>
+					</struct>
+					<float Name="Duration" Value="1.5"/>
+					<bool Name="Randomize" Value="0"/>
+				</ref>
+			</Components>
+		</SubMesh>
+		<SubMesh>
+			<Properties>
+				<uint Name="ID" Value="349d26a9"/>
+				<string Name="Name" Value="Core"/>
+				<bool Name="Visible" Value="1"/>
+				<bool Name="Enabled" Value="1"/>
+				<vec3D Name="Position" Value="0 -0 0"/>
+				<vec3D Name="Rotation" Value="0 0 0"/>
+				<vec3D Name="Scale" Value="1 1 1"/>
+				<vec3D Name="Center" Value="0 0 0"/>
+				<bool Name="AlwaysActive" Value="0"/>
+			</Properties>
+			<Components>
+				<ref Name="" ClassName="GraphicComponent">
+					<uint Name="ID" Value="ff5f5fb4"/>
+					<string Name="Name" Value=""/>
+					<uint Name="RenderingPriority" Value="0"/>
+					<enum Name="RenderingPass" Value="1"/>
+					<bool Name="ShadowCaster" Value="1"/>
+					<array Name="Materials">
+						<ref ClassName="Material">
+							<uint Name="ID" Value="4ba42ade"/>
+							<string Name="Name" Value=""/>
+							<struct Name="CreationInfo">
+								<bool Name="AlphaBlending" Value="0"/>
+								<enum Name="SrcBlendFactor" Value="4"/>
+								<enum Name="DestBlendFactor" Value="5"/>
+								<enum Name="CullMode" Value="1"/>
+								<color Name="Color" Value="0 0 0"/>
+								<float Name="Alpha" Value="1"/>
+								<array Name="Textures">
+									<ref TemplatePath="ingame/silo/Silo_main.xml"/>
+								</array>
+								<ref Name="Shader" TemplatePath="common/shaders/light.xml"/>
+								<bool Name="UseTextureRenderTarget" Value="0"/>
+								<array Name="ShaderParams">
+									<ref ClassName="MaterialParameterFloat">
+										<string Name="Name" Value="uShininess"/>
+										<float Name="Value" Value="2"/>
+									</ref>
+								</array>
+							</struct>
+						</ref>
+					</array>
+				</ref>
+			</Components>
+		</SubMesh>
+	</MeshEntity>
+	<Path>
+		<Properties>
+			<uint Name="ID" Value="bfc1941f"/>
+			<string Name="Name" Value=""/>
+			<bool Name="Visible" Value="1"/>
+			<bool Name="Enabled" Value="1"/>
+			<vec3D Name="Position" Value="0 0 0"/>
+			<vec3D Name="Rotation" Value="0 0 0"/>
+			<vec3D Name="Scale" Value="0.35 0.35 0.35"/>
+			<vec3D Name="Center" Value="0 0 0"/>
+			<bool Name="AlwaysActive" Value="0"/>
+			<bool Name="WrapAround" Value="0"/>
+			<float Name="Tightness" Value="0.5"/>
+			<enum Name="Interpolation" Value="0"/>
+		</Properties>
+		<PathElement>
+			<Properties>
+				<vec3D Name="Position" Value="0 0 0"/>
+				<float Name="Time" Value="0"/>
+			</Properties>
+		</PathElement>
+		<PathElement>
+			<Properties>
+				<vec3D Name="Position" Value="0 0.423769 92.8393"/>
+				<float Name="Time" Value="2.5"/>
+			</Properties>
+		</PathElement>
+	</Path>
+	<ProgressIndicator>
+		<Properties>
+			<uint Name="ID" Value="bdd7e97c"/>
+			<string Name="Name" Value="ProgressIndicator"/>
+			<bool Name="Visible" Value="1"/>
+			<bool Name="Enabled" Value="1"/>
+			<vec3D Name="Position" Value="0 0 0"/>
+			<vec3D Name="Rotation" Value="0 0 0"/>
+			<vec3D Name="Scale" Value="1 1 1"/>
+			<vec3D Name="Center" Value="0 0 0"/>
+			<bool Name="AlwaysActive" Value="0"/>
+			<int Name="Segments" Value="20"/>
+			<float Name="Radius" Value="3.5"/>
+			<float Name="Thickness" Value="0.2"/>
+			<float Name="Duration" Value="-0.00132704"/>
+		</Properties>
+		<Components>
+			<ref Name="" ClassName="GraphicComponent">
+				<uint Name="ID" Value="b3ec6500"/>
+				<string Name="Name" Value=""/>
+				<uint Name="RenderingPriority" Value="0"/>
+				<enum Name="RenderingPass" Value="1"/>
+				<bool Name="ShadowCaster" Value="0"/>
+				<array Name="Materials">
+					<ref ClassName="Material">
+						<uint Name="ID" Value="1844467d"/>
+						<string Name="Name" Value=""/>
+						<struct Name="CreationInfo">
+							<bool Name="AlphaBlending" Value="0"/>
+							<enum Name="SrcBlendFactor" Value="4"/>
+							<enum Name="DestBlendFactor" Value="5"/>
+							<enum Name="CullMode" Value="1"/>
+							<color Name="Color" Value="1 1 0"/>
+							<float Name="Alpha" Value="1"/>
+							<array Name="Textures">
+								<ref TemplatePath="common/tex/WhiteBG.xml"/>
+							</array>
+							<ref Name="Shader" TemplatePath="common/shaders/tex.xml"/>
+							<bool Name="UseTextureRenderTarget" Value="0"/>
+							<array Name="ShaderParams"/>
+						</struct>
+					</ref>
+				</array>
+			</ref>
+		</Components>
+		<BillBoardEntity>
+			<Properties>
+				<uint Name="ID" Value="12b4415a"/>
+				<string Name="Name" Value="Tip"/>
+				<bool Name="Visible" Value="0"/>
+				<bool Name="Enabled" Value="1"/>
+				<vec3D Name="Position" Value="0 0 0"/>
+				<vec3D Name="Rotation" Value="0 0 0"/>
+				<vec3D Name="Scale" Value="1 1 1"/>
+				<vec3D Name="Center" Value="0 0 0"/>
+				<bool Name="AlwaysActive" Value="0"/>
+				<bool Name="HasVertexColors" Value="0"/>
+			</Properties>
+			<Components>
+				<ref Name="" ClassName="GraphicComponent">
+					<uint Name="ID" Value="2375f923"/>
+					<string Name="Name" Value=""/>
+					<uint Name="RenderingPriority" Value="0"/>
+					<enum Name="RenderingPass" Value="8"/>
+					<bool Name="ShadowCaster" Value="0"/>
+					<array Name="Materials">
+						<ref ClassName="Material">
+							<uint Name="ID" Value="34a84df7"/>
+							<string Name="Name" Value=""/>
+							<struct Name="CreationInfo">
+								<bool Name="AlphaBlending" Value="1"/>
+								<enum Name="SrcBlendFactor" Value="4"/>
+								<enum Name="DestBlendFactor" Value="5"/>
+								<enum Name="CullMode" Value="1"/>
+								<color Name="Color" Value="1 1 0"/>
+								<float Name="Alpha" Value="1"/>
+								<array Name="Textures">
+									<ref TemplatePath="common/tex/Star.xml"/>
+								</array>
+								<ref Name="Shader" TemplatePath="common/shaders/tex.xml"/>
+								<bool Name="UseTextureRenderTarget" Value="0"/>
+								<array Name="ShaderParams"/>
+							</struct>
+						</ref>
+					</array>
+				</ref>
+			</Components>
+		</BillBoardEntity>
+	</ProgressIndicator>
+</NuclearTower>
+

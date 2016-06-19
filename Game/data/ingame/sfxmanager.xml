@@ -1,0 +1,58 @@
+<SFXManager>
+	<Properties>
+		<uint Name="ID" Value="f56fbfd3"/>
+		<string Name="Name" Value=""/>
+		<bool Name="Visible" Value="1"/>
+		<bool Name="Enabled" Value="1"/>
+		<float Name="ExplosionIntensity" Value="3"/>
+		<float Name="ExplosionDuration" Value="1.5"/>
+		<float Name="SkyBoxAnimDuration" Value="1.5"/>
+		<float Name="CameraShakeIntensity" Value="0.1"/>
+		<float Name="CameraShakeFrequency" Value="0.05"/>
+		<float Name="ExplosionWaveIntensity" Value="400"/>
+		<ref Name="ExplosionEntity" TemplatePath="ingame/ExplosionEntity.xml"/>
+		<ref Name="ImpactEntity" TemplatePath="ingame/impact.xml"/>
+		<ref Name="HitEntity" TemplatePath="ingame/HitEntity.xml"/>
+		<ref Name="NoHitEntity" TemplatePath="ingame/NoHitPulse.xml"/>
+		<array Name="ExplosionInfos">
+			<struct>
+				<ref Name="Explosion" TemplatePath="ingame/BasicShooterExplosion.xml"/>
+				<array Name="TemplatePaths">
+					<file Value="ingame/shootingattacker.xml"/>
+				</array>
+			</struct>
+			<struct>
+				<ref Name="Explosion" TemplatePath="ingame/guntowerexplosion.xml"/>
+				<array Name="TemplatePaths">
+					<file Value="ingame/guntower.xml"/>
+				</array>
+			</struct>
+			<struct>
+				<ref Name="Explosion" TemplatePath="ingame/electrictowerexplosion.xml"/>
+				<array Name="TemplatePaths">
+					<file Value="ingame/electrictower.xml"/>
+				</array>
+			</struct>
+			<struct>
+				<ref Name="Explosion" TemplatePath="ingame/flametowerexplosion.xml"/>
+				<array Name="TemplatePaths">
+					<file Value="ingame/flametower.xml"/>
+				</array>
+			</struct>
+			<struct>
+				<ref Name="Explosion" TemplatePath="ingame/kamikazeexplosion.xml"/>
+				<array Name="TemplatePaths">
+					<file Value="ingame/Kamikaze.xml"/>
+				</array>
+			</struct>
+			<struct>
+				<ref Name="Explosion" TemplatePath="ingame/tankexplosion.xml"/>
+				<array Name="TemplatePaths">
+					<file Value="ingame/tankattacker.xml"/>
+				</array>
+			</struct>
+		</array>
+	</Properties>
+	<Entity TemplatePath="ingame/CommonEffects.xml"/>
+</SFXManager>
+

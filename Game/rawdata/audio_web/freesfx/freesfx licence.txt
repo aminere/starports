@@ -1,0 +1,2 @@
+Licence: http://www.freesfx.co.uk/info/eula/
+(basically add http://www.freesfx.co.uk to credits)

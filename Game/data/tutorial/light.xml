@@ -1,0 +1,35 @@
+<Light>
+	<Properties>
+		<uint Name="ID" Value="fdcac6d2"/>
+		<string Name="Name" Value=""/>
+		<bool Name="Visible" Value="1"/>
+		<bool Name="Enabled" Value="1"/>
+		<vec3D Name="Position" Value="-13.7827 -6.305 31.41"/>
+		<vec3D Name="Rotation" Value="0 0 0"/>
+		<vec3D Name="Scale" Value="1 1 1"/>
+		<vec3D Name="Center" Value="0 0 0"/>
+		<bool Name="AlwaysActive" Value="0"/>
+		<color Name="Color" Value="1 1 1"/>
+		<float Name="FOV" Value="90"/>
+		<float Name="ZNear" Value="0.5"/>
+		<float Name="ZFar" Value="100"/>
+		<vec3D Name="UpVector" Value="0 0 1"/>
+		<enum Name="Projection" Value="0"/>
+		<vec2D Name="OrthoSize" Value="2 2"/>
+		<float Name="AttenuationFactor" Value="0"/>
+	</Properties>
+	<LightLookAt>
+		<Properties>
+			<uint Name="ID" Value="25d29845"/>
+			<string Name="Name" Value=""/>
+			<bool Name="Visible" Value="1"/>
+			<bool Name="Enabled" Value="1"/>
+			<vec3D Name="Position" Value="0 1 -10"/>
+			<vec3D Name="Rotation" Value="0 0 0"/>
+			<vec3D Name="Scale" Value="1 1 1"/>
+			<vec3D Name="Center" Value="0 0 0"/>
+			<bool Name="AlwaysActive" Value="0"/>
+		</Properties>
+	</LightLookAt>
+</Light>
+

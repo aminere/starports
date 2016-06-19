@@ -1,0 +1,254 @@
+<HQ>
+	<Properties>
+		<uint Name="ID" Value="19484743"/>
+		<string Name="Name" Value="HQ2"/>
+		<bool Name="Visible" Value="1"/>
+		<bool Name="Enabled" Value="1"/>
+		<vec3D Name="Position" Value="-52.6448 14.0619 -0.564466"/>
+		<vec3D Name="Rotation" Value="0 0 0"/>
+		<vec3D Name="Scale" Value="1.5 1.5 1.5"/>
+		<vec3D Name="Center" Value="0 0 0"/>
+		<bool Name="AlwaysActive" Value="0"/>
+		<float Name="MaxHitPoints" Value="1000"/>
+		<float Name="ExplosionIntensity" Value="8"/>
+		<float Name="ExplosionDuration" Value="1.5"/>
+		<ref Name="ExplosionVisitor" TemplatePath="ingame/hqexplosion.xml"/>
+		<ref Name="ExplosionEntity" TemplatePath="ingame/ExplosionEntity.xml"/>
+	</Properties>
+	<MeshEntity>
+		<Properties>
+			<uint Name="ID" Value="9e8b9832"/>
+			<string Name="Name" Value="HQMesh"/>
+			<bool Name="Visible" Value="1"/>
+			<bool Name="Enabled" Value="1"/>
+			<vec3D Name="Position" Value="0 0 0"/>
+			<vec3D Name="Rotation" Value="0 0 0"/>
+			<vec3D Name="Scale" Value="1.4 1.4 1.6"/>
+			<vec3D Name="Center" Value="0 0 0"/>
+			<bool Name="AlwaysActive" Value="0"/>
+			<ref Name="Mesh" TemplatePath="common/hqmesh.xml"/>
+		</Properties>
+		<Components>
+			<ref Name="" ClassName="HQCollisionComponent">
+				<uint Name="ID" Value="10e7395b"/>
+				<string Name="Name" Value=""/>
+				<enum Name="CollisionGroup" Value="1"/>
+				<struct Name="CollisionMask">
+					<bool Name="Group_1" Value="0"/>
+					<bool Name="Group_2" Value="1"/>
+					<bool Name="Group_3" Value="1"/>
+					<bool Name="Group_4" Value="1"/>
+					<bool Name="Group_5" Value="0"/>
+					<bool Name="Group_6" Value="0"/>
+					<bool Name="Group_7" Value="0"/>
+					<bool Name="Group_8" Value="0"/>
+				</struct>
+				<int Name="Priority" Value="0"/>
+				<float Name="CollisionRadius" Value="0.5"/>
+				<float Name="Mass" Value="1"/>
+				<array Name="Shapes">
+					<ref ClassName="CollisionShapeSphere">
+						<float Name="Radius" Value="3.3"/>
+						<vec3D Name="Center" Value="0 3 1"/>
+					</ref>
+					<ref ClassName="CollisionShapeSphere">
+						<float Name="Radius" Value="1.7"/>
+						<vec3D Name="Center" Value="0 -2 0.7"/>
+					</ref>
+					<ref ClassName="CollisionShapeSphere">
+						<float Name="Radius" Value="0.7"/>
+						<vec3D Name="Center" Value="-0.6 -0.7 2"/>
+					</ref>
+					<ref ClassName="CollisionShapeSphere">
+						<float Name="Radius" Value="0.7"/>
+						<vec3D Name="Center" Value="0.6 -0.7 2"/>
+					</ref>
+				</array>
+			</ref>
+		</Components>
+		<SubMesh>
+			<Properties>
+				<uint Name="ID" Value="c3c2dfdb"/>
+				<string Name="Name" Value="Mesh_001"/>
+				<bool Name="Visible" Value="1"/>
+				<bool Name="Enabled" Value="1"/>
+				<vec3D Name="Position" Value="0 -0 0"/>
+				<vec3D Name="Rotation" Value="0 0 0"/>
+				<vec3D Name="Scale" Value="1 1 1"/>
+				<vec3D Name="Center" Value="0 0 0"/>
+				<bool Name="AlwaysActive" Value="0"/>
+			</Properties>
+			<Components>
+				<ref Name="" ClassName="GraphicComponent">
+					<uint Name="ID" Value="74afe249"/>
+					<string Name="Name" Value=""/>
+					<uint Name="RenderingPriority" Value="0"/>
+					<enum Name="RenderingPass" Value="1"/>
+					<bool Name="ShadowCaster" Value="1"/>
+					<array Name="Materials">
+						<ref ClassName="Material">
+							<uint Name="ID" Value="ba34ea4b"/>
+							<string Name="Name" Value=""/>
+							<struct Name="CreationInfo">
+								<bool Name="AlphaBlending" Value="0"/>
+								<enum Name="SrcBlendFactor" Value="4"/>
+								<enum Name="DestBlendFactor" Value="5"/>
+								<enum Name="CullMode" Value="1"/>
+								<color Name="Color" Value="1 1 1"/>
+								<float Name="Alpha" Value="1"/>
+								<array Name="Textures">
+									<ref TemplatePath="common/HQ1D.xml"/>
+									<ref TemplatePath="common/HQ1N.xml"/>
+								</array>
+								<ref Name="Shader" TemplatePath="common/shaders/normalmap.xml"/>
+								<bool Name="UseTextureRenderTarget" Value="0"/>
+								<array Name="ShaderParams">
+									<ref ClassName="MaterialParameterFloat">
+										<string Name="Name" Value="uShininess"/>
+										<float Name="Value" Value="3"/>
+									</ref>
+								</array>
+							</struct>
+						</ref>
+					</array>
+				</ref>
+			</Components>
+		</SubMesh>
+		<SubMesh>
+			<Properties>
+				<uint Name="ID" Value="219fa339"/>
+				<string Name="Name" Value="Mesh"/>
+				<bool Name="Visible" Value="1"/>
+				<bool Name="Enabled" Value="1"/>
+				<vec3D Name="Position" Value="0 -0 0"/>
+				<vec3D Name="Rotation" Value="0 0 0"/>
+				<vec3D Name="Scale" Value="1 1 1"/>
+				<vec3D Name="Center" Value="0 0 0"/>
+				<bool Name="AlwaysActive" Value="0"/>
+			</Properties>
+			<Components>
+				<ref Name="" ClassName="GraphicComponent">
+					<uint Name="ID" Value="b939dbd0"/>
+					<string Name="Name" Value=""/>
+					<uint Name="RenderingPriority" Value="0"/>
+					<enum Name="RenderingPass" Value="1"/>
+					<bool Name="ShadowCaster" Value="1"/>
+					<array Name="Materials">
+						<ref ClassName="Material">
+							<uint Name="ID" Value="1b58bdd4"/>
+							<string Name="Name" Value=""/>
+							<struct Name="CreationInfo">
+								<bool Name="AlphaBlending" Value="0"/>
+								<enum Name="SrcBlendFactor" Value="4"/>
+								<enum Name="DestBlendFactor" Value="5"/>
+								<enum Name="CullMode" Value="1"/>
+								<color Name="Color" Value="1 1 1"/>
+								<float Name="Alpha" Value="1"/>
+								<array Name="Textures">
+									<ref TemplatePath="common/HQ2D.xml"/>
+									<ref TemplatePath="common/HQ2N.xml"/>
+								</array>
+								<ref Name="Shader" TemplatePath="common/shaders/normalmap.xml"/>
+								<bool Name="UseTextureRenderTarget" Value="0"/>
+								<array Name="ShaderParams">
+									<ref ClassName="MaterialParameterFloat">
+										<string Name="Name" Value="uShininess"/>
+										<float Name="Value" Value="1"/>
+									</ref>
+								</array>
+							</struct>
+						</ref>
+					</array>
+				</ref>
+			</Components>
+		</SubMesh>
+	</MeshEntity>
+	<BillBoardEntity>
+		<Properties>
+			<uint Name="ID" Value="d8e42fe3"/>
+			<string Name="Name" Value="HealthBG"/>
+			<bool Name="Visible" Value="0"/>
+			<bool Name="Enabled" Value="1"/>
+			<vec3D Name="Position" Value="-0.000271752 1.5 5.3077"/>
+			<vec3D Name="Rotation" Value="0 0 0"/>
+			<vec3D Name="Scale" Value="2.5 0.1 1"/>
+			<vec3D Name="Center" Value="0 0 0"/>
+			<bool Name="AlwaysActive" Value="0"/>
+			<bool Name="HasVertexColors" Value="0"/>
+		</Properties>
+		<Components>
+			<ref Name="" ClassName="GraphicComponent">
+				<uint Name="ID" Value="310ec591"/>
+				<string Name="Name" Value=""/>
+				<uint Name="RenderingPriority" Value="0"/>
+				<enum Name="RenderingPass" Value="3"/>
+				<bool Name="ShadowCaster" Value="0"/>
+				<array Name="Materials">
+					<ref ClassName="Material">
+						<uint Name="ID" Value="b64e75a5"/>
+						<string Name="Name" Value=""/>
+						<struct Name="CreationInfo">
+							<bool Name="AlphaBlending" Value="0"/>
+							<enum Name="SrcBlendFactor" Value="4"/>
+							<enum Name="DestBlendFactor" Value="5"/>
+							<enum Name="CullMode" Value="1"/>
+							<color Name="Color" Value="0 0 0"/>
+							<float Name="Alpha" Value="1"/>
+							<array Name="Textures">
+								<ref TemplatePath="common/tex/WhiteBG.xml"/>
+							</array>
+							<ref Name="Shader" TemplatePath="common/shaders/tex.xml"/>
+							<bool Name="UseTextureRenderTarget" Value="0"/>
+							<array Name="ShaderParams"/>
+						</struct>
+					</ref>
+				</array>
+			</ref>
+		</Components>
+		<ProgressBar>
+			<Properties>
+				<uint Name="ID" Value="453edc75"/>
+				<string Name="Name" Value="HealthBar"/>
+				<bool Name="Visible" Value="1"/>
+				<bool Name="Enabled" Value="1"/>
+				<vec3D Name="Position" Value="0 0 0"/>
+				<vec3D Name="Rotation" Value="0 0 0"/>
+				<vec3D Name="Scale" Value="1 1 1"/>
+				<vec3D Name="Center" Value="0 0 0"/>
+				<bool Name="AlwaysActive" Value="0"/>
+				<color Name="ColorFull" Value="1 1 0"/>
+				<color Name="ColorEmpty" Value="1 1 0"/>
+			</Properties>
+			<Components>
+				<ref Name="" ClassName="GraphicComponent">
+					<uint Name="ID" Value="fd131988"/>
+					<string Name="Name" Value=""/>
+					<uint Name="RenderingPriority" Value="1"/>
+					<enum Name="RenderingPass" Value="3"/>
+					<bool Name="ShadowCaster" Value="0"/>
+					<array Name="Materials">
+						<ref ClassName="Material">
+							<uint Name="ID" Value="6423baba"/>
+							<string Name="Name" Value=""/>
+							<struct Name="CreationInfo">
+								<bool Name="AlphaBlending" Value="0"/>
+								<enum Name="SrcBlendFactor" Value="4"/>
+								<enum Name="DestBlendFactor" Value="5"/>
+								<enum Name="CullMode" Value="1"/>
+								<color Name="Color" Value="1 1 1"/>
+								<float Name="Alpha" Value="1"/>
+								<array Name="Textures">
+									<ref TemplatePath="common/tex/WhiteBG.xml"/>
+								</array>
+								<ref Name="Shader" TemplatePath="common/shaders/tex_col.xml"/>
+								<bool Name="UseTextureRenderTarget" Value="0"/>
+								<array Name="ShaderParams"/>
+							</struct>
+						</ref>
+					</array>
+				</ref>
+			</Components>
+		</ProgressBar>
+	</BillBoardEntity>
+</HQ>
+

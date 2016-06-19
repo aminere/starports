@@ -1,0 +1,205 @@
+<ContextStack>
+	<Properties>
+		<uint Name="ID" Value="924b8b2a"/>
+		<string Name="Name" Value=""/>
+		<bool Name="Visible" Value="1"/>
+		<bool Name="Enabled" Value="1"/>
+	</Properties>
+	<GameContext>
+		<Properties>
+			<uint Name="ID" Value="f7fe092a"/>
+			<string Name="Name" Value=""/>
+			<bool Name="Visible" Value="1"/>
+			<bool Name="Enabled" Value="1"/>
+			<ref Name="QuadTree" ClassName="QuadTree"/>
+			<bool Name="BlockUpdate" Value="0"/>
+			<bool Name="ReleaseOnSwitch" Value="1"/>
+		</Properties>
+		<Camera>
+			<Properties>
+				<uint Name="ID" Value="3ad1d6d2"/>
+				<string Name="Name" Value="Camera2D"/>
+				<bool Name="Visible" Value="1"/>
+				<bool Name="Enabled" Value="1"/>
+				<vec3D Name="Position" Value="0 0 0"/>
+				<vec3D Name="Rotation" Value="0 0 0"/>
+				<vec3D Name="Scale" Value="1 1 1"/>
+				<vec3D Name="Center" Value="0 0 0"/>
+				<bool Name="AlwaysActive" Value="0"/>
+				<float Name="FOV" Value="45"/>
+				<float Name="ZNear" Value="0.5"/>
+				<float Name="ZFar" Value="300"/>
+				<enum Name="Projection" Value="2"/>
+				<vec3D Name="LookAt" Value="0 0 0"/>
+				<size Name="TargetResolution" Value="960 640"/>
+				<vec2D Name="OrthoSize" Value="2 2"/>
+			</Properties>
+		</Camera>
+		<GameCamera TemplatePath="level1/level1camera.xml" />		
+		<Entity>
+			<Properties>
+				<uint Name="ID" Value="829ad6e0"/>
+				<string Name="Name" Value="WheelMenu"/>
+				<bool Name="Visible" Value="1"/>
+				<bool Name="Enabled" Value="1"/>
+			</Properties>
+		</Entity>
+		<Button TemplatePath="ingame/calldown.xml">
+			<Properties>
+				<vec2D Name="Position" Value="130 4"/>
+			</Properties>
+		</Button>
+		<Playfield TemplatePath="level1/level1playfield5.xml"/>
+		<SFXManager TemplatePath="ingame/sfxmanager.xml">
+			<Properties>
+				<float Name="CameraShakeIntensity" Value="0.05"/>
+			</Properties>
+		</SFXManager>
+		<SkyBoxEntity>
+			<Properties>
+				<uint Name="ID" Value="344f512a"/>
+				<string Name="Name" Value=""/>
+				<bool Name="Visible" Value="1"/>
+				<bool Name="Enabled" Value="1"/>
+				<vec3D Name="Position" Value="0 0 0"/>
+				<vec3D Name="Rotation" Value="0 0 0"/>
+				<vec3D Name="Scale" Value="400 400 400"/>
+				<vec3D Name="Center" Value="0 0 0"/>
+				<bool Name="AlwaysActive" Value="1"/>
+				<ref Name="CubeMap" TemplatePath="redsky/planet.xml"/>
+			</Properties>
+			<Components>
+				<ref Name="" ClassName="GraphicComponent">
+					<uint Name="ID" Value="684c3026"/>
+					<string Name="Name" Value=""/>
+					<uint Name="RenderingPriority" Value="0"/>
+					<enum Name="RenderingPass" Value="0"/>
+					<bool Name="ShadowCaster" Value="0"/>
+					<array Name="Materials">
+						<ref ClassName="Material">
+							<uint Name="ID" Value="a7c288ef"/>
+							<string Name="Name" Value=""/>
+							<struct Name="CreationInfo">
+								<bool Name="AlphaBlending" Value="0"/>
+								<enum Name="SrcBlendFactor" Value="4"/>
+								<enum Name="DestBlendFactor" Value="5"/>
+								<enum Name="CullMode" Value="1"/>
+								<color Name="Color" Value="1 1 1"/>
+								<float Name="Alpha" Value="1"/>
+								<array Name="Textures">
+									<ref ClassName="FakeCubeMapTexture">
+										<bool Name="MipMaps" Value="1"/>
+										<bool Name="32Bits" Value="0"/>
+									</ref>
+								</array>
+								<ref Name="Shader" TemplatePath="common/shaders/sky_fog.xml"/>
+								<bool Name="UseTextureRenderTarget" Value="0"/>
+								<array Name="ShaderParams"/>
+							</struct>
+						</ref>
+					</array>
+				</ref>
+			</Components>
+		</SkyBoxEntity>
+		<GameSettings TemplatePath="ingame/gamesettings.xml"/>
+		<HQ TemplatePath="ingame/hq.xml">
+			<Properties>
+				<vec3D Name="Position" Value="-22.5763 -2.06199 -0.564466"/>
+				<vec3D Name="Rotation" Value="0 0 0"/>
+				<vec3D Name="Scale" Value="1.5 1.5 1.5"/>
+			</Properties>
+		</HQ>
+		<HQ TemplatePath="ingame/hq.xml">
+			<Properties>
+				<vec3D Name="Position" Value="15.147 -2.06199 -0.564466"/>
+				<vec3D Name="Rotation" Value="0 0 0"/>
+				<vec3D Name="Scale" Value="1.5 1.5 1.5"/>
+			</Properties>
+		</HQ>
+		<AIManager>
+			<Properties>
+				<uint Name="ID" Value="83d335ba"/>
+				<string Name="Name" Value=""/>
+				<bool Name="Visible" Value="1"/>
+				<bool Name="Enabled" Value="1"/>
+			</Properties>
+		</AIManager>
+		<WaveManager TemplatePath="level1/level1waves5.xml"/>
+		<Light TemplatePath="level1/level1light.xml"/>
+		<FollowCamera TemplatePath="ingame/followcamera.xml"/>
+		<DefenderManager>
+			<Properties>
+				<uint Name="ID" Value="74558aca"/>
+				<string Name="Name" Value=""/>
+				<bool Name="Visible" Value="1"/>
+				<bool Name="Enabled" Value="1"/>
+				<vec3D Name="Position" Value="0 0 10"/>
+				<vec3D Name="Rotation" Value="0 0 0"/>
+				<vec3D Name="Scale" Value="1 1 1"/>
+				<vec3D Name="Center" Value="0 0 0"/>
+				<bool Name="AlwaysActive" Value="0"/>
+				<ref Name="PreloadedActor" TemplatePath="ingame/defender.xml"/>
+			</Properties>
+		</DefenderManager>
+		<MeshEntity TemplatePath="env1/platformentity.xml"/>
+		<MeshEntity>
+			<Properties>
+				<uint Name="ID" Value="e6a1dd0c"/>
+				<string Name="Name" Value="Terrain"/>
+				<bool Name="Visible" Value="1"/>
+				<bool Name="Enabled" Value="1"/>
+				<vec3D Name="Position" Value="-102 96.2286 -10.2594"/>
+				<vec3D Name="Rotation" Value="0 0 0"/>
+				<vec3D Name="Scale" Value="3000 3000 3000"/>
+				<vec3D Name="Center" Value="0 0 0"/>
+				<bool Name="AlwaysActive" Value="0"/>
+				<ref Name="Mesh" TemplatePath="common/env/terrain1.xml"/>
+			</Properties>
+			<SubMesh>
+				<Properties>
+					<uint Name="ID" Value="44a07734"/>
+					<string Name="Name" Value="Mesh"/>
+					<bool Name="Visible" Value="1"/>
+					<bool Name="Enabled" Value="1"/>
+					<vec3D Name="Position" Value="0 -0 0"/>
+					<vec3D Name="Rotation" Value="0 0 0"/>
+					<vec3D Name="Scale" Value="1 1 1"/>
+					<vec3D Name="Center" Value="0 0 0"/>
+					<bool Name="AlwaysActive" Value="0"/>
+				</Properties>
+				<Components>
+					<ref Name="" ClassName="GraphicComponent">
+						<uint Name="ID" Value="65f19090"/>
+						<string Name="Name" Value=""/>
+						<uint Name="RenderingPriority" Value="0"/>
+						<enum Name="RenderingPass" Value="1"/>
+						<bool Name="ShadowCaster" Value="0"/>
+						<array Name="Materials">
+							<ref ClassName="Material">
+								<uint Name="ID" Value="868fadbd"/>
+								<string Name="Name" Value=""/>
+								<struct Name="CreationInfo">
+									<bool Name="AlphaBlending" Value="0"/>
+									<enum Name="SrcBlendFactor" Value="4"/>
+									<enum Name="DestBlendFactor" Value="5"/>
+									<enum Name="CullMode" Value="1"/>
+									<color Name="Color" Value="0.8 0.8 0.8"/>
+									<float Name="Alpha" Value="1"/>
+									<array Name="Textures">
+										<ref TemplatePath="common/env/terrain1_32.xml"/>
+										<ref TemplatePath="common/env/terrain.xml"/>
+									</array>
+									<ref Name="Shader" TemplatePath="common/shaders/terrain.xml"/>
+									<bool Name="UseTextureRenderTarget" Value="0"/>
+									<array Name="ShaderParams"/>
+								</struct>
+							</ref>
+						</array>
+					</ref>
+				</Components>
+			</SubMesh>
+		</MeshEntity>
+	</GameContext>
+	<UIContext TemplatePath="ingame/ui/ingameui.xml"/>
+</ContextStack>
+

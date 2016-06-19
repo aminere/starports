@@ -1,0 +1,20 @@
+<Shader>    
+	<array Name="Attributes">
+        <string Value="aPosition" />
+		<string Value="aUV" />      
+    </array>
+	<array Name="Constants">
+		<ref ClassName="ShaderParameter">
+			<string Name="Name" Value="uTexture0" />
+            <enum Name="Type" Value="4" />
+        </ref>
+		<ref ClassName="ShaderParameter">
+			<string Name="Name" Value="uTexture1" />
+            <enum Name="Type" Value="4" />
+        </ref>
+		<ref ClassName="ShaderParameter">
+			<string Name="Name" Value="uAmbientColor" />
+            <enum Name="Type" Value="2" />
+		</ref>		
+	</array>
+</Shader>

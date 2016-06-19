@@ -1,0 +1,6 @@
+<MeshResource>
+    <bool Name="Dynamic" Value="1" />
+	<bool Name="VertexNormals" Value="1" />
+	<bool Name="VertexColors" Value="1" />
+	<bool Name="TangentBinormals" Value="1" />
+</MeshResource>

@@ -1,0 +1,383 @@
+<ContextStack>
+  <Properties>
+    <uint Name="ID" Value="1a7010b7" />
+    <string Name="Name" Value="" />
+    <bool Name="Visible" Value="1" />
+    <bool Name="Enabled" Value="1" />
+  </Properties>
+  <LevelSelectContext>
+    <Properties>
+      <uint Name="ID" Value="ea7189c" />
+      <string Name="Name" Value="" />
+      <bool Name="Visible" Value="1" />
+      <bool Name="Enabled" Value="1" />
+      <ref Name="QuadTree" ClassName="QuadTree" />
+      <bool Name="BlockUpdate" Value="0" />
+      <float Name="TransitionDuration" Value="0.3" />
+      <array Name="Levels">
+        <ref TemplatePath="menu/level1flythrough.xml" />
+        <ref TemplatePath="menu/level2flythrough.xml" />
+      </array>
+    </Properties>
+    <Camera>
+      <Properties>
+        <uint Name="ID" Value="80012843" />
+        <string Name="Name" Value="Camera3D" />
+        <bool Name="Visible" Value="1" />
+        <bool Name="Enabled" Value="1" />
+        <vec3D Name="Position" Value="0 -10 0" />
+        <vec3D Name="Rotation" Value="0 0 0" />
+        <vec3D Name="Scale" Value="1 1 1" />
+        <vec3D Name="Center" Value="0 0 0" />
+        <bool Name="AlwaysActive" Value="0" />
+        <float Name="FOV" Value="45" />
+        <float Name="ZNear" Value="0.5" />
+        <float Name="ZFar" Value="300" />
+        <enum Name="Projection" Value="0" />
+        <vec3D Name="LookAt" Value="0 0 0" />
+        <size Name="TargetResolution" Value="960 640" />
+        <vec2D Name="OrthoSize" Value="2 2" />
+      </Properties>
+    </Camera>
+    <Camera>
+      <Properties>
+        <uint Name="ID" Value="15b512c2" />
+        <string Name="Name" Value="Camera2D" />
+        <bool Name="Visible" Value="1" />
+        <bool Name="Enabled" Value="1" />
+        <vec3D Name="Position" Value="0 0 0" />
+        <vec3D Name="Rotation" Value="0 0 0" />
+        <vec3D Name="Scale" Value="1 1 1" />
+        <vec3D Name="Center" Value="0 0 0" />
+        <bool Name="AlwaysActive" Value="0" />
+        <float Name="FOV" Value="45" />
+        <float Name="ZNear" Value="0.5" />
+        <float Name="ZFar" Value="300" />
+        <enum Name="Projection" Value="2" />
+        <vec3D Name="LookAt" Value="0 0 0" />
+        <size Name="TargetResolution" Value="960 640" />
+        <vec2D Name="OrthoSize" Value="2 2" />
+      </Properties>
+    </Camera>
+    <SkyBoxEntity>
+      <Properties>
+        <uint Name="ID" Value="f9101022" />
+        <string Name="Name" Value="" />
+        <bool Name="Visible" Value="1" />
+        <bool Name="Enabled" Value="1" />
+        <vec3D Name="Position" Value="0 0 0" />
+        <vec3D Name="Rotation" Value="0 0 0" />
+        <vec3D Name="Scale" Value="1 1 1" />
+        <vec3D Name="Center" Value="0 0 0" />
+        <bool Name="AlwaysActive" Value="1" />
+        <ref Name="CubeMap" TemplatePath="bluesky/bluestars.xml" />
+      </Properties>
+      <Components>
+        <ref Name="" ClassName="GraphicComponent">
+          <uint Name="ID" Value="f6da2ade" />
+          <string Name="Name" Value="" />
+          <uint Name="RenderingPriority" Value="0" />
+          <enum Name="RenderingPass" Value="0" />
+          <bool Name="ShadowCaster" Value="0" />
+          <array Name="Materials">
+            <ref ClassName="Material">
+              <uint Name="ID" Value="ca331a66" />
+              <string Name="Name" Value="" />
+              <struct Name="CreationInfo">
+                <bool Name="AlphaBlending" Value="0" />
+                <enum Name="SrcBlendFactor" Value="4" />
+                <enum Name="DestBlendFactor" Value="5" />
+                <enum Name="CullMode" Value="1" />
+                <color Name="Color" Value="1 0 0" />
+                <float Name="Alpha" Value="1" />
+                <array Name="Textures">
+                  <ref />
+                </array>
+                <ref Name="Shader" TemplatePath="common/shaders/tex.xml" />
+                <bool Name="UseTextureRenderTarget" Value="0" />
+                <array Name="ShaderParams" />
+              </struct>
+            </ref>
+          </array>
+        </ref>
+        <ref Name="" ClassName="Rotation3DVisitor">
+          <uint Name="ID" Value="a47f2050" />
+          <string Name="Name" Value="" />
+          <bool Name="AutoStart" Value="1" />
+          <enum Name="PlaybackType" Value="2" />
+          <int Name="MaxPlayCount" Value="-1" />
+          <struct Name="Src">
+            <vec3D Name="Value" Value="0 0 0" />
+            <enum Name="Type" Value="0" />
+          </struct>
+          <struct Name="Dest">
+            <vec3D Name="Value" Value="0 0 -360" />
+            <enum Name="Type" Value="0" />
+          </struct>
+          <float Name="Duration" Value="200" />
+          <bool Name="Randomize" Value="0" />
+        </ref>
+        <ref Name="" ClassName="FadeVisitor">
+          <uint Name="ID" Value="592f479d" />
+          <string Name="Name" Value="" />
+          <bool Name="AutoStart" Value="1" />
+          <color Name="SrcColor" Value="0 0 0" />
+          <float Name="SrcAlpha" Value="1" />
+          <color Name="DestColor" Value="0 0 0" />
+          <float Name="DestAlpha" Value="0" />
+          <float Name="Duration" Value="0.3" />
+          <bool Name="Additive" Value="0" />
+        </ref>
+      </Components>
+    </SkyBoxEntity>
+    <Image>
+      <Properties>
+        <uint Name="ID" Value="16bbd12d" />
+        <string Name="Name" Value="Logo" />
+        <bool Name="Visible" Value="1" />
+        <bool Name="Enabled" Value="1" />
+        <vec2D Name="Position" Value="48.6081 11.2442" />
+        <float Name="Rotation" Value="0" />
+        <vec2D Name="Scale" Value="1.11125 1.11125" />
+        <vec2D Name="Center" Value="0 0" />
+        <aabb2D Name="BBox" Value="0 0 800 267" />
+        <bool Name="HFlip" Value="0" />
+        <bool Name="VFlip" Value="0" />
+      </Properties>
+      <Components>
+        <ref Name="" ClassName="GraphicComponent">
+          <uint Name="ID" Value="a3101bb0" />
+          <string Name="Name" Value="" />
+          <uint Name="RenderingPriority" Value="0" />
+          <enum Name="RenderingPass" Value="4" />
+          <bool Name="ShadowCaster" Value="0" />
+          <array Name="Materials">
+            <ref ClassName="Material">
+              <uint Name="ID" Value="b5bbb524" />
+              <string Name="Name" Value="" />
+              <struct Name="CreationInfo">
+                <bool Name="AlphaBlending" Value="1" />
+                <enum Name="SrcBlendFactor" Value="4" />
+                <enum Name="DestBlendFactor" Value="5" />
+                <enum Name="CullMode" Value="1" />
+                <color Name="Color" Value="1 1 1" />
+                <float Name="Alpha" Value="1" />
+                <array Name="Textures">
+                  <ref TemplatePath="menu/logo32.xml" />
+                </array>
+                <ref Name="Shader" TemplatePath="common/shaders/tex.xml" />
+                <bool Name="UseTextureRenderTarget" Value="0" />
+                <array Name="ShaderParams" />
+              </struct>
+            </ref>
+          </array>
+        </ref>
+      </Components>
+    </Image>
+    <Text>
+      <Properties>
+        <uint Name="ID" Value="989054a1" />
+        <string Name="Name" Value="" />
+        <bool Name="Visible" Value="0" />
+        <bool Name="Enabled" Value="1" />
+        <vec2D Name="Position" Value="0 323.012" />
+        <float Name="Rotation" Value="0" />
+        <vec2D Name="Scale" Value="1.5 1.5" />
+        <vec2D Name="Center" Value="0 0" />
+        <aabb2D Name="BBox" Value="0 0 0 0" />
+        <bool Name="HFlip" Value="0" />
+        <bool Name="VFlip" Value="0" />
+        <wstring Name="Text" Value="MAY 2015" />
+        <file Name="Font" Value="common/default.ttf" />
+        <uint Name="FontSize" Value="20" />
+        <size Name="AtlasSize" Value="128 128" />
+        <size Name="Area" Value="590 32" />
+        <enum Name="Alignement" Value="1" />
+        <uint Name="LineSpacing" Value="18" />
+        <file Name="Font" Value="common/default.ttf" />
+        <color Name="Color" Value="1 0 0" />
+      </Properties>
+      <Components>
+        <ref Name="" ClassName="GraphicComponent">
+          <uint Name="ID" Value="ccd49bc4" />
+          <string Name="Name" Value="" />
+          <uint Name="RenderingPriority" Value="0" />
+          <enum Name="RenderingPass" Value="9" />
+          <bool Name="ShadowCaster" Value="0" />
+          <array Name="Materials">
+            <ref ClassName="Material">
+              <uint Name="ID" Value="e7437db" />
+              <string Name="Name" Value="" />
+              <struct Name="CreationInfo">
+                <bool Name="AlphaBlending" Value="1" />
+                <enum Name="SrcBlendFactor" Value="4" />
+                <enum Name="DestBlendFactor" Value="5" />
+                <enum Name="CullMode" Value="1" />
+                <color Name="Color" Value="1 1 1" />
+                <float Name="Alpha" Value="1" />
+                <array Name="Textures">
+                  <ref />
+                </array>
+                <ref Name="Shader" TemplatePath="common/shaders/tex.xml" />
+                <bool Name="UseTextureRenderTarget" Value="0" />
+                <array Name="ShaderParams" />
+              </struct>
+            </ref>
+          </array>
+        </ref>
+        <ref Name="" ClassName="SequenceVisitor">
+          <uint Name="ID" Value="296f02d5" />
+          <string Name="Name" Value="" />
+          <bool Name="AutoStart" Value="1" />
+          <enum Name="PlaybackType" Value="0" />
+          <int Name="MaxPlayCount" Value="-1" />
+          <array Name="Visitors">
+            <ref ClassName="DelayVisitor">
+              <uint Name="ID" Value="ab945dc9" />
+              <string Name="Name" Value="" />
+              <bool Name="AutoStart" Value="1" />
+              <float Name="Duration" Value="2.1" />
+              <bool Name="Randomize" Value="0" />
+            </ref>
+            <ref ClassName="EntityVisitor">
+              <uint Name="ID" Value="b7134597" />
+              <string Name="Name" Value="" />
+              <bool Name="AutoStart" Value="1" />
+              <bool Name="EntityVisible" Value="1" />
+              <bool Name="CollisionEnabled" Value="1" />
+            </ref>
+          </array>
+        </ref>
+      </Components>
+    </Text>
+    <ParticleGenerator TemplatePath="menu/menuparticles.xml" />
+    <Entity2D>
+      <Properties>
+        <uint Name="ID" Value="6c3adee7" />
+        <string Name="Name" Value="Devices" />
+        <bool Name="Visible" Value="0" />
+        <bool Name="Enabled" Value="1" />
+        <vec2D Name="Position" Value="-14 0" />
+        <float Name="Rotation" Value="0" />
+        <vec2D Name="Scale" Value="1 1" />
+        <vec2D Name="Center" Value="0 0" />
+        <aabb2D Name="BBox" Value="0 0 0 0" />
+        <bool Name="HFlip" Value="0" />
+        <bool Name="VFlip" Value="0" />
+      </Properties>
+      <Components>
+        <ref Name="" ClassName="SequenceVisitor">
+          <uint Name="ID" Value="a8ae168d" />
+          <string Name="Name" Value="" />
+          <bool Name="AutoStart" Value="1" />
+          <enum Name="PlaybackType" Value="0" />
+          <int Name="MaxPlayCount" Value="-1" />
+          <array Name="Visitors">
+            <ref ClassName="DelayVisitor">
+              <uint Name="ID" Value="840f9f30" />
+              <string Name="Name" Value="" />
+              <bool Name="AutoStart" Value="1" />
+              <float Name="Duration" Value="3" />
+              <bool Name="Randomize" Value="0" />
+            </ref>
+            <ref ClassName="EntityVisitor">
+              <uint Name="ID" Value="f94ee531" />
+              <string Name="Name" Value="" />
+              <bool Name="AutoStart" Value="1" />
+              <bool Name="EntityVisible" Value="1" />
+              <bool Name="CollisionEnabled" Value="1" />
+            </ref>
+          </array>
+        </ref>
+      </Components>
+      <Image>
+        <Properties>
+          <uint Name="ID" Value="cbfceec9" />
+          <string Name="Name" Value="iOS" />
+          <bool Name="Visible" Value="1" />
+          <bool Name="Enabled" Value="1" />
+          <vec2D Name="Position" Value="236.249 450.175" />
+          <float Name="Rotation" Value="0" />
+          <vec2D Name="Scale" Value="0.45 0.45" />
+          <vec2D Name="Center" Value="0 0" />
+          <aabb2D Name="BBox" Value="0 0 256 164" />
+          <bool Name="HFlip" Value="0" />
+          <bool Name="VFlip" Value="0" />
+        </Properties>
+        <Components>
+          <ref Name="" ClassName="GraphicComponent">
+            <uint Name="ID" Value="b50c2d8f" />
+            <string Name="Name" Value="" />
+            <uint Name="RenderingPriority" Value="0" />
+            <enum Name="RenderingPass" Value="9" />
+            <bool Name="ShadowCaster" Value="0" />
+            <array Name="Materials">
+              <ref ClassName="Material">
+                <uint Name="ID" Value="ca1fcbe1" />
+                <string Name="Name" Value="" />
+                <struct Name="CreationInfo">
+                  <bool Name="AlphaBlending" Value="1" />
+                  <enum Name="SrcBlendFactor" Value="4" />
+                  <enum Name="DestBlendFactor" Value="5" />
+                  <enum Name="CullMode" Value="1" />
+                  <color Name="Color" Value="1 1 1" />
+                  <float Name="Alpha" Value="1" />
+                  <array Name="Textures">
+                    <ref TemplatePath="/ios32.xml" />
+                  </array>
+                  <ref Name="Shader" TemplatePath="common/shaders/tex.xml" />
+                  <bool Name="UseTextureRenderTarget" Value="0" />
+                  <array Name="ShaderParams" />
+                </struct>
+              </ref>
+            </array>
+          </ref>
+        </Components>
+      </Image>
+      <Image>
+        <Properties>
+          <uint Name="ID" Value="4f7889c3" />
+          <string Name="Name" Value="Android" />
+          <bool Name="Visible" Value="1" />
+          <bool Name="Enabled" Value="1" />
+          <vec2D Name="Position" Value="411.19 465.024" />
+          <float Name="Rotation" Value="0" />
+          <vec2D Name="Scale" Value="1 1" />
+          <vec2D Name="Center" Value="0 0" />
+          <aabb2D Name="BBox" Value="0 0 280 56" />
+          <bool Name="HFlip" Value="0" />
+          <bool Name="VFlip" Value="0" />
+        </Properties>
+        <Components>
+          <ref Name="" ClassName="GraphicComponent">
+            <uint Name="ID" Value="28250819" />
+            <string Name="Name" Value="" />
+            <uint Name="RenderingPriority" Value="0" />
+            <enum Name="RenderingPass" Value="9" />
+            <bool Name="ShadowCaster" Value="0" />
+            <array Name="Materials">
+              <ref ClassName="Material">
+                <uint Name="ID" Value="5983803e" />
+                <string Name="Name" Value="" />
+                <struct Name="CreationInfo">
+                  <bool Name="AlphaBlending" Value="1" />
+                  <enum Name="SrcBlendFactor" Value="4" />
+                  <enum Name="DestBlendFactor" Value="5" />
+                  <enum Name="CullMode" Value="1" />
+                  <color Name="Color" Value="1 1 1" />
+                  <float Name="Alpha" Value="1" />
+                  <array Name="Textures">
+                    <ref TemplatePath="/android32.xml" />
+                  </array>
+                  <ref Name="Shader" TemplatePath="common/shaders/tex.xml" />
+                  <bool Name="UseTextureRenderTarget" Value="0" />
+                  <array Name="ShaderParams" />
+                </struct>
+              </ref>
+            </array>
+          </ref>
+        </Components>
+      </Image>
+    </Entity2D>
+  </LevelSelectContext>
+</ContextStack>

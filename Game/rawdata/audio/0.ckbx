@@ -1,0 +1,14 @@
+<bank name="0">
+    <sound name="Explosion1" source="ExplosionStandard.wav" />
+	<sound name="Explosion2" source="ExplosionStandard_02.wav" />
+	<sound name="Explosion3" source="ExplosionStandard_03.wav" />
+	<sound name="ExplosionNuclear" source="ExplosionNuclear.wav" />		
+	<sound name="MachineGun" source="MachineGun.wav" />
+	<sound name="FlameThrower" source="FlameThrower.wav" />
+	<sound name="Electricity" source="Electricity.wav" />
+	<sound name="MissileLaunch" source="MissileLaunch.wav" />		
+	<sound name="WheelOpen" source="WheelOpen.wav" />
+	<sound name="WheelClose" source="WheelClose.wav" />	
+	<sound name="MetalRiff" source="MetalRiff.wav" />	
+	<sound name="EnemyPulse" source="PulseShot_Enemy_01.wav" />		
+</bank>

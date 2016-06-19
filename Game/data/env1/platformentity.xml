@@ -1,0 +1,228 @@
+<MeshEntity>
+	<Properties>
+		<uint Name="ID" Value="e4ffc30b"/>
+		<string Name="Name" Value="Ground"/>
+		<bool Name="Visible" Value="1"/>
+		<bool Name="Enabled" Value="1"/>
+		<vec3D Name="Position" Value="-34.7725 3.62442 2.34756"/>
+		<vec3D Name="Rotation" Value="-90 0 -90"/>
+		<vec3D Name="Scale" Value="0.7 0.7 0.7"/>
+		<vec3D Name="Center" Value="0 0 0"/>
+		<bool Name="AlwaysActive" Value="0"/>
+		<ref Name="Mesh" TemplatePath="env1/envrioment_V03.xml"/>
+	</Properties>
+	<Components>
+		<ref Name="" ClassName="GroundCollisionComponent">
+			<uint Name="ID" Value="6fcf1234"/>
+			<string Name="Name" Value=""/>
+			<enum Name="CollisionGroup" Value="128"/>
+			<struct Name="CollisionMask">
+				<bool Name="Group_1" Value="0"/>
+				<bool Name="Group_2" Value="0"/>
+				<bool Name="Group_3" Value="0"/>
+				<bool Name="Group_4" Value="0"/>
+				<bool Name="Group_5" Value="1"/>
+				<bool Name="Group_6" Value="0"/>
+				<bool Name="Group_7" Value="0"/>
+				<bool Name="Group_8" Value="0"/>
+			</struct>
+			<int Name="Priority" Value="1"/>
+			<float Name="CollisionRadius" Value="0.5"/>
+			<float Name="Mass" Value="1"/>
+			<array Name="Shapes">
+				<ref ClassName="CollisionShapeBox">
+					<aabb3D Name="Box" Value="-50 -60 -10 150 50 -2.35"/>
+				</ref>
+			</array>
+		</ref>
+	</Components>
+	<SubMesh>
+		<Properties>
+			<uint Name="ID" Value="2ff6cb8c"/>
+			<string Name="Name" Value="pSphere18_Merged"/>
+			<bool Name="Visible" Value="1"/>
+			<bool Name="Enabled" Value="1"/>
+			<vec3D Name="Position" Value="0 0 0"/>
+			<vec3D Name="Rotation" Value="0 0 0"/>
+			<vec3D Name="Scale" Value="1 1 1"/>
+			<vec3D Name="Center" Value="0 0 0"/>
+			<bool Name="AlwaysActive" Value="0"/>
+		</Properties>
+		<Components>
+			<ref Name="" ClassName="GraphicComponent">
+				<uint Name="ID" Value="3dd20756"/>
+				<string Name="Name" Value=""/>
+				<uint Name="RenderingPriority" Value="0"/>
+				<enum Name="RenderingPass" Value="1"/>
+				<bool Name="ShadowCaster" Value="0"/>
+				<array Name="Materials">
+					<ref ClassName="Material">
+						<uint Name="ID" Value="319c5565"/>
+						<string Name="Name" Value=""/>
+						<struct Name="CreationInfo">
+							<bool Name="AlphaBlending" Value="0"/>
+							<enum Name="SrcBlendFactor" Value="4"/>
+							<enum Name="DestBlendFactor" Value="5"/>
+							<enum Name="CullMode" Value="1"/>
+							<color Name="Color" Value="1 0 0"/>
+							<float Name="Alpha" Value="1"/>
+							<array Name="Textures"/>
+							<ref Name="Shader" TemplatePath="common/shaders/tex.xml"/>
+							<bool Name="UseTextureRenderTarget" Value="0"/>
+							<array Name="ShaderParams"/>
+						</struct>
+					</ref>
+				</array>
+			</ref>
+		</Components>
+	</SubMesh>
+	<SubMesh>
+		<Properties>
+			<uint Name="ID" Value="963006c8"/>
+			<string Name="Name" Value="pCube84_Merged"/>
+			<bool Name="Visible" Value="1"/>
+			<bool Name="Enabled" Value="1"/>
+			<vec3D Name="Position" Value="0 0 0"/>
+			<vec3D Name="Rotation" Value="0 0 0"/>
+			<vec3D Name="Scale" Value="1 1 1"/>
+			<vec3D Name="Center" Value="0 0 0"/>
+			<bool Name="AlwaysActive" Value="0"/>
+		</Properties>
+		<Components>
+			<ref Name="" ClassName="GraphicComponent">
+				<uint Name="ID" Value="bc8fd084"/>
+				<string Name="Name" Value=""/>
+				<uint Name="RenderingPriority" Value="0"/>
+				<enum Name="RenderingPass" Value="1"/>
+				<bool Name="ShadowCaster" Value="0"/>
+				<array Name="Materials">
+					<ref ClassName="Material">
+						<uint Name="ID" Value="df434e2"/>
+						<string Name="Name" Value=""/>
+						<struct Name="CreationInfo">
+							<bool Name="AlphaBlending" Value="0"/>
+							<enum Name="SrcBlendFactor" Value="4"/>
+							<enum Name="DestBlendFactor" Value="5"/>
+							<enum Name="CullMode" Value="1"/>
+							<color Name="Color" Value="0 0 0"/>
+							<float Name="Alpha" Value="1"/>
+							<array Name="Textures">
+								<ref TemplatePath="env1/bg02_col.xml"/>
+								<ref TemplatePath="env1/bg02_col.xml"/>
+							</array>
+							<ref Name="Shader" TemplatePath="common/shaders/light.xml"/>
+							<bool Name="UseTextureRenderTarget" Value="0"/>
+							<array Name="ShaderParams">
+								<ref ClassName="MaterialParameterFloat">
+									<string Name="Name" Value="uShininess"/>
+									<float Name="Value" Value="20"/>
+								</ref>
+							</array>
+						</struct>
+					</ref>
+				</array>
+			</ref>
+		</Components>
+	</SubMesh>
+	<SubMesh>
+		<Properties>
+			<uint Name="ID" Value="1455da05"/>
+			<string Name="Name" Value="pCube75_Merged"/>
+			<bool Name="Visible" Value="1"/>
+			<bool Name="Enabled" Value="1"/>
+			<vec3D Name="Position" Value="0 0 0"/>
+			<vec3D Name="Rotation" Value="0 0 0"/>
+			<vec3D Name="Scale" Value="1 1 1"/>
+			<vec3D Name="Center" Value="0 0 0"/>
+			<bool Name="AlwaysActive" Value="0"/>
+		</Properties>
+		<Components>
+			<ref Name="" ClassName="GraphicComponent">
+				<uint Name="ID" Value="364e91fe"/>
+				<string Name="Name" Value=""/>
+				<uint Name="RenderingPriority" Value="0"/>
+				<enum Name="RenderingPass" Value="1"/>
+				<bool Name="ShadowCaster" Value="0"/>
+				<array Name="Materials">
+					<ref ClassName="Material">
+						<uint Name="ID" Value="9f376091"/>
+						<string Name="Name" Value=""/>
+						<struct Name="CreationInfo">
+							<bool Name="AlphaBlending" Value="0"/>
+							<enum Name="SrcBlendFactor" Value="4"/>
+							<enum Name="DestBlendFactor" Value="5"/>
+							<enum Name="CullMode" Value="1"/>
+							<color Name="Color" Value="1 1 1"/>
+							<float Name="Alpha" Value="1"/>
+							<array Name="Textures">
+								<ref TemplatePath="env1/bg01_col.xml"/>
+								<ref TemplatePath="env1/bg01_col.xml"/>
+							</array>
+							<ref Name="Shader" TemplatePath="common/shaders/light.xml"/>
+							<bool Name="UseTextureRenderTarget" Value="0"/>
+							<array Name="ShaderParams">
+								<ref ClassName="MaterialParameterFloat">
+									<string Name="Name" Value="uShininess"/>
+									<float Name="Value" Value="20"/>
+								</ref>
+							</array>
+						</struct>
+					</ref>
+				</array>
+			</ref>
+		</Components>
+	</SubMesh>
+	<SubMesh>
+		<Properties>
+			<uint Name="ID" Value="31764f41"/>
+			<string Name="Name" Value="polySurface91_Merged"/>
+			<bool Name="Visible" Value="1"/>
+			<bool Name="Enabled" Value="1"/>
+			<vec3D Name="Position" Value="0 0 0"/>
+			<vec3D Name="Rotation" Value="0 0 0"/>
+			<vec3D Name="Scale" Value="1 1 1"/>
+			<vec3D Name="Center" Value="0 0 0"/>
+			<bool Name="AlwaysActive" Value="0"/>
+		</Properties>
+		<Components>
+			<ref Name="" ClassName="GraphicComponent">
+				<uint Name="ID" Value="c808b269"/>
+				<string Name="Name" Value=""/>
+				<uint Name="RenderingPriority" Value="0"/>
+				<enum Name="RenderingPass" Value="1"/>
+				<bool Name="ShadowCaster" Value="0"/>
+				<array Name="Materials">
+					<ref ClassName="Material">
+						<uint Name="ID" Value="95656350"/>
+						<string Name="Name" Value=""/>
+						<struct Name="CreationInfo">
+							<bool Name="AlphaBlending" Value="0"/>
+							<enum Name="SrcBlendFactor" Value="4"/>
+							<enum Name="DestBlendFactor" Value="5"/>
+							<enum Name="CullMode" Value="1"/>
+							<color Name="Color" Value="0.00784314 0.00784314 0.0235294"/>
+							<float Name="Alpha" Value="0.8"/>
+							<array Name="Textures">
+								<ref TemplatePath="env1/bg03_col.xml"/>
+								<ref TemplatePath="env1/bg03_nor.xml"/>
+							</array>
+							<ref Name="Shader" TemplatePath="common/shaders/shadow.xml"/>
+							<bool Name="UseTextureRenderTarget" Value="0"/>
+							<array Name="ShaderParams">
+								<ref ClassName="MaterialParameterFloat">
+									<string Name="Name" Value="uShadowDecr"/>
+									<float Name="Value" Value="0.1"/>
+								</ref>
+								<ref ClassName="MaterialParameterFloat">
+									<string Name="Name" Value="uShininess"/>
+									<float Name="Value" Value="10"/>
+								</ref>
+							</array>
+						</struct>
+					</ref>
+				</array>
+			</ref>
+		</Components>
+	</SubMesh>
+</MeshEntity>
+

@@ -1,0 +1,64 @@
+<Playfield>
+	<Properties>
+		<uint Name="ID" Value="8746d322"/>
+		<string Name="Name" Value=""/>
+		<bool Name="Visible" Value="1"/>
+		<bool Name="Enabled" Value="1"/>
+		<vec3D Name="Position" Value="0 0 0.1"/>
+		<vec3D Name="Rotation" Value="0 0 0"/>
+		<vec3D Name="Scale" Value="1 1 1"/>
+		<vec3D Name="Center" Value="0 0 0"/>
+		<bool Name="AlwaysActive" Value="0"/>
+		<aabb3D Name="Bounds" Value="-55 -55 -999 80 55 999"/>
+		<size Name="Dimension" Value="18 9"/>
+		<float Name="SpawnAnimOffset" Value="20"/>
+		<float Name="TileCollisionRadiusSq" Value="18"/>
+		<float Name="LandingOffset" Value="2.21"/>
+		<float Name="TowerOffset" Value="0.1"/>
+		<range Name="ZoomRange" Value="5 80"/>
+		<float Name="ZoomChangeFactor" Value="1"/>
+		<vec3D Name="CloseLookAtDir" Value="0 -0.247186 0.968968"/>
+		<vec3D Name="FarLookAtDir" Value="0 -0.0499376 0.998752"/>
+		<float Name="ZoomFactor" Value="0.7"/>
+		<int Name="Diamonds" Value="300"/>
+		<ref Name="WheelMenu" TemplatePath="ingame/wheelmenu.xml"/>
+		<array Name="PreSpawnActors">
+			<struct>
+				<size Name="Tile" Value="7 7"/>
+				<enum Name="ActorType" Value="3"/>
+			</struct>
+			<struct>
+				<size Name="Tile" Value="9 7"/>
+				<enum Name="ActorType" Value="3"/>
+			</struct>
+		</array>
+		<array Name="NonBuildableTiles">
+			<point Value="0 0"/>
+			<point Value="1 0"/>
+			<point Value="3 0"/>
+			<point Value="0 1"/>
+			<point Value="2 1"/>
+			<point Value="3 1"/>
+			<point Value="0 2"/>
+			<point Value="4 3"/>
+			<point Value="5 3"/>
+			<point Value="6 3"/>
+			<point Value="9 3"/>
+			<point Value="10 3"/>
+			<point Value="11 3"/>
+			<point Value="5 4"/>
+			<point Value="6 4"/>
+			<point Value="10 4"/>
+			<point Value="11 4"/>
+			<point Value="5 5"/>
+			<point Value="10 5"/>
+		</array>
+	</Properties>
+	<MeshEntity TemplatePath="ingame/selector.xml">
+		<Properties>
+			<bool Name="Visible" Value="0"/>
+		</Properties>
+	</MeshEntity>
+	<RangeIndicator TemplatePath="ingame/rangeindicator.xml"/>
+</Playfield>
+

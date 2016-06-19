@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Phone
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PhoneDirect3DApp1", "PhoneDirect3DApp1.vcxproj", "{24234A2E-EE8A-4EFD-B640-E34A2313B415}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "shoot", "..\..\..\shoot\build\vc11\shoot.vcxproj", "{18CA3F84-75A7-43C4-8388-34C2E384C80F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zlib", "..\..\..\shoot\build\vc11\zlib.vcxproj", "{65F1FE0F-7C70-451A-9FE2-B25535AA1185}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ShootTest", "..\vc11\game\ShootTest.vcxproj", "{02CD2C0D-B04D-4C6E-80F7-0B41C7616AAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Retail OptimOff|ARM = Retail OptimOff|ARM
+		Retail OptimOff|Win32 = Retail OptimOff|Win32
+		Retail|ARM = Retail|ARM
+		Retail|Win32 = Retail|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24234A2E-EE8A-4EFD-B640-E34A2313B415}.Retail OptimOff|ARM.ActiveCfg = Retail OptimOff|ARM
+		{24234A2E-EE8A-4EFD-B640-E34A2313B415}.Retail OptimOff|ARM.Build.0 = Retail OptimOff|ARM
+		{24234A2E-EE8A-4EFD-B640-E34A2313B415}.Retail OptimOff|ARM.Deploy.0 = Retail OptimOff|ARM
+		{24234A2E-EE8A-4EFD-B640-E34A2313B415}.Retail OptimOff|Win32.ActiveCfg = Retail OptimOff|Win32
+		{24234A2E-EE8A-4EFD-B640-E34A2313B415}.Retail OptimOff|Win32.Build.0 = Retail OptimOff|Win32
+		{24234A2E-EE8A-4EFD-B640-E34A2313B415}.Retail OptimOff|Win32.Deploy.0 = Retail OptimOff|Win32
+		{24234A2E-EE8A-4EFD-B640-E34A2313B415}.Retail|ARM.ActiveCfg = Retail|ARM
+		{24234A2E-EE8A-4EFD-B640-E34A2313B415}.Retail|ARM.Build.0 = Retail|ARM
+		{24234A2E-EE8A-4EFD-B640-E34A2313B415}.Retail|ARM.Deploy.0 = Retail|ARM
+		{24234A2E-EE8A-4EFD-B640-E34A2313B415}.Retail|Win32.ActiveCfg = Retail|Win32
+		{24234A2E-EE8A-4EFD-B640-E34A2313B415}.Retail|Win32.Build.0 = Retail|Win32
+		{24234A2E-EE8A-4EFD-B640-E34A2313B415}.Retail|Win32.Deploy.0 = Retail|Win32
+		{18CA3F84-75A7-43C4-8388-34C2E384C80F}.Retail OptimOff|ARM.ActiveCfg = Retail WP8 OptimOff|ARM
+		{18CA3F84-75A7-43C4-8388-34C2E384C80F}.Retail OptimOff|ARM.Build.0 = Retail WP8 OptimOff|ARM
+		{18CA3F84-75A7-43C4-8388-34C2E384C80F}.Retail OptimOff|Win32.ActiveCfg = Retail WP8 OptimOff|Win32
+		{18CA3F84-75A7-43C4-8388-34C2E384C80F}.Retail OptimOff|Win32.Build.0 = Retail WP8 OptimOff|Win32
+		{18CA3F84-75A7-43C4-8388-34C2E384C80F}.Retail|ARM.ActiveCfg = Retail WP8|ARM
+		{18CA3F84-75A7-43C4-8388-34C2E384C80F}.Retail|ARM.Build.0 = Retail WP8|ARM
+		{18CA3F84-75A7-43C4-8388-34C2E384C80F}.Retail|Win32.ActiveCfg = Retail WP8|Win32
+		{18CA3F84-75A7-43C4-8388-34C2E384C80F}.Retail|Win32.Build.0 = Retail WP8|Win32
+		{65F1FE0F-7C70-451A-9FE2-B25535AA1185}.Retail OptimOff|ARM.ActiveCfg = Release WP8|ARM
+		{65F1FE0F-7C70-451A-9FE2-B25535AA1185}.Retail OptimOff|ARM.Build.0 = Release WP8|ARM
+		{65F1FE0F-7C70-451A-9FE2-B25535AA1185}.Retail OptimOff|Win32.ActiveCfg = Release WP8|Win32
+		{65F1FE0F-7C70-451A-9FE2-B25535AA1185}.Retail OptimOff|Win32.Build.0 = Release WP8|Win32
+		{65F1FE0F-7C70-451A-9FE2-B25535AA1185}.Retail|ARM.ActiveCfg = Release WP8|ARM
+		{65F1FE0F-7C70-451A-9FE2-B25535AA1185}.Retail|ARM.Build.0 = Release WP8|ARM
+		{65F1FE0F-7C70-451A-9FE2-B25535AA1185}.Retail|Win32.ActiveCfg = Release WP8|Win32
+		{65F1FE0F-7C70-451A-9FE2-B25535AA1185}.Retail|Win32.Build.0 = Release WP8|Win32
+		{02CD2C0D-B04D-4C6E-80F7-0B41C7616AAF}.Retail OptimOff|ARM.ActiveCfg = Retail WP8 OptimOff|ARM
+		{02CD2C0D-B04D-4C6E-80F7-0B41C7616AAF}.Retail OptimOff|ARM.Build.0 = Retail WP8 OptimOff|ARM
+		{02CD2C0D-B04D-4C6E-80F7-0B41C7616AAF}.Retail OptimOff|Win32.ActiveCfg = Retail WP8 OptimOff|Win32
+		{02CD2C0D-B04D-4C6E-80F7-0B41C7616AAF}.Retail OptimOff|Win32.Build.0 = Retail WP8 OptimOff|Win32
+		{02CD2C0D-B04D-4C6E-80F7-0B41C7616AAF}.Retail|ARM.ActiveCfg = Retail WP8|ARM
+		{02CD2C0D-B04D-4C6E-80F7-0B41C7616AAF}.Retail|ARM.Build.0 = Retail WP8|ARM
+		{02CD2C0D-B04D-4C6E-80F7-0B41C7616AAF}.Retail|Win32.ActiveCfg = Retail WP8|Win32
+		{02CD2C0D-B04D-4C6E-80F7-0B41C7616AAF}.Retail|Win32.Build.0 = Retail WP8|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

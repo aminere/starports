@@ -1,0 +1,22 @@
+<GameCamera>
+	<Properties>
+		<uint Name="ID" Value="6d260254"/>
+		<string Name="Name" Value="GameCamera"/>
+		<bool Name="Visible" Value="1"/>
+		<bool Name="Enabled" Value="1"/>
+		<vec3D Name="Position" Value="0.404307 -14.5299 32.4594"/>
+		<vec3D Name="Rotation" Value="0 0 0"/>
+		<vec3D Name="Scale" Value="1 1 1"/>
+		<vec3D Name="Center" Value="0 0 0"/>
+		<bool Name="AlwaysActive" Value="0"/>
+		<float Name="FOV" Value="65"/>
+		<float Name="ZNear" Value="0.5"/>
+		<float Name="ZFar" Value="700"/>
+		<enum Name="Projection" Value="0"/>
+		<vec3D Name="LookAt" Value="0.404307 -9.33784 5.45404"/>
+		<size Name="TargetResolution" Value="960 640"/>
+		<vec2D Name="OrthoSize" Value="2 2"/>
+		<float Name="TransitionDuration" Value="1"/>
+	</Properties>
+</GameCamera>
+

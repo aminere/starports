@@ -1,0 +1,666 @@
+<LevelSelectContext>
+	<Properties>
+		<uint Name="ID" Value="ea7189c"/>
+		<string Name="Name" Value=""/>
+		<bool Name="Visible" Value="1"/>
+		<bool Name="Enabled" Value="1"/>
+		<ref Name="QuadTree" ClassName="QuadTree"/>
+		<bool Name="BlockUpdate" Value="0"/>
+		<bool Name="ReleaseOnSwitch" Value="0"/>
+		<float Name="LineThickness" Value="18"/>
+		<array Name="LevelInfos">
+			<struct>
+				<string Name="Folder" Value="tutorial"/>
+				<ref Name="PreviewContext" TemplatePath="menu/tutorialflythrough.xml"/>
+			</struct>
+			<struct>
+				<string Name="Folder" Value="level1"/>
+				<ref Name="PreviewContext" TemplatePath="menu/level1flythrough.xml"/>
+			</struct>
+		</array>
+	</Properties>
+	<Entity2D>
+		<Properties>
+			<uint Name="ID" Value="e91ea9bd"/>
+			<string Name="Name" Value="Root"/>
+			<bool Name="Visible" Value="1"/>
+			<bool Name="Enabled" Value="1"/>
+			<vec2D Name="Position" Value="0 0"/>
+			<float Name="Rotation" Value="0"/>
+			<vec2D Name="Scale" Value="1 1"/>
+			<vec2D Name="Center" Value="0 0"/>
+			<aabb2D Name="BBox" Value="0 0 32 32"/>
+			<bool Name="HFlip" Value="0"/>
+			<bool Name="VFlip" Value="0"/>
+		</Properties>
+		<Components>
+			<ref Name="" ClassName="GraphicComponent">
+				<uint Name="ID" Value="8068a4cc"/>
+				<string Name="Name" Value=""/>
+				<uint Name="RenderingPriority" Value="0"/>
+				<enum Name="RenderingPass" Value="4"/>
+				<bool Name="ShadowCaster" Value="0"/>
+				<array Name="Materials">
+					<ref ClassName="Material">
+						<uint Name="ID" Value="86f19928"/>
+						<string Name="Name" Value=""/>
+						<struct Name="CreationInfo">
+							<bool Name="AlphaBlending" Value="1"/>
+							<enum Name="SrcBlendFactor" Value="4"/>
+							<enum Name="DestBlendFactor" Value="5"/>
+							<enum Name="CullMode" Value="1"/>
+							<color Name="Color" Value="1 1 1"/>
+							<float Name="Alpha" Value="1"/>
+							<array Name="Textures">
+								<ref TemplatePath="menu/levelgradient.xml"/>
+							</array>
+							<ref Name="Shader" TemplatePath="common/shaders/tex_col.xml"/>
+							<bool Name="UseTextureRenderTarget" Value="0"/>
+							<array Name="ShaderParams"/>
+						</struct>
+					</ref>
+				</array>
+			</ref>
+		</Components>
+		<Entity2D>
+			<Properties>
+				<uint Name="ID" Value="5374e6e8"/>
+				<string Name="Name" Value="LevelPanel"/>
+				<bool Name="Visible" Value="1"/>
+				<bool Name="Enabled" Value="1"/>
+				<vec2D Name="Position" Value="0 0"/>
+				<float Name="Rotation" Value="0"/>
+				<vec2D Name="Scale" Value="1 1"/>
+				<vec2D Name="Center" Value="0 0"/>
+				<aabb2D Name="BBox" Value="0 0 16 16"/>
+				<bool Name="HFlip" Value="0"/>
+				<bool Name="VFlip" Value="0"/>
+			</Properties>
+			<Entity2D TemplatePath="menu/levelbutton.xml">
+				<Properties>
+					<string Name="Name" Value="Level1"/>
+					<vec2D Name="Position" Value="75.6707 140.047"/>
+					<float Name="Rotation" Value="0"/>
+					<vec2D Name="Scale" Value="1 1"/>
+				</Properties>
+			</Entity2D>
+			<Entity2D TemplatePath="menu/levelbutton.xml">
+				<Properties>
+					<string Name="Name" Value="Level2"/>
+					<vec2D Name="Position" Value="389.647 358.023"/>
+					<float Name="Rotation" Value="0"/>
+					<vec2D Name="Scale" Value="1 1"/>
+				</Properties>
+			</Entity2D>
+			<Entity2D TemplatePath="menu/levelbutton.xml">
+				<Properties>
+					<string Name="Name" Value="Level3"/>
+					<vec2D Name="Position" Value="696.848 96.0003"/>
+					<float Name="Rotation" Value="0"/>
+					<vec2D Name="Scale" Value="1 1"/>
+				</Properties>
+			</Entity2D>
+			<Entity2D TemplatePath="menu/levelbutton.xml">
+				<Properties>
+					<string Name="Name" Value="Level4"/>
+					<vec2D Name="Position" Value="919.342 378.353"/>
+					<float Name="Rotation" Value="0"/>
+					<vec2D Name="Scale" Value="1 1"/>
+				</Properties>
+			</Entity2D>
+			<Entity2D TemplatePath="menu/levelbutton.xml">
+				<Properties>
+					<string Name="Name" Value="Level5"/>
+					<vec2D Name="Position" Value="1088.75 59.8592"/>
+					<float Name="Rotation" Value="0"/>
+					<vec2D Name="Scale" Value="1 1"/>
+				</Properties>
+			</Entity2D>
+			<Entity2D TemplatePath="menu/levelbutton.xml">
+				<Properties>
+					<string Name="Name" Value="Level6"/>
+					<vec2D Name="Position" Value="1456.94 57.6002"/>
+					<float Name="Rotation" Value="0"/>
+					<vec2D Name="Scale" Value="1 1"/>
+				</Properties>
+			</Entity2D>
+			<Entity2D TemplatePath="menu/levelbutton.xml">
+				<Properties>
+					<string Name="Name" Value="Level7"/>
+					<vec2D Name="Position" Value="1765.27 233.788"/>
+					<float Name="Rotation" Value="0"/>
+					<vec2D Name="Scale" Value="1 1"/>
+				</Properties>
+			</Entity2D>
+			<Entity2D TemplatePath="menu/levelbutton.xml">
+				<Properties>
+					<string Name="Name" Value="Level8"/>
+					<vec2D Name="Position" Value="2143.63 98.2589"/>
+					<float Name="Rotation" Value="0"/>
+					<vec2D Name="Scale" Value="1 1"/>
+				</Properties>
+			</Entity2D>
+			<Entity2D TemplatePath="menu/levelbutton.xml">
+				<Properties>
+					<string Name="Name" Value="Level9"/>
+					<vec2D Name="Position" Value="2401.13 387.388"/>
+					<float Name="Rotation" Value="0"/>
+					<vec2D Name="Scale" Value="1 1"/>
+				</Properties>
+			</Entity2D>
+			<Entity2D TemplatePath="menu/levelbutton.xml">
+				<Properties>
+					<string Name="Name" Value="Level10"/>
+					<vec2D Name="Position" Value="2481.32 686.682"/>
+					<float Name="Rotation" Value="0"/>
+					<vec2D Name="Scale" Value="1 1"/>
+				</Properties>
+			</Entity2D>
+			<Entity2D TemplatePath="menu/levelbutton.xml">
+				<Properties>
+					<string Name="Name" Value="Level11"/>
+					<vec2D Name="Position" Value="2265.6 946.447"/>
+					<float Name="Rotation" Value="0"/>
+					<vec2D Name="Scale" Value="1 1"/>
+				</Properties>
+			</Entity2D>
+			<Entity2D TemplatePath="menu/levelbutton.xml">
+				<Properties>
+					<string Name="Name" Value="Level12"/>
+					<vec2D Name="Position" Value="1931.3 1083.11"/>
+					<float Name="Rotation" Value="0"/>
+					<vec2D Name="Scale" Value="1 1"/>
+				</Properties>
+			</Entity2D>
+			<Entity2D TemplatePath="menu/levelbutton.xml">
+				<Properties>
+					<string Name="Name" Value="Level13"/>
+					<vec2D Name="Position" Value="1759.63 762.353"/>
+					<float Name="Rotation" Value="0"/>
+					<vec2D Name="Scale" Value="1 1"/>
+				</Properties>
+			</Entity2D>
+			<Entity2D TemplatePath="menu/levelbutton.xml">
+				<Properties>
+					<string Name="Name" Value="Level14"/>
+					<vec2D Name="Position" Value="1477.27 1044.71"/>
+					<float Name="Rotation" Value="0"/>
+					<vec2D Name="Scale" Value="1 1"/>
+				</Properties>
+			</Entity2D>
+			<Entity2D TemplatePath="menu/levelbutton.xml">
+				<Properties>
+					<string Name="Name" Value="Level15"/>
+					<vec2D Name="Position" Value="1107.96 988.235"/>
+					<float Name="Rotation" Value="0"/>
+					<vec2D Name="Scale" Value="1 1"/>
+				</Properties>
+			</Entity2D>
+			<Entity2D TemplatePath="menu/levelbutton.xml">
+				<Properties>
+					<string Name="Name" Value="Level16"/>
+					<vec2D Name="Position" Value="753.321 1118.12"/>
+					<float Name="Rotation" Value="0"/>
+					<vec2D Name="Scale" Value="1 1"/>
+				</Properties>
+			</Entity2D>
+			<Entity2D TemplatePath="menu/levelbutton.xml">
+				<Properties>
+					<string Name="Name" Value="Level17"/>
+					<vec2D Name="Position" Value="328.663 1220.89"/>
+					<float Name="Rotation" Value="0"/>
+					<vec2D Name="Scale" Value="1 1"/>
+				</Properties>
+			</Entity2D>
+			<Entity2D TemplatePath="menu/levelbutton.xml">
+				<Properties>
+					<string Name="Name" Value="Level18"/>
+					<vec2D Name="Position" Value="0.00331306 1009.69"/>
+					<float Name="Rotation" Value="0"/>
+					<vec2D Name="Scale" Value="1 1"/>
+				</Properties>
+			</Entity2D>
+		</Entity2D>
+		<Text>
+			<Properties>
+				<uint Name="ID" Value="4ff9d746"/>
+				<string Name="Name" Value="SelectLevel"/>
+				<bool Name="Visible" Value="1"/>
+				<bool Name="Enabled" Value="1"/>
+				<vec2D Name="Position" Value="75 88"/>
+				<float Name="Rotation" Value="0"/>
+				<vec2D Name="Scale" Value="1 1"/>
+				<vec2D Name="Center" Value="0 0"/>
+				<aabb2D Name="BBox" Value="0 0 0 0"/>
+				<bool Name="HFlip" Value="0"/>
+				<bool Name="VFlip" Value="0"/>
+				<enum Name="FontType" Value="1"/>
+				<wstring Name="Text" Value="SELECT LEVEL"/>
+				<file Name="Font" Value="common/default.ttf"/>
+				<uint Name="FontSize" Value="24"/>
+				<size Name="Area" Value="512 32"/>
+				<enum Name="Alignement" Value="0"/>
+				<uint Name="LineSpacing" Value="18"/>
+				<color Name="Color" Value="1 1 1"/>
+			</Properties>
+			<Components>
+				<ref Name="" ClassName="GraphicComponent">
+					<uint Name="ID" Value="f129af47"/>
+					<string Name="Name" Value=""/>
+					<uint Name="RenderingPriority" Value="0"/>
+					<enum Name="RenderingPass" Value="4"/>
+					<bool Name="ShadowCaster" Value="0"/>
+					<array Name="Materials">
+						<ref ClassName="Material">
+							<uint Name="ID" Value="7a89f223"/>
+							<string Name="Name" Value=""/>
+							<struct Name="CreationInfo">
+								<bool Name="AlphaBlending" Value="1"/>
+								<enum Name="SrcBlendFactor" Value="4"/>
+								<enum Name="DestBlendFactor" Value="5"/>
+								<enum Name="CullMode" Value="1"/>
+								<color Name="Color" Value="1 1 1"/>
+								<float Name="Alpha" Value="1"/>
+								<array Name="Textures">
+									<ref ClassName="MemoryTexture">
+										<bool Name="MipMaps" Value="1"/>
+										<bool Name="32Bits" Value="0"/>
+									</ref>
+								</array>
+								<ref Name="Shader" TemplatePath="common/shaders/tex.xml"/>
+								<bool Name="UseTextureRenderTarget" Value="0"/>
+								<array Name="ShaderParams"/>
+							</struct>
+						</ref>
+					</array>
+				</ref>
+				<ref Name="" ClassName="TextVisitor">
+					<uint Name="ID" Value="e1d6aea4"/>
+					<string Name="Name" Value=""/>
+					<bool Name="AutoStart" Value="1"/>
+					<wstring Name="Text" Value="SELECT LEVEL"/>
+					<float Name="Duration" Value="0.2"/>
+				</ref>
+			</Components>
+		</Text>
+		<Image>
+			<Properties>
+				<uint Name="ID" Value="3c9b5ec2"/>
+				<string Name="Name" Value="Selector"/>
+				<bool Name="Visible" Value="1"/>
+				<bool Name="Enabled" Value="1"/>
+				<vec2D Name="Position" Value="881.321 1246.12"/>
+				<float Name="Rotation" Value="0"/>
+				<vec2D Name="Scale" Value="1 1"/>
+				<vec2D Name="Center" Value="128 128"/>
+				<aabb2D Name="BBox" Value="0 0 256 256"/>
+				<bool Name="HFlip" Value="0"/>
+				<bool Name="VFlip" Value="0"/>
+			</Properties>
+			<Components>
+				<ref Name="" ClassName="GraphicComponent">
+					<uint Name="ID" Value="1abafc67"/>
+					<string Name="Name" Value="Selector"/>
+					<uint Name="RenderingPriority" Value="4"/>
+					<enum Name="RenderingPass" Value="4"/>
+					<bool Name="ShadowCaster" Value="0"/>
+					<array Name="Materials">
+						<ref ClassName="Material">
+							<uint Name="ID" Value="1fbefcb6"/>
+							<string Name="Name" Value=""/>
+							<struct Name="CreationInfo">
+								<bool Name="AlphaBlending" Value="1"/>
+								<enum Name="SrcBlendFactor" Value="4"/>
+								<enum Name="DestBlendFactor" Value="1"/>
+								<enum Name="CullMode" Value="1"/>
+								<color Name="Color" Value="1 1 1"/>
+								<float Name="Alpha" Value="0.6"/>
+								<array Name="Textures">
+									<ref TemplatePath="menu/levelselector.xml"/>
+								</array>
+								<ref Name="Shader" TemplatePath="common/shaders/tex.xml"/>
+								<bool Name="UseTextureRenderTarget" Value="0"/>
+								<array Name="ShaderParams"/>
+							</struct>
+						</ref>
+					</array>
+				</ref>
+				<ref Name="" ClassName="SequenceVisitor">
+					<uint Name="ID" Value="d5975c9c"/>
+					<string Name="Name" Value=""/>
+					<bool Name="AutoStart" Value="1"/>
+					<enum Name="PlaybackType" Value="0"/>
+					<int Name="MaxPlayCount" Value="-1"/>
+					<array Name="Visitors">
+						<ref ClassName="Scale2DVisitor">
+							<uint Name="ID" Value="11ad6f2f"/>
+							<string Name="Name" Value=""/>
+							<bool Name="AutoStart" Value="1"/>
+							<enum Name="PlaybackType" Value="0"/>
+							<int Name="MaxPlayCount" Value="-1"/>
+							<struct Name="Src">
+								<vec2D Name="Value" Value="2 2"/>
+								<enum Name="Type" Value="0"/>
+							</struct>
+							<struct Name="Dest">
+								<vec2D Name="Value" Value="1 1"/>
+								<enum Name="Type" Value="0"/>
+							</struct>
+							<float Name="Duration" Value="0.2"/>
+						</ref>
+						<ref ClassName="Rotation2DVisitor">
+							<uint Name="ID" Value="a989b42c"/>
+							<string Name="Name" Value=""/>
+							<bool Name="AutoStart" Value="1"/>
+							<enum Name="PlaybackType" Value="2"/>
+							<int Name="MaxPlayCount" Value="-1"/>
+							<struct Name="Src">
+								<float Name="Value" Value="360"/>
+								<enum Name="Type" Value="0"/>
+							</struct>
+							<struct Name="Dest">
+								<float Name="Value" Value="0"/>
+								<enum Name="Type" Value="0"/>
+							</struct>
+							<float Name="Duration" Value="1"/>
+						</ref>
+					</array>
+				</ref>
+			</Components>
+		</Image>
+	</Entity2D>
+	<Button>
+		<Properties>
+			<uint Name="ID" Value="e5e2b5b1"/>
+			<string Name="Name" Value="OptionsButton"/>
+			<bool Name="Visible" Value="1"/>
+			<bool Name="Enabled" Value="1"/>
+			<vec2D Name="Position" Value="834.565 29.4353"/>
+			<float Name="Rotation" Value="0"/>
+			<vec2D Name="Scale" Value="1.4 1.4"/>
+			<vec2D Name="Center" Value="0 0"/>
+			<aabb2D Name="BBox" Value="6.47757 0.925323 54.4776 48.9253"/>
+			<bool Name="HFlip" Value="0"/>
+			<bool Name="VFlip" Value="0"/>
+			<bool Name="UIEnabled" Value="1"/>
+			<string Name="Command" Value="MENUOPTIONSENTER"/>
+			<bool Name="CheckBox" Value="0"/>
+			<bool Name="CustomBBox" Value="0"/>
+		</Properties>
+		<Image>
+			<Properties>
+				<uint Name="ID" Value="d01b37ce"/>
+				<string Name="Name" Value="BG"/>
+				<bool Name="Visible" Value="1"/>
+				<bool Name="Enabled" Value="1"/>
+				<vec2D Name="Position" Value="6.47757 0.925323"/>
+				<float Name="Rotation" Value="0"/>
+				<vec2D Name="Scale" Value="1.2 1.2"/>
+				<vec2D Name="Center" Value="0 0"/>
+				<aabb2D Name="BBox" Value="0 0 48 48"/>
+				<bool Name="HFlip" Value="0"/>
+				<bool Name="VFlip" Value="0"/>
+			</Properties>
+			<Components>
+				<ref Name="" ClassName="GraphicComponent">
+					<uint Name="ID" Value="cc0f647"/>
+					<string Name="Name" Value=""/>
+					<uint Name="RenderingPriority" Value="5"/>
+					<enum Name="RenderingPass" Value="4"/>
+					<bool Name="ShadowCaster" Value="0"/>
+					<array Name="Materials">
+						<ref ClassName="Material">
+							<uint Name="ID" Value="c2f7b519"/>
+							<string Name="Name" Value=""/>
+							<struct Name="CreationInfo">
+								<bool Name="AlphaBlending" Value="1"/>
+								<enum Name="SrcBlendFactor" Value="4"/>
+								<enum Name="DestBlendFactor" Value="5"/>
+								<enum Name="CullMode" Value="1"/>
+								<color Name="Color" Value="1 1 1"/>
+								<float Name="Alpha" Value="1"/>
+								<array Name="Textures">
+									<ref TemplatePath="common/tex/IconOptions.xml"/>
+								</array>
+								<ref Name="Shader" TemplatePath="common/shaders/tex.xml"/>
+								<bool Name="UseTextureRenderTarget" Value="0"/>
+								<array Name="ShaderParams"/>
+							</struct>
+						</ref>
+					</array>
+				</ref>
+			</Components>
+		</Image>
+		<Image>
+			<Properties>
+				<uint Name="ID" Value="b0256f83"/>
+				<string Name="Name" Value=""/>
+				<bool Name="Visible" Value="1"/>
+				<bool Name="Enabled" Value="1"/>
+				<vec2D Name="Position" Value="-0.408264 -6.05517"/>
+				<float Name="Rotation" Value="0"/>
+				<vec2D Name="Scale" Value="1.5 1.5"/>
+				<vec2D Name="Center" Value="0 0"/>
+				<aabb2D Name="BBox" Value="0 0 48 48"/>
+				<bool Name="HFlip" Value="0"/>
+				<bool Name="VFlip" Value="0"/>
+			</Properties>
+			<Components>
+				<ref Name="" ClassName="GraphicComponent">
+					<uint Name="ID" Value="165eee94"/>
+					<string Name="Name" Value=""/>
+					<uint Name="RenderingPriority" Value="4"/>
+					<enum Name="RenderingPass" Value="4"/>
+					<bool Name="ShadowCaster" Value="0"/>
+					<array Name="Materials">
+						<ref ClassName="Material">
+							<uint Name="ID" Value="3333ccb1"/>
+							<string Name="Name" Value=""/>
+							<struct Name="CreationInfo">
+								<bool Name="AlphaBlending" Value="1"/>
+								<enum Name="SrcBlendFactor" Value="4"/>
+								<enum Name="DestBlendFactor" Value="5"/>
+								<enum Name="CullMode" Value="1"/>
+								<color Name="Color" Value="1 1 1"/>
+								<float Name="Alpha" Value="1"/>
+								<array Name="Textures">
+									<ref TemplatePath="common/tex/IconBG.xml"/>
+								</array>
+								<ref Name="Shader" TemplatePath="common/shaders/tex.xml"/>
+								<bool Name="UseTextureRenderTarget" Value="0"/>
+								<array Name="ShaderParams"/>
+							</struct>
+						</ref>
+					</array>
+				</ref>
+			</Components>
+		</Image>
+	</Button>
+	<Button>
+		<Properties>
+			<uint Name="ID" Value="e81b1ff8"/>
+			<string Name="Name" Value="Upgrades"/>
+			<bool Name="Visible" Value="1"/>
+			<bool Name="Enabled" Value="1"/>
+			<vec2D Name="Position" Value="55.7647 567.353"/>
+			<float Name="Rotation" Value="0"/>
+			<vec2D Name="Scale" Value="1 1"/>
+			<vec2D Name="Center" Value="0 0"/>
+			<aabb2D Name="BBox" Value="-8 -20 324 60"/>
+			<bool Name="HFlip" Value="0"/>
+			<bool Name="VFlip" Value="0"/>
+			<bool Name="UIEnabled" Value="1"/>
+			<string Name="Command" Value="IAPINIT"/>
+			<bool Name="CheckBox" Value="0"/>
+			<bool Name="CustomBBox" Value="1"/>
+		</Properties>
+		<Image>
+			<Properties>
+				<uint Name="ID" Value="98a20353"/>
+				<string Name="Name" Value="BG"/>
+				<bool Name="Visible" Value="1"/>
+				<bool Name="Enabled" Value="1"/>
+				<vec2D Name="Position" Value="0 0"/>
+				<float Name="Rotation" Value="0"/>
+				<vec2D Name="Scale" Value="10 1.4"/>
+				<vec2D Name="Center" Value="0 0"/>
+				<aabb2D Name="BBox" Value="0 0 32 32"/>
+				<bool Name="HFlip" Value="0"/>
+				<bool Name="VFlip" Value="0"/>
+			</Properties>
+			<Components>
+				<ref Name="" ClassName="GraphicComponent">
+					<uint Name="ID" Value="3d60c4b8"/>
+					<string Name="Name" Value=""/>
+					<uint Name="RenderingPriority" Value="5"/>
+					<enum Name="RenderingPass" Value="4"/>
+					<bool Name="ShadowCaster" Value="0"/>
+					<array Name="Materials">
+						<ref ClassName="Material">
+							<uint Name="ID" Value="f766467d"/>
+							<string Name="Name" Value=""/>
+							<struct Name="CreationInfo">
+								<bool Name="AlphaBlending" Value="0"/>
+								<enum Name="SrcBlendFactor" Value="4"/>
+								<enum Name="DestBlendFactor" Value="5"/>
+								<enum Name="CullMode" Value="1"/>
+								<color Name="Color" Value="0 0.501961 0.752941"/>
+								<float Name="Alpha" Value="1"/>
+								<array Name="Textures">
+									<ref TemplatePath="common/tex/WhiteBG.xml"/>
+								</array>
+								<ref Name="Shader" TemplatePath="common/shaders/tex.xml"/>
+								<bool Name="UseTextureRenderTarget" Value="0"/>
+								<array Name="ShaderParams"/>
+							</struct>
+						</ref>
+					</array>
+				</ref>
+			</Components>
+		</Image>
+		<Image>
+			<Properties>
+				<uint Name="ID" Value="827aca69"/>
+				<string Name="Name" Value="FG"/>
+				<bool Name="Visible" Value="1"/>
+				<bool Name="Enabled" Value="1"/>
+				<vec2D Name="Position" Value="3 3"/>
+				<float Name="Rotation" Value="0"/>
+				<vec2D Name="Scale" Value="9.8 1.2"/>
+				<vec2D Name="Center" Value="0 0"/>
+				<aabb2D Name="BBox" Value="0 0 32 32"/>
+				<bool Name="HFlip" Value="0"/>
+				<bool Name="VFlip" Value="0"/>
+			</Properties>
+			<Components>
+				<ref Name="" ClassName="GraphicComponent">
+					<uint Name="ID" Value="46a92cd7"/>
+					<string Name="Name" Value=""/>
+					<uint Name="RenderingPriority" Value="6"/>
+					<enum Name="RenderingPass" Value="4"/>
+					<bool Name="ShadowCaster" Value="0"/>
+					<array Name="Materials">
+						<ref ClassName="Material">
+							<uint Name="ID" Value="b64e75a5"/>
+							<string Name="Name" Value=""/>
+							<struct Name="CreationInfo">
+								<bool Name="AlphaBlending" Value="0"/>
+								<enum Name="SrcBlendFactor" Value="4"/>
+								<enum Name="DestBlendFactor" Value="5"/>
+								<enum Name="CullMode" Value="1"/>
+								<color Name="Color" Value="0 0 0"/>
+								<float Name="Alpha" Value="1"/>
+								<array Name="Textures">
+									<ref TemplatePath="common/tex/WhiteBG.xml"/>
+								</array>
+								<ref Name="Shader" TemplatePath="common/shaders/tex.xml"/>
+								<bool Name="UseTextureRenderTarget" Value="0"/>
+								<array Name="ShaderParams"/>
+							</struct>
+						</ref>
+					</array>
+				</ref>
+			</Components>
+		</Image>
+		<Text>
+			<Properties>
+				<uint Name="ID" Value="13e38227"/>
+				<string Name="Name" Value=""/>
+				<bool Name="Visible" Value="1"/>
+				<bool Name="Enabled" Value="1"/>
+				<vec2D Name="Position" Value="39.4062 20.2858"/>
+				<float Name="Rotation" Value="0"/>
+				<vec2D Name="Scale" Value="1 1"/>
+				<vec2D Name="Center" Value="0 0"/>
+				<aabb2D Name="BBox" Value="0 0 0 0"/>
+				<bool Name="HFlip" Value="0"/>
+				<bool Name="VFlip" Value="0"/>
+				<enum Name="FontType" Value="1"/>
+				<wstring Name="Text" Value="Upgrades"/>
+				<file Name="Font" Value="common/default.ttf"/>
+				<uint Name="FontSize" Value="22"/>
+				<size Name="Area" Value="246 16"/>
+				<enum Name="Alignement" Value="1"/>
+				<uint Name="LineSpacing" Value="18"/>
+				<color Name="Color" Value="1 1 1"/>
+			</Properties>
+			<Components>
+				<ref Name="" ClassName="GraphicComponent">
+					<uint Name="ID" Value="47a77bb6"/>
+					<string Name="Name" Value=""/>
+					<uint Name="RenderingPriority" Value="7"/>
+					<enum Name="RenderingPass" Value="4"/>
+					<bool Name="ShadowCaster" Value="0"/>
+					<array Name="Materials">
+						<ref ClassName="Material">
+							<uint Name="ID" Value="7fe14e46"/>
+							<string Name="Name" Value=""/>
+							<struct Name="CreationInfo">
+								<bool Name="AlphaBlending" Value="1"/>
+								<enum Name="SrcBlendFactor" Value="4"/>
+								<enum Name="DestBlendFactor" Value="5"/>
+								<enum Name="CullMode" Value="1"/>
+								<color Name="Color" Value="1 1 1"/>
+								<float Name="Alpha" Value="1"/>
+								<array Name="Textures">
+									<ref ClassName="MemoryTexture">
+										<bool Name="MipMaps" Value="1"/>
+										<bool Name="32Bits" Value="0"/>
+									</ref>
+								</array>
+								<ref Name="Shader" TemplatePath="common/shaders/tex.xml"/>
+								<bool Name="UseTextureRenderTarget" Value="0"/>
+								<array Name="ShaderParams"/>
+							</struct>
+						</ref>
+					</array>
+				</ref>
+			</Components>
+		</Text>
+	</Button>
+	<LevelSelectCamera>
+		<Properties>
+			<uint Name="ID" Value="cda990a7"/>
+			<string Name="Name" Value="LevelSelectCamera"/>
+			<bool Name="Visible" Value="1"/>
+			<bool Name="Enabled" Value="1"/>
+			<vec3D Name="Position" Value="0 0 0"/>
+			<vec3D Name="Rotation" Value="0 0 0"/>
+			<vec3D Name="Scale" Value="1 1 1"/>
+			<vec3D Name="Center" Value="0 0 0"/>
+			<bool Name="AlwaysActive" Value="0"/>
+			<float Name="FOV" Value="45"/>
+			<float Name="ZNear" Value="0.5"/>
+			<float Name="ZFar" Value="300"/>
+			<enum Name="Projection" Value="2"/>
+			<vec3D Name="LookAt" Value="0 0 0"/>
+			<size Name="TargetResolution" Value="960 640"/>
+			<vec2D Name="OrthoSize" Value="2 2"/>
+			<float Name="DragTreshold" Value="4"/>
+			<float Name="AnimDuration" Value="0.3"/>
+			<aabb3D Name="Bounds" Value="-1800 -1000 -999 300 0 999"/>
+			<float Name="LevelSwitchOffset" Value="-400"/>
+		</Properties>
+	</LevelSelectCamera>
+</LevelSelectContext>
+

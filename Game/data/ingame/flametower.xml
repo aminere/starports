@@ -1,0 +1,379 @@
+<FlameTower>
+	<Properties>
+		<uint Name="ID" Value="5dc56045"/>
+		<string Name="Name" Value="FlameTower"/>
+		<bool Name="Visible" Value="1"/>
+		<bool Name="Enabled" Value="1"/>
+		<vec3D Name="Position" Value="6.93751 -1.55479 0"/>
+		<vec3D Name="Rotation" Value="0 0 0"/>
+		<vec3D Name="Scale" Value="1 1 1"/>
+		<vec3D Name="Center" Value="0 0 0"/>
+		<bool Name="AlwaysActive" Value="0"/>
+		<enum Name="ActorType" Value="2"/>
+		<enum Name="ActorLevel" Value="0"/>
+		<bool Name="Immune" Value="0"/>
+		<bool Name="ShakeOnExplode" Value="0"/>
+		<float Name="ExplosionScaleFactor" Value="1"/>
+		<float Name="AimDuration" Value="0.05"/>
+	</Properties>
+	<MeshEntity>
+		<Properties>
+			<uint Name="ID" Value="2c5495a5"/>
+			<string Name="Name" Value="BaseMesh"/>
+			<bool Name="Visible" Value="1"/>
+			<bool Name="Enabled" Value="1"/>
+			<vec3D Name="Position" Value="9.53674e-007 -2.6226e-006 0"/>
+			<vec3D Name="Rotation" Value="0 0 0"/>
+			<vec3D Name="Scale" Value="1 1 1"/>
+			<vec3D Name="Center" Value="0 0 0"/>
+			<bool Name="AlwaysActive" Value="0"/>
+			<ref Name="Mesh" TemplatePath="ingame/flame/flamethrower1mesh.xml"/>
+		</Properties>
+		<Components>
+			<ref Name="" ClassName="RigidBodyComponent">
+				<uint Name="ID" Value="258aa604"/>
+				<string Name="Name" Value=""/>
+				<enum Name="CollisionGroup" Value="16"/>
+				<struct Name="CollisionMask">
+					<bool Name="Group_1" Value="0"/>
+					<bool Name="Group_2" Value="0"/>
+					<bool Name="Group_3" Value="1"/>
+					<bool Name="Group_4" Value="0"/>
+					<bool Name="Group_5" Value="0"/>
+					<bool Name="Group_6" Value="0"/>
+					<bool Name="Group_7" Value="0"/>
+					<bool Name="Group_8" Value="0"/>
+				</struct>
+				<int Name="Priority" Value="0"/>
+				<float Name="CollisionRadius" Value="0.5"/>
+				<float Name="Mass" Value="1"/>
+				<array Name="Shapes">
+					<ref ClassName="CollisionShapeSphere">
+						<float Name="Radius" Value="1.8"/>
+						<vec3D Name="Center" Value="0 0 2"/>
+					</ref>
+				</array>
+			</ref>
+		</Components>
+		<SubMesh>
+			<Properties>
+				<uint Name="ID" Value="6489f386"/>
+				<string Name="Name" Value="Base"/>
+				<bool Name="Visible" Value="1"/>
+				<bool Name="Enabled" Value="1"/>
+				<vec3D Name="Position" Value="0 -0 0"/>
+				<vec3D Name="Rotation" Value="0 0 0"/>
+				<vec3D Name="Scale" Value="1 1 1"/>
+				<vec3D Name="Center" Value="0 0 0"/>
+				<bool Name="AlwaysActive" Value="0"/>
+			</Properties>
+			<Components>
+				<ref Name="" ClassName="GraphicComponent">
+					<uint Name="ID" Value="a302c372"/>
+					<string Name="Name" Value=""/>
+					<uint Name="RenderingPriority" Value="0"/>
+					<enum Name="RenderingPass" Value="1"/>
+					<bool Name="ShadowCaster" Value="1"/>
+					<array Name="Materials">
+						<ref ClassName="Material">
+							<uint Name="ID" Value="34888282"/>
+							<string Name="Name" Value=""/>
+							<struct Name="CreationInfo">
+								<bool Name="AlphaBlending" Value="0"/>
+								<enum Name="SrcBlendFactor" Value="4"/>
+								<enum Name="DestBlendFactor" Value="5"/>
+								<enum Name="CullMode" Value="1"/>
+								<color Name="Color" Value="1 1 1"/>
+								<float Name="Alpha" Value="1"/>
+								<array Name="Textures">
+									<ref TemplatePath="ingame/flame/flamethrower_v01.xml"/>
+								</array>
+								<ref Name="Shader" TemplatePath="common/shaders/light.xml"/>
+								<bool Name="UseTextureRenderTarget" Value="0"/>
+								<array Name="ShaderParams">
+									<ref ClassName="MaterialParameterFloat">
+										<string Name="Name" Value="uShininess"/>
+										<float Name="Value" Value="20"/>
+									</ref>
+								</array>
+							</struct>
+						</ref>
+					</array>
+				</ref>
+			</Components>
+		</SubMesh>
+		<SubMesh>
+			<Properties>
+				<uint Name="ID" Value="69beb038"/>
+				<string Name="Name" Value="Core_orient"/>
+				<bool Name="Visible" Value="1"/>
+				<bool Name="Enabled" Value="1"/>
+				<vec3D Name="Position" Value="1.49012e-008 -0 3"/>
+				<vec3D Name="Rotation" Value="0 0 0"/>
+				<vec3D Name="Scale" Value="1 1 1"/>
+				<vec3D Name="Center" Value="0 0 0"/>
+				<bool Name="AlwaysActive" Value="0"/>
+			</Properties>
+			<Components>
+				<ref Name="" ClassName="GraphicComponent">
+					<uint Name="ID" Value="7972877c"/>
+					<string Name="Name" Value=""/>
+					<uint Name="RenderingPriority" Value="0"/>
+					<enum Name="RenderingPass" Value="1"/>
+					<bool Name="ShadowCaster" Value="1"/>
+					<array Name="Materials">
+						<ref ClassName="Material">
+							<uint Name="ID" Value="34888282"/>
+							<string Name="Name" Value=""/>
+							<struct Name="CreationInfo">
+								<bool Name="AlphaBlending" Value="0"/>
+								<enum Name="SrcBlendFactor" Value="4"/>
+								<enum Name="DestBlendFactor" Value="5"/>
+								<enum Name="CullMode" Value="1"/>
+								<color Name="Color" Value="1 1 1"/>
+								<float Name="Alpha" Value="1"/>
+								<array Name="Textures">
+									<ref TemplatePath="ingame/flame/flamethrower_v01.xml"/>
+								</array>
+								<ref Name="Shader" TemplatePath="common/shaders/light.xml"/>
+								<bool Name="UseTextureRenderTarget" Value="0"/>
+								<array Name="ShaderParams">
+									<ref ClassName="MaterialParameterFloat">
+										<string Name="Name" Value="uShininess"/>
+										<float Name="Value" Value="20"/>
+									</ref>
+								</array>
+							</struct>
+						</ref>
+					</array>
+				</ref>
+				<ref Name="" ClassName="CombineVisitor">
+					<uint Name="ID" Value="5ed96fbb"/>
+					<string Name="Name" Value="RecoilAnim"/>
+					<bool Name="AutoStart" Value="0"/>
+					<array Name="Visitors">
+						<ref ClassName="SequenceVisitor">
+							<uint Name="ID" Value="47f033d2"/>
+							<string Name="Name" Value=""/>
+							<bool Name="AutoStart" Value="1"/>
+							<enum Name="PlaybackType" Value="2"/>
+							<int Name="MaxPlayCount" Value="-1"/>
+							<array Name="Visitors">
+								<ref ClassName="Translation3DVisitor">
+									<uint Name="ID" Value="b6f1bc50"/>
+									<string Name="Name" Value=""/>
+									<bool Name="AutoStart" Value="1"/>
+									<enum Name="PlaybackType" Value="0"/>
+									<int Name="MaxPlayCount" Value="-1"/>
+									<struct Name="Src">
+										<vec3D Name="Value" Value="0 0 0"/>
+										<enum Name="Type" Value="1"/>
+									</struct>
+									<struct Name="Dest">
+										<vec3D Name="Value" Value="0 -0.1 0.1"/>
+										<enum Name="Type" Value="1"/>
+									</struct>
+									<float Name="Duration" Value="0.2"/>
+								</ref>
+								<ref ClassName="Translation3DVisitor">
+									<uint Name="ID" Value="c16dc73b"/>
+									<string Name="Name" Value=""/>
+									<bool Name="AutoStart" Value="1"/>
+									<enum Name="PlaybackType" Value="0"/>
+									<int Name="MaxPlayCount" Value="-1"/>
+									<struct Name="Src">
+										<vec3D Name="Value" Value="0 0 0"/>
+										<enum Name="Type" Value="1"/>
+									</struct>
+									<struct Name="Dest">
+										<vec3D Name="Value" Value="0 0.1 -0.1"/>
+										<enum Name="Type" Value="1"/>
+									</struct>
+									<float Name="Duration" Value="0.2"/>
+								</ref>
+								<ref ClassName="Translation3DVisitor">
+									<uint Name="ID" Value="ce79828"/>
+									<string Name="Name" Value=""/>
+									<bool Name="AutoStart" Value="1"/>
+									<enum Name="PlaybackType" Value="0"/>
+									<int Name="MaxPlayCount" Value="-1"/>
+									<struct Name="Src">
+										<vec3D Name="Value" Value="0 0 0"/>
+										<enum Name="Type" Value="1"/>
+									</struct>
+									<struct Name="Dest">
+										<vec3D Name="Value" Value="0 0 3"/>
+										<enum Name="Type" Value="0"/>
+									</struct>
+									<float Name="Duration" Value="0.2"/>
+								</ref>
+							</array>
+						</ref>
+					</array>
+				</ref>
+				<ref Name="" ClassName="FlameCollisionComponent">
+					<uint Name="ID" Value="6ab54bfe"/>
+					<string Name="Name" Value=""/>
+					<enum Name="CollisionGroup" Value="8"/>
+					<struct Name="CollisionMask">
+						<bool Name="Group_1" Value="0"/>
+						<bool Name="Group_2" Value="1"/>
+						<bool Name="Group_3" Value="0"/>
+						<bool Name="Group_4" Value="0"/>
+						<bool Name="Group_5" Value="0"/>
+						<bool Name="Group_6" Value="0"/>
+						<bool Name="Group_7" Value="0"/>
+						<bool Name="Group_8" Value="0"/>
+					</struct>
+					<int Name="Priority" Value="0"/>
+					<float Name="CollisionRadius" Value="0.5"/>
+					<float Name="Mass" Value="1"/>
+					<array Name="Shapes">
+						<ref ClassName="CollisionShapeSphere">
+							<float Name="Radius" Value="1"/>
+							<vec3D Name="Center" Value="0 0 -3.5"/>
+						</ref>
+						<ref ClassName="CollisionShapeSphere">
+							<float Name="Radius" Value="3.3"/>
+							<vec3D Name="Center" Value="0 0 -7.7"/>
+						</ref>
+					</array>
+				</ref>
+			</Components>
+			<Entity3D>
+				<Properties>
+					<uint Name="ID" Value="e5a9e5f0"/>
+					<string Name="Name" Value="Particles"/>
+					<bool Name="Visible" Value="1"/>
+					<bool Name="Enabled" Value="1"/>
+					<vec3D Name="Position" Value="0 0 -2.64383"/>
+					<vec3D Name="Rotation" Value="0 0 0"/>
+					<vec3D Name="Scale" Value="1 1 1"/>
+					<vec3D Name="Center" Value="0 0 0"/>
+					<bool Name="AlwaysActive" Value="0"/>
+				</Properties>
+				<ParticleGenerator>
+					<Properties>
+						<uint Name="ID" Value="5404bbd0"/>
+						<string Name="Name" Value="Flames"/>
+						<bool Name="Visible" Value="1"/>
+						<bool Name="Enabled" Value="1"/>
+						<vec3D Name="Position" Value="0 0 0"/>
+						<vec3D Name="Rotation" Value="0 0 0"/>
+						<vec3D Name="Scale" Value="1 1 1"/>
+						<vec3D Name="Center" Value="0 0 0"/>
+						<bool Name="AlwaysActive" Value="0"/>
+						<int Name="MaxParticles" Value="100"/>
+						<int Name="ParticlesPerSecond" Value="20"/>
+						<range Name="ParticleLife" Value="1.6 1.6"/>
+						<range Name="ParticleSpeed" Value="7.5 7.5"/>
+						<float Name="ParticleSize" Value="2"/>
+						<vec3D Name="Direction" Value="0 0 -1"/>
+						<vec3D Name="Gravity" Value="0 0 0"/>
+						<aabb3D Name="EmitBox" Value="-0.05 -0.05 -0.05 0.05 0.05 0.05"/>
+						<float Name="ActiveTime" Value="-1"/>
+						<enum Name="EmitType" Value="2"/>
+						<enum Name="ParticleShape" Value="0"/>
+						<float Name="ConeAngle" Value="30"/>
+						<float Name="SparkFactor" Value="1"/>
+						<enum Name="SizeFunc" Value="1"/>
+						<float Name="SizeFuncFactor" Value="4"/>
+						<bool Name="ApplyWorldTransform" Value="0"/>
+						<bool Name="InstancedRendering" Value="0"/>
+					</Properties>
+					<Components>
+						<ref Name="" ClassName="GraphicComponent">
+							<uint Name="ID" Value="3731d027"/>
+							<string Name="Name" Value=""/>
+							<uint Name="RenderingPriority" Value="0"/>
+							<enum Name="RenderingPass" Value="8"/>
+							<bool Name="ShadowCaster" Value="0"/>
+							<array Name="Materials">
+								<ref ClassName="Material">
+									<uint Name="ID" Value="35d5a7d"/>
+									<string Name="Name" Value=""/>
+									<struct Name="CreationInfo">
+										<bool Name="AlphaBlending" Value="1"/>
+										<enum Name="SrcBlendFactor" Value="4"/>
+										<enum Name="DestBlendFactor" Value="1"/>
+										<enum Name="CullMode" Value="1"/>
+										<color Name="Color" Value="1 1 1"/>
+										<float Name="Alpha" Value="1"/>
+										<array Name="Textures">
+											<ref TemplatePath="common/tex/Explosion.xml"/>
+											<ref TemplatePath="ingame/tex/Fire2.xml"/>
+										</array>
+										<ref Name="Shader" TemplatePath="common/shaders/fire.xml"/>
+										<bool Name="UseTextureRenderTarget" Value="0"/>
+										<array Name="ShaderParams"/>
+									</struct>
+								</ref>
+							</array>
+						</ref>
+					</Components>
+				</ParticleGenerator>
+				<ParticleGenerator>
+					<Properties>
+						<uint Name="ID" Value="4cfe8328"/>
+						<string Name="Name" Value="Tiny"/>
+						<bool Name="Visible" Value="1"/>
+						<bool Name="Enabled" Value="1"/>
+						<vec3D Name="Position" Value="0 0 0"/>
+						<vec3D Name="Rotation" Value="0 0 0"/>
+						<vec3D Name="Scale" Value="1 1 1"/>
+						<vec3D Name="Center" Value="0 0 0"/>
+						<bool Name="AlwaysActive" Value="0"/>
+						<int Name="MaxParticles" Value="200"/>
+						<int Name="ParticlesPerSecond" Value="30"/>
+						<range Name="ParticleLife" Value="0.6 0.6"/>
+						<range Name="ParticleSpeed" Value="3 3"/>
+						<float Name="ParticleSize" Value="0.3"/>
+						<vec3D Name="Direction" Value="0 1 0"/>
+						<vec3D Name="Gravity" Value="0 0 0"/>
+						<aabb3D Name="EmitBox" Value="-0.1 -0.1 -0.1 0.1 0.1 0.1"/>
+						<float Name="ActiveTime" Value="-1"/>
+						<enum Name="EmitType" Value="1"/>
+						<enum Name="ParticleShape" Value="0"/>
+						<float Name="ConeAngle" Value="45"/>
+						<float Name="SparkFactor" Value="1"/>
+						<enum Name="SizeFunc" Value="1"/>
+						<float Name="SizeFuncFactor" Value="2"/>
+						<bool Name="ApplyWorldTransform" Value="0"/>
+						<bool Name="InstancedRendering" Value="0"/>
+					</Properties>
+					<Components>
+						<ref Name="" ClassName="GraphicComponent">
+							<uint Name="ID" Value="d389027f"/>
+							<string Name="Name" Value=""/>
+							<uint Name="RenderingPriority" Value="0"/>
+							<enum Name="RenderingPass" Value="2"/>
+							<bool Name="ShadowCaster" Value="0"/>
+							<array Name="Materials">
+								<ref ClassName="Material">
+									<uint Name="ID" Value="35d5a7d"/>
+									<string Name="Name" Value=""/>
+									<struct Name="CreationInfo">
+										<bool Name="AlphaBlending" Value="1"/>
+										<enum Name="SrcBlendFactor" Value="4"/>
+										<enum Name="DestBlendFactor" Value="1"/>
+										<enum Name="CullMode" Value="1"/>
+										<color Name="Color" Value="1 1 1"/>
+										<float Name="Alpha" Value="1"/>
+										<array Name="Textures">
+											<ref TemplatePath="common/tex/Explosion.xml"/>
+										</array>
+										<ref Name="Shader" TemplatePath="common/shaders/tex_col.xml"/>
+										<bool Name="UseTextureRenderTarget" Value="0"/>
+										<array Name="ShaderParams"/>
+									</struct>
+								</ref>
+							</array>
+						</ref>
+					</Components>
+				</ParticleGenerator>
+			</Entity3D>
+		</SubMesh>
+	</MeshEntity>
+	<MeshEntity TemplatePath="ingame/flamegroundflash.xml"/>
+</FlameTower>
+

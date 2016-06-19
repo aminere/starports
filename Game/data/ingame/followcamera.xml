@@ -1,0 +1,30 @@
+<FollowCamera>
+	<Properties>
+		<uint Name="ID" Value="94f1275f"/>
+		<string Name="Name" Value="FollowCamera"/>
+		<bool Name="Visible" Value="1"/>
+		<bool Name="Enabled" Value="0"/>
+		<vec3D Name="Position" Value="0 -6 12"/>
+		<vec3D Name="Rotation" Value="0 0 0"/>
+		<vec3D Name="Scale" Value="1 1 1"/>
+		<vec3D Name="Center" Value="0 0 0"/>
+		<bool Name="AlwaysActive" Value="0"/>
+		<float Name="FOV" Value="48"/>
+		<float Name="ZNear" Value="0.5"/>
+		<float Name="ZFar" Value="300"/>
+		<enum Name="Projection" Value="0"/>
+		<vec3D Name="LookAt" Value="0 0 0"/>
+		<size Name="TargetResolution" Value="960 640"/>
+		<vec2D Name="OrthoSize" Value="2 2"/>
+		<float Name="FollowDuration" Value="0.5"/>
+		<float Name="PosBackOffset" Value="6"/>
+		<float Name="PosHeightOffset" Value="10"/>
+		<float Name="LookAtOffset" Value="10"/>
+		<float Name="MissileFollowDuration" Value="0.25"/>
+		<float Name="MissilePosBackOffset" Value="-10"/>
+		<float Name="MissilePosHeightOffset" Value="-2"/>
+		<float Name="MissileLookAtOffset" Value="4"/>
+		<float Name="MissilePosBackOffsetDescent" Value="3"/>
+	</Properties>
+</FollowCamera>
+

@@ -1,0 +1,99 @@
+<ExplosionVisitor>
+  <float Name="Intensity" Value="-1" />
+  <float Name="Duration" Value="-1" />
+  <bool Name="DepthTest" Value="0" />
+  <ref Name="Mesh" TemplatePath="ingame/gun/Gun_LV1.xml" />
+  <array Name="ChunkGroups">
+    <struct>
+      <array Name="Chunks">
+        <struct>
+          <array Name="Triangles">
+            <uint Value="3d" />
+            <uint Value="11" />
+            <uint Value="3e" />
+            <uint Value="1" />
+            <uint Value="1c" />
+            <uint Value="1b" />
+            <uint Value="1fa" />
+            <uint Value="1eb" />
+            <uint Value="1ff" />
+            <uint Value="0" />
+            <uint Value="2ac" />
+            <uint Value="d" />
+            <uint Value="40" />
+            <uint Value="3f" />
+            <uint Value="2ab" />
+            <uint Value="48" />
+            <uint Value="47" />
+          </array>
+        </struct>
+        <struct>
+          <array Name="Triangles">
+            <uint Value="127" />
+            <uint Value="128" />
+            <uint Value="111" />
+            <uint Value="10b" />
+            <uint Value="10c" />
+            <uint Value="115" />
+            <uint Value="114" />
+            <uint Value="112" />
+            <uint Value="14a" />
+            <uint Value="149" />
+          </array>
+        </struct>
+        <struct>
+          <array Name="Triangles">
+            <uint Value="36" />
+            <uint Value="5a" />
+            <uint Value="35" />
+            <uint Value="79" />
+            <uint Value="7a" />
+            <uint Value="66" />
+            <uint Value="67" />
+            <uint Value="65" />
+            <uint Value="37" />
+            <uint Value="38" />
+            <uint Value="71" />
+            <uint Value="74" />
+            <uint Value="73" />
+            <uint Value="72" />
+          </array>
+        </struct>
+        <struct>
+          <array Name="Triangles">
+            <uint Value="d6" />
+            <uint Value="d8" />
+            <uint Value="ff" />
+            <uint Value="101" />
+          </array>
+        </struct>
+      </array>
+    </struct>
+    <struct>
+      <array Name="Chunks">
+        <struct>
+          <array Name="Triangles">
+            <uint Value="0" />
+            <uint Value="12" />
+            <uint Value="13" />
+            <uint Value="4" />
+            <uint Value="5" />
+            <uint Value="a" />
+            <uint Value="b" />
+          </array>
+        </struct>
+        <struct>
+          <array Name="Triangles">
+            <uint Value="3" />
+            <uint Value="2" />
+            <uint Value="1a" />
+            <uint Value="1b" />
+            <uint Value="1" />
+            <uint Value="23" />
+            <uint Value="22" />
+          </array>
+        </struct>
+      </array>
+    </struct>
+  </array>
+</ExplosionVisitor>

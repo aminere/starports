@@ -1,0 +1,744 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release Editor|ARM">
+      <Configuration>Release Editor</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release Editor|Win32">
+      <Configuration>Release Editor</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release Editor|x64">
+      <Configuration>Release Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{18CA3F84-75A7-43C4-8388-34C2E384C80F}</ProjectGuid>
+    <RootNamespace>shoot</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Editor|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Editor|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Editor|ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release Editor|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release Editor|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release Editor|ARM'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.50727.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\$(ProjectName)\</IntDir>
+    <TargetName>$(ProjectName)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <TargetName>$(ProjectName)</TargetName>
+    <IntDir>$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <OutDir>$(Platform)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <TargetName>$(ProjectName)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Editor|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\$(ProjectName)\</IntDir>
+    <TargetName>$(ProjectName)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Editor|x64'">
+    <TargetName>$(ProjectName)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Editor|ARM'">
+    <TargetName>$(ProjectName)</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <AdditionalIncludeDirectories>.\..\..\include;.\..\..\utils\cricket\inc;.\..\..\..\extern\freetype\include;.\..\..\include\OpenGL;.\..\..\include\DX11;.\..\..\include\rapidxml;.\..\..\..\extern\SDL-1.2.14\include;.\..\..\src\zlib;.\..\..\src\libpng;.\..\..\src\;.\..\..\..\extern\FBXSDK\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MinimalRebuild>true</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Shoot.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAsWinRT>false</CompileAsWinRT>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <LinkTimeCodeGeneration>true</LinkTimeCodeGeneration>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <AdditionalIncludeDirectories>.\..\..\include;.\..\..\utils\cricket\inc;.\..\..\..\extern\freetype\include;.\..\..\include\OpenGL;.\..\..\include\DX11;.\..\..\include\rapidxml;.\..\..\..\extern\SDL\include;.\..\..\src\zlib;.\..\..\src\libpng;.\..\..\src\;.\..\..\..\extern\FBXSDK\include;.\..\..\..\extern\FreeImage\Dist\x64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Shoot.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAsWinRT>false</CompileAsWinRT>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <LinkTimeCodeGeneration>true</LinkTimeCodeGeneration>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <AdditionalIncludeDirectories>.\..\..\include;.\..\..\utils\cricket\inc;.\..\..\include\OpenGL;.\..\..\include\DX11;.\..\..\include\tinyxml;.\..\..\..\extern\SDL-1.2.14\include;.\..\..\..\extern\SDL_mixer-1.2.11\include;.\..\..\src\zlib;.\..\..\src\libpng;.\..\..\src\;.\..\..\..\extern\FBXSDK\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MinimalRebuild>true</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Shoot.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAsWinRT>false</CompileAsWinRT>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release Editor|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <AdditionalIncludeDirectories>.\..\..\include;.\..\..\utils\cricket\inc;.\..\..\..\extern\freetype\include;.\..\..\include\OpenGL;.\..\..\include\DX11;.\..\..\include\rapidxml;.\..\..\..\extern\SDL\include;.\..\..\src\zlib;.\..\..\src\libpng;.\..\..\src\;.\..\..\..\extern\FBXSDK\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;SHOOT_EDITOR;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Shoot.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAsWinRT>false</CompileAsWinRT>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release Editor|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <AdditionalIncludeDirectories>.\..\..\include;.\..\..\utils\cricket\inc;.\..\..\..\extern\freetype\include;.\..\..\include\OpenGL;.\..\..\include\DX11;.\..\..\include\rapidxml;.\..\..\..\extern\SDL\include;.\..\..\src\zlib;.\..\..\src\libpng;.\..\..\src\;.\..\..\..\extern\FBXSDK\include;.\..\..\..\extern\FreeImage\Dist\x64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;SHOOT_EDITOR;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Shoot.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAsWinRT>false</CompileAsWinRT>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release Editor|ARM'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <AdditionalIncludeDirectories>.\..\..\include;.\..\..\utils\cricket\inc;.\..\..\include\OpenGL;.\..\..\include\DX11;.\..\..\include\tinyxml;.\..\..\..\extern\SDL-1.2.14\include;.\..\..\..\extern\SDL_mixer-1.2.11\include;.\..\..\src\zlib;.\..\..\src\libpng;.\..\..\src\;.\..\..\..\extern\FBXSDK\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;SHOOT_EDITOR;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Shoot.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAsWinRT>false</CompileAsWinRT>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\App.cpp" />
+    <ClCompile Include="..\..\src\AppSDL.cpp" />
+    <ClCompile Include="..\..\src\AudioDriver.cpp" />
+    <ClCompile Include="..\..\src\Basis3.cpp" />
+    <ClCompile Include="..\..\src\Button.cpp" />
+    <ClCompile Include="..\..\src\CameraSpectator.cpp" />
+    <ClCompile Include="..\..\src\DX11\COMReference.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release Editor|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release Editor|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DX11\DirectX11Driver.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release Editor|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release Editor|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DX11\GamepadDX11.cpp" />
+    <ClCompile Include="..\..\src\DX11\ShaderDX11.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release Editor|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release Editor|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DX11\SkyBoxVertexBufferNoCubemapDX11.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release Editor|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release Editor|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DX11\TextureDX11.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release Editor|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release Editor|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DX11\VertexBufferDX11.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release Editor|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release Editor|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Effect.cpp" />
+    <ClCompile Include="..\..\src\EffectEntity.cpp" />
+    <ClCompile Include="..\..\src\Entity2D.cpp" />
+    <ClCompile Include="..\..\src\EntityRenderer3D.cpp" />
+    <ClCompile Include="..\..\src\EntityRendererFull.cpp" />
+    <ClCompile Include="..\..\src\EntityVisitor.cpp" />
+    <ClCompile Include="..\..\src\FadeRenderer.cpp" />
+    <ClCompile Include="..\..\src\FadeVisitor.cpp" />
+    <ClCompile Include="..\..\src\FBXMeshLoader.cpp" />
+    <ClCompile Include="..\..\src\FileAPK.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release Editor|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release Editor|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release Editor|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\src\FontManager.cpp" />
+    <ClCompile Include="..\..\src\Gamepad.cpp" />
+    <ClCompile Include="..\..\src\GraphicExtensionHandler.cpp" />
+    <ClCompile Include="..\..\src\GraphicObject.cpp" />
+    <ClCompile Include="..\..\src\Image.cpp" />
+    <ClCompile Include="..\..\src\InputManagerTouch.cpp" />
+    <ClCompile Include="..\..\src\InputRecorder.cpp" />
+    <ClCompile Include="..\..\src\LayoutComponent.cpp" />
+    <ClCompile Include="..\..\src\LightVisitor.cpp" />
+    <ClCompile Include="..\..\src\Line.cpp" />
+    <ClCompile Include="..\..\src\MaterialParameter.cpp" />
+    <ClCompile Include="..\..\src\MaterialVisitor.cpp" />
+    <ClCompile Include="..\..\src\MemoryTexture.cpp" />
+    <ClCompile Include="..\..\src\MenuRootContext.cpp" />
+    <ClCompile Include="..\..\src\Music.cpp" />
+    <ClCompile Include="..\..\src\MutexC11.cpp" />
+    <ClCompile Include="..\..\src\NetworkManager.cpp" />
+    <ClCompile Include="..\..\src\OpenGL\OpenGLDriverES2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release Editor|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release Editor|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release Editor|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\src\OpenGL\OpenGLExtensionHandlerES2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release Editor|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release Editor|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release Editor|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\src\OpenGL\OpenGLMemoryTexture.cpp" />
+    <ClCompile Include="..\..\src\OpenGL\OpenGLRenderTargetES2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release Editor|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release Editor|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release Editor|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\src\OpenGL\OpenGLVertexBufferInstanced.cpp" />
+    <ClCompile Include="..\..\src\OpenGL\OpenGLVertexBufferNoVAO.cpp" />
+    <ClCompile Include="..\..\src\OpenGL\SkyBoxVertexBufferNoCubemap.cpp" />
+    <ClCompile Include="..\..\src\OpenGL\SkyBoxVertexBufferNoCubemap_NoVAO.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release Editor|ARM'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release Editor|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release Editor|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ParticleVisitor.cpp" />
+    <ClCompile Include="..\..\src\pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Editor|ARM'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Editor|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Editor|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Projection.cpp" />
+    <ClCompile Include="..\..\src\RenderTarget.cpp" />
+    <ClCompile Include="..\..\src\Sound.cpp" />
+    <ClCompile Include="..\..\src\SoundBank.cpp" />
+    <ClCompile Include="..\..\src\Sprite.cpp" />
+    <ClCompile Include="..\..\src\Text.cpp" />
+    <ClCompile Include="..\..\src\Clock.cpp" />
+    <ClCompile Include="..\..\src\Color.cpp" />
+    <ClCompile Include="..\..\src\Context.cpp" />
+    <ClCompile Include="..\..\src\ContextStack.cpp" />
+    <ClCompile Include="..\..\src\Debug.cpp" />
+    <ClCompile Include="..\..\src\Engine.cpp" />
+    <ClCompile Include="..\..\src\Handle.cpp" />
+    <ClCompile Include="..\..\src\HighResTimer.cpp" />
+    <ClCompile Include="..\..\src\Mutex.cpp" />
+    <ClCompile Include="..\..\src\MutexPT.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release Editor|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release Editor|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release Editor|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\src\MutexSDL.cpp" />
+    <ClCompile Include="..\..\src\Object.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Editor|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Editor|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Editor|ARM'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ObjectFactory.cpp" />
+    <ClCompile Include="..\..\src\ObjectManager.cpp" />
+    <ClCompile Include="..\..\src\ProfileManager.cpp" />
+    <ClCompile Include="..\..\src\Reference.cpp" />
+    <ClCompile Include="..\..\src\Semaphore.cpp" />
+    <ClCompile Include="..\..\src\SemaphorePT.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release Editor|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release Editor|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release Editor|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SemaphoreSDL.cpp" />
+    <ClCompile Include="..\..\src\Text3D.cpp" />
+    <ClCompile Include="..\..\src\TextureAnimationVisitor.cpp" />
+    <ClCompile Include="..\..\src\Thread.cpp" />
+    <ClCompile Include="..\..\src\ThreadC11.cpp" />
+    <ClCompile Include="..\..\src\ThreadPT.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release Editor|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release Editor|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release Editor|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ThreadSDL.cpp" />
+    <ClCompile Include="..\..\src\TimeManager.cpp" />
+    <ClCompile Include="..\..\src\Timer.cpp" />
+    <ClCompile Include="..\..\src\ExtendedPropeties.cpp" />
+    <ClCompile Include="..\..\src\Property.cpp" />
+    <ClCompile Include="..\..\src\PropertyStream.cpp" />
+    <ClCompile Include="..\..\src\AABBox2D.cpp" />
+    <ClCompile Include="..\..\src\AABBox3D.cpp" />
+    <ClCompile Include="..\..\src\Frustum.cpp" />
+    <ClCompile Include="..\..\src\MathUtils.cpp" />
+    <ClCompile Include="..\..\src\Matrix44.cpp" />
+    <ClCompile Include="..\..\src\Plane.cpp" />
+    <ClCompile Include="..\..\src\Point.cpp" />
+    <ClCompile Include="..\..\src\Quaternion.cpp" />
+    <ClCompile Include="..\..\src\Random.cpp" />
+    <ClCompile Include="..\..\src\TrailEntity.cpp" />
+    <ClCompile Include="..\..\src\Triangle.cpp" />
+    <ClCompile Include="..\..\src\UISlider.cpp" />
+    <ClCompile Include="..\..\src\Vector2.cpp" />
+    <ClCompile Include="..\..\src\Vector3.cpp" />
+    <ClCompile Include="..\..\src\Vector4.cpp" />
+    <ClCompile Include="..\..\src\Component.cpp" />
+    <ClCompile Include="..\..\src\Entity.cpp" />
+    <ClCompile Include="..\..\src\EntityRenderer.cpp" />
+    <ClCompile Include="..\..\src\File.cpp" />
+    <ClCompile Include="..\..\src\FileFS.cpp" />
+    <ClCompile Include="..\..\src\FileLibC.cpp" />
+    <ClCompile Include="..\..\src\FileSystem.cpp" />
+    <ClCompile Include="..\..\src\InputManager.cpp" />
+    <ClCompile Include="..\..\src\InputManagerSDL.cpp" />
+    <ClCompile Include="..\..\src\Log.cpp" />
+    <ClCompile Include="..\..\src\BillBoardEntity.cpp" />
+    <ClCompile Include="..\..\src\Camera.cpp" />
+    <ClCompile Include="..\..\src\CameraPath.cpp" />
+    <ClCompile Include="..\..\src\CameraPathElement.cpp" />
+    <ClCompile Include="..\..\src\Entity3D.cpp" />
+    <ClCompile Include="..\..\src\MeshEntity.cpp" />
+    <ClCompile Include="..\..\src\Path.cpp" />
+    <ClCompile Include="..\..\src\PathElement.cpp" />
+    <ClCompile Include="..\..\src\QuadTree.cpp" />
+    <ClCompile Include="..\..\src\SkyBoxEntity.cpp" />
+    <ClCompile Include="..\..\src\ParticleGenerator.cpp" />
+    <ClCompile Include="..\..\src\FakeCubeMapTexture.cpp" />
+    <ClCompile Include="..\..\src\GeometryProvider.cpp" />
+    <ClCompile Include="..\..\src\GraphicComponent.cpp" />
+    <ClCompile Include="..\..\src\GraphicsDriver.cpp" />
+    <ClCompile Include="..\..\src\Light.cpp" />
+    <ClCompile Include="..\..\src\Material.cpp" />
+    <ClCompile Include="..\..\src\MaterialProvider.cpp" />
+    <ClCompile Include="..\..\src\RenderableEntity.cpp" />
+    <ClCompile Include="..\..\src\Shader.cpp" />
+    <ClCompile Include="..\..\src\ShaderParameter.cpp" />
+    <ClCompile Include="..\..\src\Texture.cpp" />
+    <ClCompile Include="..\..\src\VertexBuffer.cpp" />
+    <ClCompile Include="..\..\src\OpenGL\OpenGLDriver.cpp" />
+    <ClCompile Include="..\..\src\OpenGL\OpenGLExtensionHandler.cpp" />
+    <ClCompile Include="..\..\src\OpenGL\OpenGLExtensionHandlerWin32.cpp" />
+    <ClCompile Include="..\..\src\OpenGL\OpenGLRenderTarget.cpp" />
+    <ClCompile Include="..\..\src\OpenGL\OpenGLShader.cpp" />
+    <ClCompile Include="..\..\src\OpenGL\OpenGLTexture.cpp" />
+    <ClCompile Include="..\..\src\OpenGL\OpenGLVertexBuffer.cpp" />
+    <ClCompile Include="..\..\src\Utils.cpp" />
+    <ClCompile Include="..\..\src\CollisionComponent.cpp" />
+    <ClCompile Include="..\..\src\CollisionManager.cpp" />
+    <ClCompile Include="..\..\src\CollisionShape.cpp" />
+    <ClCompile Include="..\..\src\CollisionUtils.cpp" />
+    <ClCompile Include="..\..\src\Contact.cpp" />
+    <ClCompile Include="..\..\src\EnvironmentCollisionComponent.cpp" />
+    <ClCompile Include="..\..\src\RigidBodyComponent.cpp" />
+    <ClCompile Include="..\..\src\AnimationVisitor.cpp" />
+    <ClCompile Include="..\..\src\ColorVisitor.cpp" />
+    <ClCompile Include="..\..\src\LoadContextVisitor.cpp" />
+    <ClCompile Include="..\..\src\RemoveEntityVisitor.cpp" />
+    <ClCompile Include="..\..\src\Visitor.cpp" />
+    <ClCompile Include="..\..\src\Rotation2DVisitor.cpp" />
+    <ClCompile Include="..\..\src\Scale2DVisitor.cpp" />
+    <ClCompile Include="..\..\src\TextVisitor.cpp" />
+    <ClCompile Include="..\..\src\Translation2DVisitor.cpp" />
+    <ClCompile Include="..\..\src\CameraVisitor.cpp" />
+    <ClCompile Include="..\..\src\ExplosionVisitor.cpp" />
+    <ClCompile Include="..\..\src\FollowCameraPathVisitor.cpp" />
+    <ClCompile Include="..\..\src\FollowPathVisitor.cpp" />
+    <ClCompile Include="..\..\src\Rotation3DVisitor.cpp" />
+    <ClCompile Include="..\..\src\Scale3DVisitor.cpp" />
+    <ClCompile Include="..\..\src\Shake3DVisitor.cpp" />
+    <ClCompile Include="..\..\src\Translation3DVisitor.cpp" />
+    <ClCompile Include="..\..\src\CombineVisitor.cpp" />
+    <ClCompile Include="..\..\src\DelayVisitor.cpp" />
+    <ClCompile Include="..\..\src\ReceiveTriggerVisitor.cpp" />
+    <ClCompile Include="..\..\src\SendTriggerVisitor.cpp" />
+    <ClCompile Include="..\..\src\SequenceVisitor.cpp" />
+    <ClCompile Include="..\..\src\EditorEvents.cpp" />
+    <ClCompile Include="..\..\src\Event.cpp" />
+    <ClCompile Include="..\..\src\EventManager.cpp" />
+    <ClCompile Include="..\..\src\Alloc.cpp" />
+    <ClCompile Include="..\..\src\MemoryManager.cpp" />
+    <ClCompile Include="..\..\src\StatsManager.cpp" />
+    <ClCompile Include="..\..\src\CubeMapResource.cpp" />
+    <ClCompile Include="..\..\src\MeshResource.cpp" />
+    <ClCompile Include="..\..\src\PNGLoader.cpp" />
+    <ClCompile Include="..\..\src\Resource.cpp" />
+    <ClCompile Include="..\..\src\ResourceManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\App.h" />
+    <ClInclude Include="..\..\include\AppSDL.h" />
+    <ClInclude Include="..\..\include\Array.h" />
+    <ClInclude Include="..\..\include\AudioDriver.h" />
+    <ClInclude Include="..\..\include\Basis3.h" />
+    <ClInclude Include="..\..\include\Button.h" />
+    <ClInclude Include="..\..\include\CameraSpectator.h" />
+    <ClInclude Include="..\..\include\Clock.h" />
+    <ClInclude Include="..\..\include\Context.h" />
+    <ClInclude Include="..\..\include\ContextStack.h" />
+    <ClInclude Include="..\..\include\cpplinq.hpp" />
+    <ClInclude Include="..\..\include\Debug.h" />
+    <ClInclude Include="..\..\include\DX11\COMReference.h" />
+    <ClInclude Include="..\..\include\DX11\DirectX11Driver.h" />
+    <ClInclude Include="..\..\include\DX11\GamepadDX11.h" />
+    <ClInclude Include="..\..\include\DX11\ShaderDX11.h" />
+    <ClInclude Include="..\..\include\DX11\SkyBoxVertexBufferNoCubemapDX11.h" />
+    <ClInclude Include="..\..\include\DX11\TextureDX11.h" />
+    <ClInclude Include="..\..\include\DX11\VertexBufferDX11.h" />
+    <ClInclude Include="..\..\include\Effect.h" />
+    <ClInclude Include="..\..\include\EffectEntity.h" />
+    <ClInclude Include="..\..\include\Engine.h" />
+    <ClInclude Include="..\..\include\EntityRenderer3D.h" />
+    <ClInclude Include="..\..\include\EntityRendererFull.h" />
+    <ClInclude Include="..\..\include\EntityVisitor.h" />
+    <ClInclude Include="..\..\include\FadeRenderer.h" />
+    <ClInclude Include="..\..\include\FadeVisitor.h" />
+    <ClInclude Include="..\..\include\FBXMeshLoader.h" />
+    <ClInclude Include="..\..\include\FileAPK.h" />
+    <ClInclude Include="..\..\include\FontManager.h" />
+    <ClInclude Include="..\..\include\Gamepad.h" />
+    <ClInclude Include="..\..\include\GraphicObject.h" />
+    <ClInclude Include="..\..\include\Handle.h" />
+    <ClInclude Include="..\..\include\HighResTimer.h" />
+    <ClInclude Include="..\..\include\InputManagerTouch.h" />
+    <ClInclude Include="..\..\include\InputRecorder.h" />
+    <ClInclude Include="..\..\include\LayoutComponent.h" />
+    <ClInclude Include="..\..\include\LightVisitor.h" />
+    <ClInclude Include="..\..\include\Line.h" />
+    <ClInclude Include="..\..\include\MaterialParameter.h" />
+    <ClInclude Include="..\..\include\MaterialVisitor.h" />
+    <ClInclude Include="..\..\include\MemoryTexture.h" />
+    <ClInclude Include="..\..\include\MenuRootContext.h" />
+    <ClInclude Include="..\..\include\Music.h" />
+    <ClInclude Include="..\..\include\Mutex.h" />
+    <ClInclude Include="..\..\include\MutexC11.h" />
+    <ClInclude Include="..\..\include\MutexPT.h" />
+    <ClInclude Include="..\..\include\MutexSDL.h" />
+    <ClInclude Include="..\..\include\NetResult.h" />
+    <ClInclude Include="..\..\include\NetworkManager.h" />
+    <ClInclude Include="..\..\include\Object.h" />
+    <ClInclude Include="..\..\include\ObjectFactory.h" />
+    <ClInclude Include="..\..\include\ObjectManager.h" />
+    <ClInclude Include="..\..\include\OpenGL\OpenGLDriverES2.h" />
+    <ClInclude Include="..\..\include\OpenGL\OpenGLExtensionHandlerES2.h" />
+    <ClInclude Include="..\..\include\OpenGL\OpenGLMemoryTexture.h" />
+    <ClInclude Include="..\..\include\OpenGL\OpenGLRenderTargetES2.h" />
+    <ClInclude Include="..\..\include\OpenGL\OpenGLVertexBufferInstanced.h" />
+    <ClInclude Include="..\..\include\OpenGL\OpenGLVertexBufferNoVAO.h" />
+    <ClInclude Include="..\..\include\OpenGL\SkyBoxVertexBufferNoCubemap_NoVAO.h" />
+    <ClInclude Include="..\..\include\ParticleVisitor.h" />
+    <ClInclude Include="..\..\include\ProfileManager.h" />
+    <ClInclude Include="..\..\include\Projection.h" />
+    <ClInclude Include="..\..\include\ProjectionTypes.h" />
+    <ClInclude Include="..\..\include\PropertyTypes.h" />
+    <ClInclude Include="..\..\include\RandomPool.h" />
+    <ClInclude Include="..\..\include\rapidxml\rapidxml.hpp" />
+    <ClInclude Include="..\..\include\rapidxml\rapidxml_iterators.hpp" />
+    <ClInclude Include="..\..\include\rapidxml\rapidxml_print.hpp" />
+    <ClInclude Include="..\..\include\rapidxml\rapidxml_utils.hpp" />
+    <ClInclude Include="..\..\include\Reference.h" />
+    <ClInclude Include="..\..\include\RenderTarget.h" />
+    <ClInclude Include="..\..\include\SemaphorePT.h" />
+    <ClInclude Include="..\..\include\SemaphoreSDL.h" />
+    <ClInclude Include="..\..\include\Shoot.h" />
+    <ClInclude Include="..\..\include\Singleton.h" />
+    <ClInclude Include="..\..\include\Sound.h" />
+    <ClInclude Include="..\..\include\SoundBank.h" />
+    <ClInclude Include="..\..\include\SSemaphore.h" />
+    <ClInclude Include="..\..\include\Text3D.h" />
+    <ClInclude Include="..\..\include\TextureAnimationVisitor.h" />
+    <ClInclude Include="..\..\include\Thread.h" />
+    <ClInclude Include="..\..\include\ThreadC11.h" />
+    <ClInclude Include="..\..\include\ThreadPT.h" />
+    <ClInclude Include="..\..\include\ThreadSDL.h" />
+    <ClInclude Include="..\..\include\TimeManager.h" />
+    <ClInclude Include="..\..\include\Timer.h" />
+    <ClInclude Include="..\..\include\AABBox2D.h" />
+    <ClInclude Include="..\..\include\AABBox3D.h" />
+    <ClInclude Include="..\..\include\Frustum.h" />
+    <ClInclude Include="..\..\include\MathUtils.h" />
+    <ClInclude Include="..\..\include\Matrix44.h" />
+    <ClInclude Include="..\..\include\Plane.h" />
+    <ClInclude Include="..\..\include\Point.h" />
+    <ClInclude Include="..\..\include\Quaternion.h" />
+    <ClInclude Include="..\..\include\Random.h" />
+    <ClInclude Include="..\..\include\Range.h" />
+    <ClInclude Include="..\..\include\Size.h" />
+    <ClInclude Include="..\..\include\TrailEntity.h" />
+    <ClInclude Include="..\..\include\Triangle.h" />
+    <ClInclude Include="..\..\include\UISlider.h" />
+    <ClInclude Include="..\..\include\Vector2.h" />
+    <ClInclude Include="..\..\include\Vector3.h" />
+    <ClInclude Include="..\..\include\Vector4.h" />
+    <ClInclude Include="..\..\include\Entity2D.h" />
+    <ClInclude Include="..\..\include\Image.h" />
+    <ClInclude Include="..\..\include\Sprite.h" />
+    <ClInclude Include="..\..\include\Text.h" />
+    <ClInclude Include="..\..\include\ExtendedProperties.h" />
+    <ClInclude Include="..\..\include\Property.h" />
+    <ClInclude Include="..\..\include\PropertyStream.h" />
+    <ClInclude Include="..\..\include\Component.h" />
+    <ClInclude Include="..\..\include\Entity.h" />
+    <ClInclude Include="..\..\include\EntityOperation.h" />
+    <ClInclude Include="..\..\include\EntityRenderer.h" />
+    <ClInclude Include="..\..\include\RenderableEntity.h" />
+    <ClInclude Include="..\..\include\RigidBodyComponent.h" />
+    <ClInclude Include="..\..\include\BillBoardEntity.h" />
+    <ClInclude Include="..\..\include\Camera.h" />
+    <ClInclude Include="..\..\include\CameraPath.h" />
+    <ClInclude Include="..\..\include\CameraPathElement.h" />
+    <ClInclude Include="..\..\include\Entity3D.h" />
+    <ClInclude Include="..\..\include\MeshEntity.h" />
+    <ClInclude Include="..\..\include\Path.h" />
+    <ClInclude Include="..\..\include\PathElement.h" />
+    <ClInclude Include="..\..\include\QuadTree.h" />
+    <ClInclude Include="..\..\include\SkyBoxEntity.h" />
+    <ClInclude Include="..\..\include\ParticleGenerator.h" />
+    <ClInclude Include="..\..\include\Color.h" />
+    <ClInclude Include="..\..\include\FakeCubeMapTexture.h" />
+    <ClInclude Include="..\..\include\GeometryProvider.h" />
+    <ClInclude Include="..\..\include\GraphicComponent.h" />
+    <ClInclude Include="..\..\include\GraphicsDriver.h" />
+    <ClInclude Include="..\..\include\Light.h" />
+    <ClInclude Include="..\..\include\Material.h" />
+    <ClInclude Include="..\..\include\MaterialProvider.h" />
+    <ClInclude Include="..\..\include\Shader.h" />
+    <ClInclude Include="..\..\include\ShaderParameter.h" />
+    <ClInclude Include="..\..\include\SkyBoxVertexBufferNoCubemap.h" />
+    <ClInclude Include="..\..\include\Texture.h" />
+    <ClInclude Include="..\..\include\Vertex3D.h" />
+    <ClInclude Include="..\..\include\VertexBuffer.h" />
+    <ClInclude Include="..\..\include\OpenGL\glext.h" />
+    <ClInclude Include="..\..\include\OpenGL\OpenGL.h" />
+    <ClInclude Include="..\..\include\OpenGL\OpenGLDriver.h" />
+    <ClInclude Include="..\..\include\OpenGL\OpenGLExtensionHandler.h" />
+    <ClInclude Include="..\..\include\OpenGL\OpenGLExtensionHandlerWin32.h" />
+    <ClInclude Include="..\..\include\OpenGL\OpenGLRenderTarget.h" />
+    <ClInclude Include="..\..\include\OpenGL\OpenGLShader.h" />
+    <ClInclude Include="..\..\include\OpenGL\OpenGLTexture.h" />
+    <ClInclude Include="..\..\include\OpenGL\OpenGLVertexBuffer.h" />
+    <ClInclude Include="..\..\include\Utils.h" />
+    <ClInclude Include="..\..\include\CollisionComponent.h" />
+    <ClInclude Include="..\..\include\CollisionManager.h" />
+    <ClInclude Include="..\..\include\CollisionShape.h" />
+    <ClInclude Include="..\..\include\CollisionUtils.h" />
+    <ClInclude Include="..\..\include\Contact.h" />
+    <ClInclude Include="..\..\include\EnvironmentCollisionComponent.h" />
+    <ClInclude Include="..\..\include\AnimationVisitor.h" />
+    <ClInclude Include="..\..\include\ColorVisitor.h" />
+    <ClInclude Include="..\..\include\LoadContextVisitor.h" />
+    <ClInclude Include="..\..\include\RemoveEntityVisitor.h" />
+    <ClInclude Include="..\..\include\Visitor.h" />
+    <ClInclude Include="..\..\include\VisitorListener.h" />
+    <ClInclude Include="..\..\include\Rotation2DVisitor.h" />
+    <ClInclude Include="..\..\include\Scale2DVisitor.h" />
+    <ClInclude Include="..\..\include\TextVisitor.h" />
+    <ClInclude Include="..\..\include\Translation2DVisitor.h" />
+    <ClInclude Include="..\..\include\CameraVisitor.h" />
+    <ClInclude Include="..\..\include\ExplosionVisitor.h" />
+    <ClInclude Include="..\..\include\FollowCameraPathVisitor.h" />
+    <ClInclude Include="..\..\include\FollowPathVisitor.h" />
+    <ClInclude Include="..\..\include\Rotation3DVisitor.h" />
+    <ClInclude Include="..\..\include\Scale3DVisitor.h" />
+    <ClInclude Include="..\..\include\Shake3DVisitor.h" />
+    <ClInclude Include="..\..\include\Translation3DVisitor.h" />
+    <ClInclude Include="..\..\include\CombineVisitor.h" />
+    <ClInclude Include="..\..\include\DelayVisitor.h" />
+    <ClInclude Include="..\..\include\ReceiveTriggerVisitor.h" />
+    <ClInclude Include="..\..\include\SendTriggerVisitor.h" />
+    <ClInclude Include="..\..\include\SequenceVisitor.h" />
+    <ClInclude Include="..\..\include\EditorEvents.h" />
+    <ClInclude Include="..\..\include\Event.h" />
+    <ClInclude Include="..\..\include\EventManager.h" />
+    <ClInclude Include="..\..\include\Alloc.h" />
+    <ClInclude Include="..\..\include\MemoryManager.h" />
+    <ClInclude Include="..\..\include\MemoryPool.h" />
+    <ClInclude Include="..\..\include\StatsManager.h" />
+    <ClInclude Include="..\..\include\CubeMapResource.h" />
+    <ClInclude Include="..\..\include\MeshResource.h" />
+    <ClInclude Include="..\..\include\PNGLoader.h" />
+    <ClInclude Include="..\..\include\Resource.h" />
+    <ClInclude Include="..\..\include\ResourceManager.h" />
+    <ClInclude Include="..\..\include\File.h" />
+    <ClInclude Include="..\..\include\FileFS.h" />
+    <ClInclude Include="..\..\include\FileLibC.h" />
+    <ClInclude Include="..\..\include\FileSystem.h" />
+    <ClInclude Include="..\..\include\InputManager.h" />
+    <ClInclude Include="..\..\include\InputManagerSDL.h" />
+    <ClInclude Include="..\..\include\Log.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="libpng.vcxproj">
+      <Project>{145e8c22-bfc3-45a7-a30d-f88d61c8bf11}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,19 @@
+
+precision mediump float;
+uniform sampler2D uTexture0; // diffuse
+uniform vec4 uAmbientColor;
+uniform vec4 uFogColor;
+
+varying vec2 vTexCoord;
+varying vec3 vVertPos;
+
+void main()
+{	
+	vec4 texColor = texture2D(uTexture0, vTexCoord);	
+	
+	float maxHeight = 100.0;
+	float minHeight = 0.0;
+	float fogHeightFactor = 1.0-((clamp(vVertPos.z, minHeight, maxHeight)-minHeight)/(maxHeight-minHeight));	
+	float fogFactor = fogHeightFactor*fogHeightFactor;
+	gl_FragColor = (texColor * uAmbientColor * (1.0-fogFactor)) + (uFogColor*fogFactor);	
+}

@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{4042398f-0df5-4d2b-b5e1-7c5d60f7fc58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\wxProperties">
+      <UniqueIdentifier>{b9bd178c-79a9-4cd8-a9bc-e31ae31afa23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Helpers">
+      <UniqueIdentifier>{c15fdaec-ee20-4122-b0ef-42b57c26f22e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{57576e28-2eac-47d8-82cf-eb02497e7c79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\wxProperties">
+      <UniqueIdentifier>{a4c68689-d9b4-4304-966d-040bb4601cb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Helpers">
+      <UniqueIdentifier>{60d054c6-6030-4d9b-bcc9-16f3f0a872bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Controls">
+      <UniqueIdentifier>{dd619744-538a-4903-bc2a-56e3bef3df4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Controls">
+      <UniqueIdentifier>{abf2fa69-89fd-46b7-9d50-1a91e112619d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\EditorIDs.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\EditorSettings.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\EditorSettingsDialog.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\MainFrame.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\ShootEditor.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\ShootEditorCommon.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\ShootEditorEvents.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\PropertyLocator.h">
+      <Filter>include\wxProperties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\wxArrayProperty.h">
+      <Filter>include\wxProperties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\wxCommonProperties.h">
+      <Filter>include\wxProperties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\wxEventProperty.h">
+      <Filter>include\wxProperties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\wxLinkProperty.h">
+      <Filter>include\wxProperties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\wxReferenceProperty.h">
+      <Filter>include\wxProperties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\wxStructProperty.h">
+      <Filter>include\wxProperties</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Console.h">
+      <Filter>include\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\EntitySelector.h">
+      <Filter>include\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\MainTabControl.h">
+      <Filter>include\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\ObjectInspector.h">
+      <Filter>include\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\ObjectSelector.h">
+      <Filter>include\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\ObjectViewer.h">
+      <Filter>include\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\PropertyList.h">
+      <Filter>include\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\ResourceWindow.h">
+      <Filter>include\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\StatsViewer.h">
+      <Filter>include\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\TabContainer.h">
+      <Filter>include\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\TreeView.h">
+      <Filter>include\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\ViewPort.h">
+      <Filter>include\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\ViewPortContainer.h">
+      <Filter>include\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\CameraManager.h">
+      <Filter>include\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\EditorRenderer.h">
+      <Filter>include\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\EditorUtils.h">
+      <Filter>include\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Entity3DController.h">
+      <Filter>include\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\IconManager.h">
+      <Filter>include\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\MenuManager.h">
+      <Filter>include\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\ResourceWatcher.h">
+      <Filter>include\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\ToolbarManager.h">
+      <Filter>include\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\UndoManager.h">
+      <Filter>include\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DependencyViewer.h">
+      <Filter>include\Controls</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\EditorSettings.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\EditorSettingsDialog.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\MainFrame.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ShootEditor.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ShootEditorEvents.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\PropertyLocator.cpp">
+      <Filter>src\wxProperties</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\wxArrayProperty.cpp">
+      <Filter>src\wxProperties</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\wxCommonProperties.cpp">
+      <Filter>src\wxProperties</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\wxEventProperty.cpp">
+      <Filter>src\wxProperties</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\wxLinkProperty.cpp">
+      <Filter>src\wxProperties</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\wxReferenceProperty.cpp">
+      <Filter>src\wxProperties</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\wxStructProperty.cpp">
+      <Filter>src\wxProperties</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Console.cpp">
+      <Filter>src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\EntitySelector.cpp">
+      <Filter>src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\MainTabControl.cpp">
+      <Filter>src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ObjectInspector.cpp">
+      <Filter>src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ObjectSelector.cpp">
+      <Filter>src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ObjectViewer.cpp">
+      <Filter>src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\PropertyList.cpp">
+      <Filter>src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ResourceWindow.cpp">
+      <Filter>src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\StatsViewer.cpp">
+      <Filter>src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\TabContainer.cpp">
+      <Filter>src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\TreeView.cpp">
+      <Filter>src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ViewPort.cpp">
+      <Filter>src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ViewPortContainer.cpp">
+      <Filter>src\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\CameraManager.cpp">
+      <Filter>src\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\EditorRenderer.cpp">
+      <Filter>src\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\EditorUtils.cpp">
+      <Filter>src\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Entity3DController.cpp">
+      <Filter>src\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\IconManager.cpp">
+      <Filter>src\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\MenuManager.cpp">
+      <Filter>src\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ResourceWatcher.cpp">
+      <Filter>src\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ToolbarManager.cpp">
+      <Filter>src\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\UndoManager.cpp">
+      <Filter>src\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pch.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DependencyViewer.cpp">
+      <Filter>src\Controls</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

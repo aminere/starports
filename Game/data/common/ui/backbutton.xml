@@ -1,0 +1,64 @@
+<Button>
+	<Properties>
+		<uint Name="ID" Value="b9a53fbe"/>
+		<string Name="Name" Value="BackButton"/>
+		<bool Name="Visible" Value="1"/>
+		<bool Name="Enabled" Value="1"/>
+		<vec2D Name="Position" Value="44.2544 555.498"/>
+		<float Name="Rotation" Value="0"/>
+		<vec2D Name="Scale" Value="1 1"/>
+		<vec2D Name="Center" Value="0 0"/>
+		<aabb2D Name="BBox" Value="-10 -20 68 68"/>
+		<bool Name="HFlip" Value="0"/>
+		<bool Name="VFlip" Value="0"/>
+		<bool Name="UIEnabled" Value="1"/>
+		<string Name="Command" Value="BACK"/>
+		<bool Name="CheckBox" Value="0"/>
+		<bool Name="CustomBBox" Value="1"/>
+	</Properties>
+	<Image>
+		<Properties>
+			<uint Name="ID" Value="6580e590"/>
+			<string Name="Name" Value="BG"/>
+			<bool Name="Visible" Value="1"/>
+			<bool Name="Enabled" Value="1"/>
+			<vec2D Name="Position" Value="0 0"/>
+			<float Name="Rotation" Value="0"/>
+			<vec2D Name="Scale" Value="1 1"/>
+			<vec2D Name="Center" Value="0 0"/>
+			<aabb2D Name="BBox" Value="0 0 48 48"/>
+			<bool Name="HFlip" Value="0"/>
+			<bool Name="VFlip" Value="0"/>
+		</Properties>
+		<Components>
+			<ref Name="" ClassName="GraphicComponent">
+				<uint Name="ID" Value="29fa7d6"/>
+				<string Name="Name" Value=""/>
+				<uint Name="RenderingPriority" Value="0"/>
+				<enum Name="RenderingPass" Value="4"/>
+				<bool Name="ShadowCaster" Value="0"/>
+				<array Name="Materials">
+					<ref ClassName="Material">
+						<uint Name="ID" Value="7aa30d5d"/>
+						<string Name="Name" Value=""/>
+						<struct Name="CreationInfo">
+							<bool Name="AlphaBlending" Value="1"/>
+							<enum Name="SrcBlendFactor" Value="4"/>
+							<enum Name="DestBlendFactor" Value="5"/>
+							<enum Name="CullMode" Value="1"/>
+							<color Name="Color" Value="1 1 1"/>
+							<float Name="Alpha" Value="1"/>
+							<array Name="Textures">
+								<ref TemplatePath="common/ui/IconBack.xml"/>
+							</array>
+							<ref Name="Shader" TemplatePath="common/shaders/tex.xml"/>
+							<bool Name="UseTextureRenderTarget" Value="0"/>
+							<array Name="ShaderParams"/>
+						</struct>
+					</ref>
+				</array>
+			</ref>
+		</Components>
+	</Image>
+</Button>
+

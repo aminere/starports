@@ -1,0 +1,24 @@
+<WheelMenu>
+	<Properties>
+		<uint Name="ID" Value="8062e68"/>
+		<string Name="Name" Value=""/>
+		<bool Name="Visible" Value="1"/>
+		<bool Name="Enabled" Value="1"/>
+		<vec2D Name="Position" Value="0 0"/>
+		<float Name="Rotation" Value="0"/>
+		<vec2D Name="Scale" Value="1 1"/>
+		<vec2D Name="Center" Value="0 0"/>
+		<aabb2D Name="BBox" Value="0 0 0 0"/>
+		<bool Name="HFlip" Value="0"/>
+		<bool Name="VFlip" Value="0"/>
+		<float Name="Radius" Value="120"/>
+		<float Name="AnimDuration" Value="0.25"/>
+		<float Name="AnimAngleOffset" Value="60"/>
+		<aabb2D Name="ScreenBounds" Value="40 40 920 600"/>
+		<ref Name="SellIcon" TemplatePath="ingame/ui/IconSell.xml"/>
+		<ref Name="RepairIcon" TemplatePath="ingame/ui/IconRepair.xml"/>
+		<ref Name="NuclearLaunchIcon" TemplatePath="ingame/ui/IconMissile.xml"/>
+		<ref Name="ButtonRef" TemplatePath="ingame/ui/wheelbutton.xml"/>
+	</Properties>
+</WheelMenu>
+

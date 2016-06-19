@@ -1,0 +1,108 @@
+<ContextStack>
+	<Properties>
+		<uint Name="ID" Value="1a7010b7"/>
+		<string Name="Name" Value=""/>
+		<bool Name="Visible" Value="1"/>
+		<bool Name="Enabled" Value="1"/>
+	</Properties>
+	<MenuRootContext>
+		<Properties>
+			<uint Name="ID" Value="5ff424e0"/>
+			<string Name="Name" Value=""/>
+			<bool Name="Visible" Value="1"/>
+			<bool Name="Enabled" Value="1"/>
+			<ref Name="QuadTree" ClassName="QuadTree"/>
+			<bool Name="BlockUpdate" Value="0"/>
+			<bool Name="ReleaseOnSwitch" Value="1"/>
+			<array Name="PreloadedContexts">
+				<ref TemplatePath="menu/levelselectcontext.xml"/>
+				<ref TemplatePath="menu/iapcontext.xml"/>
+			</array>
+		</Properties>
+		<SkyBoxEntity>
+			<Properties>
+				<uint Name="ID" Value="f9101022"/>
+				<string Name="Name" Value=""/>
+				<bool Name="Visible" Value="1"/>
+				<bool Name="Enabled" Value="1"/>
+				<vec3D Name="Position" Value="0 0 0"/>
+				<vec3D Name="Rotation" Value="0 0 0"/>
+				<vec3D Name="Scale" Value="1 1 1"/>
+				<vec3D Name="Center" Value="0 0 0"/>
+				<bool Name="AlwaysActive" Value="1"/>
+				<ref Name="CubeMap" TemplatePath="redsky/planet.xml"/>
+			</Properties>
+			<Components>
+				<ref Name="" ClassName="GraphicComponent">
+					<uint Name="ID" Value="f6da2ade"/>
+					<string Name="Name" Value=""/>
+					<uint Name="RenderingPriority" Value="0"/>
+					<enum Name="RenderingPass" Value="0"/>
+					<bool Name="ShadowCaster" Value="0"/>
+					<array Name="Materials">
+						<ref ClassName="Material">
+							<uint Name="ID" Value="ed28422c"/>
+							<string Name="Name" Value=""/>
+							<struct Name="CreationInfo">
+								<bool Name="AlphaBlending" Value="0"/>
+								<enum Name="SrcBlendFactor" Value="4"/>
+								<enum Name="DestBlendFactor" Value="5"/>
+								<enum Name="CullMode" Value="1"/>
+								<color Name="Color" Value="1 1 1"/>
+								<float Name="Alpha" Value="1"/>
+								<array Name="Textures">
+									<ref ClassName="FakeCubeMapTexture">
+										<bool Name="MipMaps" Value="1"/>
+										<bool Name="32Bits" Value="0"/>
+									</ref>
+								</array>
+								<ref Name="Shader" TemplatePath="common/shaders/tex.xml"/>
+								<bool Name="UseTextureRenderTarget" Value="0"/>
+								<array Name="ShaderParams"/>
+							</struct>
+						</ref>
+					</array>
+				</ref>
+				<ref Name="" ClassName="Rotation3DVisitor">
+					<uint Name="ID" Value="a47f2050"/>
+					<string Name="Name" Value=""/>
+					<bool Name="AutoStart" Value="1"/>
+					<enum Name="PlaybackType" Value="2"/>
+					<int Name="MaxPlayCount" Value="-1"/>
+					<struct Name="Src">
+						<vec3D Name="Value" Value="0 0 0"/>
+						<enum Name="Type" Value="0"/>
+					</struct>
+					<struct Name="Dest">
+						<vec3D Name="Value" Value="0 0 -360"/>
+						<enum Name="Type" Value="0"/>
+					</struct>
+					<float Name="Duration" Value="300"/>
+					<bool Name="Randomize" Value="0"/>
+				</ref>
+			</Components>
+		</SkyBoxEntity>
+		<Camera>
+			<Properties>
+				<uint Name="ID" Value="80012843"/>
+				<string Name="Name" Value="Camera3D"/>
+				<bool Name="Visible" Value="1"/>
+				<bool Name="Enabled" Value="1"/>
+				<vec3D Name="Position" Value="0 -10 0"/>
+				<vec3D Name="Rotation" Value="0 0 0"/>
+				<vec3D Name="Scale" Value="1 1 1"/>
+				<vec3D Name="Center" Value="0 0 0"/>
+				<bool Name="AlwaysActive" Value="0"/>
+				<float Name="FOV" Value="45"/>
+				<float Name="ZNear" Value="0.5"/>
+				<float Name="ZFar" Value="300"/>
+				<enum Name="Projection" Value="0"/>
+				<vec3D Name="LookAt" Value="0 0 0"/>
+				<size Name="TargetResolution" Value="960 640"/>
+				<vec2D Name="OrthoSize" Value="2 2"/>
+			</Properties>
+		</Camera>
+	</MenuRootContext>
+	<MenuContext TemplatePath="menu/touchtostartcontext.xml"/>
+</ContextStack>
+

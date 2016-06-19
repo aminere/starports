@@ -1,0 +1,5 @@
+<MeshResource>	
+	<bool Name="Dynamic" Value="1" />
+	<bool Name="VertexNormals" Value="1" />
+	<string Name="MeshPath" Value="common/mesh/Kamikaze.fbx" />	
+</MeshResource>

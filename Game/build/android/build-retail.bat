@@ -1,0 +1,1 @@
+ndk-build SHOOT_RETAIL=1

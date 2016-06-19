@@ -1,0 +1,4060 @@
+<DataObject>
+	<file Name="ContextStack" Value="menu/tutorialflythrough.xml"/>
+	<vec2D Name="ScreenSize" Value="850 583"/>
+	<array Name="Datas">
+		<struct>
+			<float Name="Time" Value="0"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.017"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.034"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.051"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.067"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.084"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.1"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.117"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.133"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.15"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.166"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.182"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.198"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.214"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.231"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.247"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.264"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.28"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.297"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.313"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.329"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.346"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.362"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.379"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.395"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.412"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.428"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.445"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.461"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.477"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.494"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.51"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.526"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.542"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.559"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.576"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.593"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.609"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.626"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.642"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.659"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.675"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.692"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.708"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.725"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.741"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.757"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.774"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.79"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.806"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.822"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.838"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.854"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.87"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.887"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.903"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.919"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.935"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.951"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.968"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.984"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.016"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.032"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.048"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.064"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.08"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.096"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.112"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.128"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.145"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.161"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.177"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.193"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.21"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.227"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.243"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.26"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.276"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.292"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.308"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.324"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.34"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.356"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.372"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.388"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.405"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.421"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.437"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.453"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.469"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.486"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.502"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.519"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.535"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.551"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.567"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.583"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.6"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.617"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.633"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.65"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.667"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.683"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.699"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.716"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.733"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.749"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.765"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.781"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.798"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.814"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.831"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.847"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.863"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.879"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.895"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.911"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.928"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.944"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.961"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.977"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.994"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.01"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.026"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.042"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.058"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.075"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.091"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.107"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.123"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.139"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.155"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.171"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.187"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.203"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.219"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.235"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.251"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.267"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.283"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.299"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.315"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.331"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.347"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.363"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.379"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.395"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.411"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.427"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.443"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.459"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.475"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.491"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.507"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.523"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.539"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.555"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.571"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.587"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.604"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.62"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.637"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.653"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.669"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.685"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.701"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.717"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.733"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.749"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.766"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.782"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.798"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.814"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.831"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.848"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.864"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.881"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.897"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.913"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.929"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.945"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.961"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.978"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.995"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.012"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.028"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.044"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.061"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.077"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.093"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.11"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.127"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.143"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.159"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.175"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.191"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.208"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.224"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.241"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.258"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.274"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.291"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.307"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.324"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.34"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.356"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.373"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.39"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.406"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.423"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.439"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.455"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.471"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.487"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.503"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.52"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.536"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.553"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.57"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.586"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.603"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.619"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.635"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.651"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.667"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.683"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.699"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.715"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.731"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.747"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.763"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.779"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.795"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.812"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.828"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.844"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.861"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.877"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.893"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.909"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.925"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.941"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.957"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.973"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.989"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.005"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.021"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.037"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.053"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.069"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.085"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.101"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.117"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.134"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.15"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.167"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.184"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.201"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.217"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.233"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.249"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.265"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.281"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.297"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.314"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.33"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.347"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.363"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.38"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.396"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.412"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.428"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.445"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.461"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.478"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.494"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.511"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.528"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.544"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.561"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.577"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.593"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.609"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.625"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.641"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.658"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.674"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.69"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.706"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.722"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.739"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.755"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.771"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.787"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.803"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.819"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.835"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.851"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.867"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.884"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.9"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.916"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.932"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.948"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.964"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.98"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.996"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.012"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.028"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.045"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.061"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.07699"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.09299"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.10999"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.127"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.144"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.161"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.177"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.194"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.211"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.227"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.243"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.259"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.276"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.293"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.309"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.325"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.34099"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.358"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.37399"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.38999"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.40599"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.42299"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.43999"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.45599"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.47199"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.48799"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.50399"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.51999"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.53599"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.55199"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.56799"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.58499"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.60099"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.61799"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.63499"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.65199"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.66899"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.68499"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.70099"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.71699"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.73399"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.75099"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.76699"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.78399"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.80099"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.81799"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.83399"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.84999"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.86699"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.88299"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.89999"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.91599"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.93199"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.94799"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.96399"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.97999"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.99599"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.01299"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.02899"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.04499"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.06099"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.07699"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.09299"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.10899"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.12499"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.14099"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.15699"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.17299"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.18899"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.20499"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.22199"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.23799"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.25499"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.27099"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.28799"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.30399"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.32099"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.33699"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.35299"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.36999"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.38699"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.40399"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.41999"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.43599"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.45299"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.46899"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.48599"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.50299"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.51899"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.53499"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.55099"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.56799"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.58399"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.60099"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.61699"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.63299"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.64899"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.66499"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.68099"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.69799"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.71399"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.72999"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.74599"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.76199"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.77899"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.79499"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.81099"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.82699"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.84299"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.85899"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.87499"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.89199"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.90799"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.92399"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.94099"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.95799"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.97399"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.98999"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.00699"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.02299"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.03999"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.05599"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.07299"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.08999"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.10599"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.12299"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.13999"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.15599"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.17199"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.18799"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.20399"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.21999"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.23599"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.25199"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.26799"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.28399"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.29999"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.31599"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.33199"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.34799"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.36399"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.37998"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.39598"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.41198"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.42798"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.44398"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.45998"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.47598"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.49198"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.50798"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.52398"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.54098"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.55698"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.57298"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.58898"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.60498"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.62098"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.63698"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.65298"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.66898"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.68498"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.70198"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.71798"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.73498"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.75098"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.76698"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.78398"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.79998"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.81698"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.83398"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.84998"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.86698"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.88298"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.89998"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.91598"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.93198"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.94798"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.96398"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.97998"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.99598"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.01198"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.02798"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.04398"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.06098"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.07698"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.09298"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.10998"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.12598"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.14198"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.15798"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.17398"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.19098"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.20698"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.22298"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.23998"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.25698"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.27298"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.28898"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.30498"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.32198"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.33898"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.35498"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.37098"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.38698"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.40298"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.41898"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.43498"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.45198"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.46898"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.48598"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.50198"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.51798"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.53398"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.54998"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.56598"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.58198"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.59798"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.61398"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.62998"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.64598"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.66198"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.67798"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.69398"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.70998"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.72698"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.74298"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.75898"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.77497"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.79097"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.80697"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.82297"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.83897"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.85497"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.87097"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.88697"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.90297"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.91897"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.93497"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.95097"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.96697"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.98297"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.99897"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="9.01497"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="9.03097"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="9.04697"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="9.06297"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="9.07897"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="9.09497"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="9.11197"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="9.12797"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="9.14397"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="9.15997"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="9.17597"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="9.19197"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="9.20797"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="9.22397"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="9.23997"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="9.25597"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="9.27197"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="9.28797"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="9.30397"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="9.31997"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="9.33597"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="9.35197"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="9.36797"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="9.38397"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="9.40097"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="0 0"/>
+			<bool Name="leftPressed" Value="0"/>
+			<bool Name="rightPressed" Value="0"/>
+		</struct>
+	</array>
+</DataObject>
+

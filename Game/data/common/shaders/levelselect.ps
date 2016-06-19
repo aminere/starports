@@ -1,0 +1,24 @@
+
+precision mediump float;
+uniform sampler2D uTexture0; // diffuse
+uniform sampler2D uTexture1; // mask
+uniform vec4 uAmbientColor;
+
+varying vec2 vTexCoord;
+varying vec3 vNormal;
+varying float positionY;
+
+void main()
+{	
+	vec4 texColor = texture2D(uTexture0, vTexCoord);
+	vec4 maskColor = texture2D(uTexture1, vNormal.xy);
+	vec4 color = (texColor * uAmbientColor);
+		
+	//if(mod(positionY, 6.0) < 3.0)
+		//color.a = 0.6;	
+	
+	color.a *= maskColor.a;
+	//color.rgb = dot(color.rgb, vec3(0.2, 0.7, 0.1));
+	
+	gl_FragColor = color;
+}

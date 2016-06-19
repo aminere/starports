@@ -1,0 +1,99 @@
+<ExplosionVisitor>
+  <float Name="Intensity" Value="-1" />
+  <float Name="Duration" Value="-1" />
+  <bool Name="DepthTest" Value="0" />
+  <ref Name="Mesh" TemplatePath="ingame/flame/flamethrower1mesh.xml" />
+  <array Name="ChunkGroups">
+    <struct>
+      <array Name="Chunks">
+        <struct>
+          <array Name="Triangles">
+            <uint Value="22" />
+            <uint Value="23" />
+            <uint Value="f" />
+            <uint Value="15" />
+            <uint Value="14" />
+            <uint Value="12" />
+            <uint Value="13" />
+            <uint Value="e" />
+            <uint Value="20" />
+            <uint Value="21" />
+            <uint Value="33" />
+            <uint Value="34" />
+            <uint Value="32" />
+            <uint Value="35" />
+            <uint Value="10" />
+            <uint Value="17" />
+            <uint Value="11" />
+            <uint Value="25" />
+            <uint Value="24" />
+            <uint Value="37" />
+            <uint Value="36" />
+            <uint Value="8" />
+            <uint Value="9" />
+            <uint Value="a" />
+            <uint Value="b" />
+            <uint Value="c" />
+          </array>
+        </struct>
+        <struct>
+          <array Name="Triangles">
+            <uint Value="48" />
+            <uint Value="47" />
+            <uint Value="46" />
+            <uint Value="44" />
+            <uint Value="45" />
+          </array>
+        </struct>
+      </array>
+    </struct>
+    <struct>
+      <array Name="Chunks">
+        <struct>
+          <array Name="Triangles">
+            <uint Value="51" />
+            <uint Value="50" />
+            <uint Value="52" />
+            <uint Value="53" />
+            <uint Value="55" />
+            <uint Value="54" />
+            <uint Value="57" />
+            <uint Value="56" />
+          </array>
+        </struct>
+        <struct>
+          <array Name="Triangles">
+            <uint Value="58" />
+            <uint Value="59" />
+            <uint Value="5b" />
+            <uint Value="5a" />
+            <uint Value="4d" />
+            <uint Value="4c" />
+            <uint Value="4f" />
+            <uint Value="4e" />
+          </array>
+        </struct>
+        <struct>
+          <array Name="Triangles">
+            <uint Value="44" />
+            <uint Value="45" />
+            <uint Value="43" />
+            <uint Value="42" />
+            <uint Value="14e" />
+            <uint Value="147" />
+            <uint Value="146" />
+            <uint Value="14c" />
+            <uint Value="145" />
+            <uint Value="14d" />
+            <uint Value="144" />
+            <uint Value="150" />
+            <uint Value="149" />
+            <uint Value="148" />
+            <uint Value="41" />
+            <uint Value="40" />
+          </array>
+        </struct>
+      </array>
+    </struct>
+  </array>
+</ExplosionVisitor>

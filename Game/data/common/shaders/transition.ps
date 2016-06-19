@@ -1,0 +1,26 @@
+
+precision mediump float;
+
+uniform sampler2D uTexture0; // diffuse
+uniform int uTransitionOut;
+uniform float uProgress;
+uniform vec2 uResolution;
+uniform vec4 uAmbientColor;
+
+varying vec2 vTexCoord;
+
+void main()
+{
+  float revProgress = (1.0 - uProgress);
+  float distFromEdges = min(uProgress, revProgress+0.3);
+  float squareSize = (60.0 * distFromEdges) + 1.0;  
+  
+  vec2 fragCoord = vTexCoord * uResolution.xy;
+  vec2 p = (floor((fragCoord + squareSize * 0.5) / squareSize) * squareSize) / uResolution.xy;
+  vec4 source1 = vec4(texture2D(uTexture0, p).rgb, 1.0);
+  vec4 source2 = vec4(vec3(0.0), 1.0); 
+  vec4 fromColor = (uTransitionOut == 1) ? source1 : source2;
+  vec4 toColor = (uTransitionOut == 1) ? source2 : source1;
+  
+  gl_FragColor = mix(fromColor, toColor, uProgress) * uAmbientColor;
+}

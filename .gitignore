@@ -1,0 +1,6 @@
+Shoot/build/vc/x64/
+Game/build/vc/game/x64/
+ShootEditor/build/vc/x64/
+Game/DebugLog.txt
+*.sdf
+Game/build/vc/editor/x64/

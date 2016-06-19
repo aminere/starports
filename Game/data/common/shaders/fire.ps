@@ -1,0 +1,15 @@
+
+precision mediump float;
+uniform sampler2D uTexture0; // diffuse0
+uniform sampler2D uTexture1; // diffuse1, screen space UV
+
+varying vec4 vColor;
+varying vec2 vTexCoord;
+varying vec2 vScreenCoord;
+
+void main()
+{
+	vec4 texColor0 = texture2D(uTexture0, vTexCoord);
+	vec4 texColor1 = texture2D(uTexture1, vScreenCoord);
+	gl_FragColor = vColor * (texColor0 * texColor1);
+}

@@ -1,0 +1,141 @@
+<ExplosionVisitor>
+  <float Name="Intensity" Value="-1" />
+  <float Name="Duration" Value="-1" />
+  <bool Name="DepthTest" Value="0" />
+  <ref Name="Mesh" TemplatePath="ingame/mesh/KamikazeMesh.xml" />
+  <array Name="ChunkGroups">
+    <struct>
+      <array Name="Chunks">
+        <struct>
+          <array Name="Triangles">
+            <uint Value="86" />
+            <uint Value="81" />
+            <uint Value="80" />
+            <uint Value="84" />
+            <uint Value="83" />
+            <uint Value="88" />
+            <uint Value="8a" />
+            <uint Value="8c" />
+            <uint Value="8d" />
+            <uint Value="93" />
+            <uint Value="8f" />
+            <uint Value="91" />
+            <uint Value="94" />
+            <uint Value="92" />
+            <uint Value="90" />
+            <uint Value="8b" />
+            <uint Value="8e" />
+            <uint Value="89" />
+            <uint Value="87" />
+            <uint Value="85" />
+            <uint Value="82" />
+            <uint Value="7f" />
+            <uint Value="2be" />
+            <uint Value="2bf" />
+          </array>
+        </struct>
+        <struct>
+          <array Name="Triangles">
+            <uint Value="102" />
+            <uint Value="105" />
+            <uint Value="104" />
+            <uint Value="103" />
+            <uint Value="e5" />
+            <uint Value="e4" />
+            <uint Value="e3" />
+            <uint Value="e2" />
+            <uint Value="23" />
+            <uint Value="24" />
+            <uint Value="22" />
+            <uint Value="21" />
+            <uint Value="2bd" />
+            <uint Value="2bc" />
+            <uint Value="2b7" />
+            <uint Value="2b6" />
+            <uint Value="260" />
+            <uint Value="261" />
+            <uint Value="25e" />
+            <uint Value="25f" />
+            <uint Value="da" />
+            <uint Value="d8" />
+            <uint Value="db" />
+            <uint Value="d9" />
+          </array>
+        </struct>
+        <struct>
+          <array Name="Triangles">
+            <uint Value="2e" />
+            <uint Value="2c" />
+            <uint Value="2a" />
+            <uint Value="29" />
+            <uint Value="2b" />
+            <uint Value="28" />
+            <uint Value="27" />
+            <uint Value="2d" />
+            <uint Value="30" />
+            <uint Value="2f" />
+            <uint Value="32" />
+            <uint Value="31" />
+            <uint Value="34" />
+            <uint Value="33" />
+            <uint Value="36" />
+          </array>
+        </struct>
+        <struct>
+          <array Name="Triangles">
+            <uint Value="5c" />
+            <uint Value="5a" />
+            <uint Value="59" />
+            <uint Value="5b" />
+            <uint Value="2ca" />
+            <uint Value="2c9" />
+            <uint Value="57" />
+            <uint Value="58" />
+            <uint Value="56" />
+            <uint Value="55" />
+            <uint Value="51" />
+            <uint Value="53" />
+            <uint Value="54" />
+            <uint Value="4f" />
+            <uint Value="52" />
+          </array>
+        </struct>
+        <struct>
+          <array Name="Triangles">
+            <uint Value="2c3" />
+            <uint Value="2c2" />
+            <uint Value="b9" />
+            <uint Value="b8" />
+            <uint Value="b7" />
+            <uint Value="ba" />
+            <uint Value="b5" />
+            <uint Value="b6" />
+            <uint Value="b4" />
+            <uint Value="b3" />
+            <uint Value="b1" />
+            <uint Value="b2" />
+            <uint Value="af" />
+            <uint Value="b0" />
+            <uint Value="ae" />
+            <uint Value="29a" />
+            <uint Value="2a6" />
+            <uint Value="299" />
+            <uint Value="2a5" />
+            <uint Value="29b" />
+            <uint Value="29c" />
+            <uint Value="290" />
+            <uint Value="28f" />
+            <uint Value="298" />
+            <uint Value="297" />
+            <uint Value="292" />
+            <uint Value="291" />
+            <uint Value="263" />
+            <uint Value="264" />
+            <uint Value="262" />
+            <uint Value="2b1" />
+          </array>
+        </struct>
+      </array>
+    </struct>
+  </array>
+</ExplosionVisitor>

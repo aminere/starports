@@ -1,0 +1,38 @@
+
+precision mediump float;
+uniform sampler2D uTexture0; // diffuse
+uniform vec2 uPixelSize;
+uniform int uIsHorizontal;
+
+varying vec2 vTexCoord;
+
+void main()
+{	
+	vec4 color = vec4(0.0);
+	if(uIsHorizontal == 1)
+	{		
+		color += texture2D(uTexture0, vTexCoord + vec2(-uPixelSize.x*4.0, 0.0))*0.05;
+		color += texture2D(uTexture0, vTexCoord + vec2(-uPixelSize.x*3.0, 0.0))*0.05;
+		color += texture2D(uTexture0, vTexCoord + vec2(-uPixelSize.x*2.0, 0.0))*0.1;
+		color += texture2D(uTexture0, vTexCoord + vec2(-uPixelSize.x*1.0, 0.0))*0.2;
+		color += texture2D(uTexture0, vTexCoord + vec2(-uPixelSize.x*0.0, 0.0))*0.2;
+		color += texture2D(uTexture0, vTexCoord + vec2(uPixelSize.x*1.0, 0.0))*0.2;
+		color += texture2D(uTexture0, vTexCoord + vec2(uPixelSize.x*2.0, 0.0))*0.1;
+		color += texture2D(uTexture0, vTexCoord + vec2(uPixelSize.x*3.0, 0.0))*0.05;
+		color += texture2D(uTexture0, vTexCoord + vec2(uPixelSize.x*4.0, 0.0))*0.05;	
+						   
+	}					   
+	else				   
+	{					   
+		color += texture2D(uTexture0, vTexCoord + vec2(0.0, -uPixelSize.y*4.0))*0.05;
+		color += texture2D(uTexture0, vTexCoord + vec2(0.0, -uPixelSize.y*3.0))*0.05;
+		color += texture2D(uTexture0, vTexCoord + vec2(0.0, -uPixelSize.y*2.0))*0.1;
+		color += texture2D(uTexture0, vTexCoord + vec2(0.0, -uPixelSize.y*1.0))*0.2;
+		color += texture2D(uTexture0, vTexCoord + vec2(0.0, -uPixelSize.y*0.0))*0.2;
+		color += texture2D(uTexture0, vTexCoord + vec2(0.0, uPixelSize.y*1.0))*0.2;
+		color += texture2D(uTexture0, vTexCoord + vec2(0.0, uPixelSize.y*2.0))*0.1;
+		color += texture2D(uTexture0, vTexCoord + vec2(0.0, uPixelSize.y*3.0))*0.05;
+		color += texture2D(uTexture0, vTexCoord + vec2(0.0, uPixelSize.y*4.0))*0.05;		
+	}
+	gl_FragColor = vec4(color.rgb, 1.0);
+}

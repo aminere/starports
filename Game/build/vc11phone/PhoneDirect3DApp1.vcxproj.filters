@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Assets">
+      <UniqueIdentifier>17b52f90-9b33-4188-8a0e-808582bbabbc</UniqueIdentifier>
+      <Extensions>ico;bmp;dlg;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;resw;resjson</Extensions>
+    </Filter>
+    <Filter Include="Assets\audio">
+      <UniqueIdentifier>{e67fc995-a981-4d0f-9fae-e28a374f911c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\ApplicationIcon.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\AlignmentGrid.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Tiles\FlipCycleTileLarge.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Tiles\FlipCycleTileMedium.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Tiles\FlipCycleTileSmall.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Tiles\IconicTileMediumLarge.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Tiles\IconicTileSmall.png">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PhoneDirect3DApp1.cpp" />
+    <ClCompile Include="pch.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PhoneDirect3DApp1.h" />
+    <ClInclude Include="BasicTimer.h" />
+    <ClInclude Include="pch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="WMAppManifest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Hello.txt">
+      <Filter>Assets</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\..\data_dx11.fs">
+      <Filter>Assets</Filter>
+    </Media>
+    <Media Include="Assets\audio-0.ckb">
+      <Filter>Assets\audio</Filter>
+    </Media>
+    <Media Include="Assets\audio-aminor_metal.ogg">
+      <Filter>Assets\audio</Filter>
+    </Media>
+    <Media Include="Assets\audio-bminor_metal.ogg">
+      <Filter>Assets\audio</Filter>
+    </Media>
+    <Media Include="Assets\audio-boss.ckb">
+      <Filter>Assets\audio</Filter>
+    </Media>
+    <Media Include="Assets\audio-eminor_arpeggios.ogg">
+      <Filter>Assets\audio</Filter>
+    </Media>
+    <Media Include="Assets\audio-heavy-theme.ogg">
+      <Filter>Assets\audio</Filter>
+    </Media>
+    <Media Include="Assets\audio-intro.ogg">
+      <Filter>Assets\audio</Filter>
+    </Media>
+    <Media Include="Assets\audio-metal_theme_trailer.ogg">
+      <Filter>Assets\audio</Filter>
+    </Media>
+    <Media Include="Assets\audio-nu-metal.ogg">
+      <Filter>Assets\audio</Filter>
+    </Media>
+  </ItemGroup>
+</Project>

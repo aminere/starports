@@ -1,0 +1,5 @@
+<Shader>    
+	<array Name="Attributes">
+        <string Value="aPosition" />
+    </array>    
+</Shader>

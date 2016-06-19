@@ -1,0 +1,84 @@
+<AudioManager>
+	<Properties>
+		<uint Name="ID" Value="10a2f6ed"/>
+		<string Name="Name" Value=""/>
+		<bool Name="Visible" Value="1"/>
+		<bool Name="Enabled" Value="1"/>
+		<float Name="InGameMusicFactor" Value="0.7"/>
+		<array Name="SoundInfos">
+			<struct>
+				<enum Name="Sound" Value="0"/>
+				<file Name="Bank" Value="0.ckb"/>
+				<array Name="Names">
+					<string Value="Explosion1"/>
+					<string Value="Explosion2"/>
+					<string Value="Explosion3"/>
+				</array>
+			</struct>
+			<struct>
+				<enum Name="Sound" Value="1"/>
+				<file Name="Bank" Value="0.ckb"/>
+				<array Name="Names">
+					<string Value="ExplosionNuclear"/>
+				</array>
+			</struct>
+			<struct>
+				<enum Name="Sound" Value="2"/>
+				<file Name="Bank" Value="0.ckb"/>
+				<array Name="Names">
+					<string Value="WheelOpen"/>
+				</array>
+			</struct>
+			<struct>
+				<enum Name="Sound" Value="3"/>
+				<file Name="Bank" Value="0.ckb"/>
+				<array Name="Names">
+					<string Value="WheelClose"/>
+				</array>
+			</struct>
+			<struct>
+				<enum Name="Sound" Value="4"/>
+				<file Name="Bank" Value="0.ckb"/>
+				<array Name="Names">
+					<string Value="MachineGun"/>
+				</array>
+			</struct>
+			<struct>
+				<enum Name="Sound" Value="5"/>
+				<file Name="Bank" Value="0.ckb"/>
+				<array Name="Names">
+					<string Value="Electricity"/>
+				</array>
+			</struct>
+			<struct>
+				<enum Name="Sound" Value="6"/>
+				<file Name="Bank" Value="0.ckb"/>
+				<array Name="Names">
+					<string Value="FlameThrower"/>
+				</array>
+			</struct>
+			<struct>
+				<enum Name="Sound" Value="7"/>
+				<file Name="Bank" Value="0.ckb"/>
+				<array Name="Names">
+					<string Value="MissileLaunch"/>
+				</array>
+			</struct>
+			<struct>
+				<enum Name="Sound" Value="8"/>
+				<file Name="Bank" Value="0.ckb"/>
+				<array Name="Names">
+					<string Value="MetalRiff"/>
+				</array>
+			</struct>
+			<struct>
+				<enum Name="Sound" Value="9"/>
+				<file Name="Bank" Value="0.ckb"/>
+				<array Name="Names">
+					<string Value="EnemyPulse"/>
+				</array>
+			</struct>
+		</array>
+	</Properties>
+</AudioManager>
+

@@ -1,0 +1,77 @@
+<ExplosionVisitor>
+  <float Name="Intensity" Value="-1" />
+  <float Name="Duration" Value="-1" />
+  <bool Name="DepthTest" Value="0" />
+  <ref Name="Mesh" TemplatePath="ingame/mesh/BasicShooter.xml" />
+  <array Name="ChunkGroups">
+    <struct>
+      <array Name="Chunks">
+        <struct>
+          <array Name="Triangles">
+            <uint Value="1bd" />
+            <uint Value="1f1" />
+            <uint Value="1c9" />
+            <uint Value="14e" />
+            <uint Value="5b" />
+            <uint Value="6e" />
+            <uint Value="195" />
+            <uint Value="14d" />
+            <uint Value="194" />
+            <uint Value="162" />
+            <uint Value="16a" />
+            <uint Value="193" />
+            <uint Value="169" />
+            <uint Value="167" />
+            <uint Value="4e" />
+          </array>
+        </struct>
+        <struct>
+          <array Name="Triangles">
+            <uint Value="1ec" />
+            <uint Value="1f2" />
+            <uint Value="1f0" />
+            <uint Value="10c" />
+            <uint Value="9c" />
+            <uint Value="21" />
+            <uint Value="2c" />
+            <uint Value="23" />
+            <uint Value="36" />
+            <uint Value="9a" />
+            <uint Value="9b" />
+            <uint Value="fe" />
+            <uint Value="fd" />
+            <uint Value="22" />
+            <uint Value="1f" />
+            <uint Value="b9" />
+            <uint Value="b1" />
+            <uint Value="b8" />
+            <uint Value="bb" />
+            <uint Value="b4" />
+            <uint Value="e" />
+          </array>
+        </struct>
+        <struct>
+          <array Name="Triangles">
+            <uint Value="11d" />
+            <uint Value="1e6" />
+            <uint Value="1e7" />
+            <uint Value="122" />
+            <uint Value="11f" />
+            <uint Value="1e4" />
+            <uint Value="1e8" />
+            <uint Value="121" />
+            <uint Value="120" />
+            <uint Value="f0" />
+            <uint Value="11e" />
+            <uint Value="11c" />
+            <uint Value="1ea" />
+            <uint Value="1e9" />
+            <uint Value="1ac" />
+            <uint Value="1ab" />
+            <uint Value="1eb" />
+          </array>
+        </struct>
+      </array>
+    </struct>
+  </array>
+</ExplosionVisitor>

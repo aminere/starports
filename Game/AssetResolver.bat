@@ -1,0 +1,1 @@
+..\shoot\tools\AssetResolver\AssetResolver.exe

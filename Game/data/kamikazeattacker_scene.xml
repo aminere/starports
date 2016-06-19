@@ -1,0 +1,277 @@
+<ContextStack>
+  <Properties>
+    <uint Name="ID" Value="bdef6969" />
+    <string Name="Name" Value="" />
+    <bool Name="Visible" Value="1" />
+    <bool Name="Enabled" Value="1" />
+  </Properties>
+  <Context>
+    <Properties>
+      <uint Name="ID" Value="7158ef79" />
+      <string Name="Name" Value="" />
+      <bool Name="Visible" Value="1" />
+      <bool Name="Enabled" Value="1" />
+      <ref Name="QuadTree" ClassName="QuadTree" />
+      <bool Name="BlockUpdate" Value="0" />
+    </Properties>
+    <Camera>
+      <Properties>
+        <uint Name="ID" Value="d849aa93" />
+        <string Name="Name" Value="Camera" />
+        <bool Name="Visible" Value="1" />
+        <bool Name="Enabled" Value="1" />
+        <vec3D Name="Position" Value="1.50829 2.91581 7.56094" />
+        <vec3D Name="Rotation" Value="0 0 0" />
+        <vec3D Name="Scale" Value="1 1 1" />
+        <vec3D Name="Center" Value="0 0 0" />
+        <bool Name="AlwaysActive" Value="0" />
+        <float Name="FOV" Value="45" />
+        <float Name="ZNear" Value="0.5" />
+        <float Name="ZFar" Value="300" />
+        <enum Name="Projection" Value="0" />
+        <vec3D Name="LookAt" Value="-0.265167 0.0044353 -1.02954" />
+        <size Name="TargetResolution" Value="960 640" />
+        <vec2D Name="OrthoSize" Value="2 2" />
+      </Properties>
+    </Camera>
+    <BillBoardEntity>
+      <Properties>
+        <uint Name="ID" Value="e68df923" />
+        <string Name="Name" Value="" />
+        <bool Name="Visible" Value="1" />
+        <bool Name="Enabled" Value="1" />
+        <vec3D Name="Position" Value="-2.00311 -2.6147 0" />
+        <vec3D Name="Rotation" Value="0 0 0" />
+        <vec3D Name="Scale" Value="10 10 10" />
+        <vec3D Name="Center" Value="0 0 0" />
+        <bool Name="AlwaysActive" Value="0" />
+        <bool Name="HasVertexColors" Value="0" />
+      </Properties>
+      <Components>
+        <ref Name="" ClassName="GraphicComponent">
+          <uint Name="ID" Value="490563d" />
+          <string Name="Name" Value="" />
+          <uint Name="RenderingPriority" Value="0" />
+          <enum Name="RenderingPass" Value="3" />
+          <bool Name="ShadowCaster" Value="0" />
+          <array Name="Materials">
+            <ref ClassName="Material">
+              <uint Name="ID" Value="1e328259" />
+              <string Name="Name" Value="" />
+              <struct Name="CreationInfo">
+                <bool Name="AlphaBlending" Value="0" />
+                <enum Name="SrcBlendFactor" Value="4" />
+                <enum Name="DestBlendFactor" Value="5" />
+                <enum Name="CullMode" Value="1" />
+                <color Name="Color" Value="1 0 1" />
+                <float Name="Alpha" Value="1" />
+                <array Name="Textures">
+                  <ref TemplatePath="common/tex/WhiteBG.xml" />
+                </array>
+                <ref Name="Shader" TemplatePath="common/shaders/tex.xml" />
+                <bool Name="UseTextureRenderTarget" Value="0" />
+              </struct>
+            </ref>
+          </array>
+        </ref>
+      </Components>
+    </BillBoardEntity>
+    <MeshEntity>
+      <Properties>
+        <uint Name="ID" Value="c0507ee7" />
+        <string Name="Name" Value="BaseMesh" />
+        <bool Name="Visible" Value="1" />
+        <bool Name="Enabled" Value="1" />
+        <vec3D Name="Position" Value="0 0 0" />
+        <vec3D Name="Rotation" Value="0 0 90" />
+        <vec3D Name="Scale" Value="1.5 1.5 1.5" />
+        <vec3D Name="Center" Value="0 0 0" />
+        <bool Name="AlwaysActive" Value="0" />
+        <ref Name="Mesh" TemplatePath="ingame/Kamikaze.xml" />
+      </Properties>
+      <Components>
+        <ref Name="" ClassName="RigidBodyComponent">
+          <uint Name="ID" Value="1fe8b16a" />
+          <string Name="Name" Value="" />
+          <enum Name="CollisionGroup" Value="2" />
+          <struct Name="CollisionMask">
+            <bool Name="Group_1" Value="1" />
+            <bool Name="Group_2" Value="0" />
+            <bool Name="Group_3" Value="0" />
+            <bool Name="Group_4" Value="1" />
+            <bool Name="Group_5" Value="1" />
+            <bool Name="Group_6" Value="0" />
+            <bool Name="Group_7" Value="0" />
+            <bool Name="Group_8" Value="0" />
+          </struct>
+          <uint Name="Priority" Value="0" />
+          <float Name="CollisionRadius" Value="0.5" />
+          <float Name="Mass" Value="1" />
+          <array Name="Shapes">
+            <ref ClassName="CollisionShapeSphere">
+              <float Name="Radius" Value="1" />
+              <vec3D Name="Center" Value="0 0 0" />
+            </ref>
+          </array>
+        </ref>
+      </Components>
+      <SubMesh>
+        <Properties>
+          <uint Name="ID" Value="91314766" />
+          <string Name="Name" Value="Mesh" />
+          <bool Name="Visible" Value="1" />
+          <bool Name="Enabled" Value="1" />
+          <vec3D Name="Position" Value="0 -0 0" />
+          <vec3D Name="Rotation" Value="0 0 0" />
+          <vec3D Name="Scale" Value="1 1 1" />
+          <vec3D Name="Center" Value="0 0 0" />
+          <bool Name="AlwaysActive" Value="0" />
+        </Properties>
+        <Components>
+          <ref Name="" ClassName="GraphicComponent">
+            <uint Name="ID" Value="7315440a" />
+            <string Name="Name" Value="" />
+            <uint Name="RenderingPriority" Value="0" />
+            <enum Name="RenderingPass" Value="1" />
+            <bool Name="ShadowCaster" Value="1" />
+            <array Name="Materials">
+              <ref ClassName="Material">
+                <uint Name="ID" Value="558412bc" />
+                <string Name="Name" Value="" />
+                <struct Name="CreationInfo">
+                  <bool Name="AlphaBlending" Value="0" />
+                  <enum Name="SrcBlendFactor" Value="4" />
+                  <enum Name="DestBlendFactor" Value="5" />
+                  <enum Name="CullMode" Value="1" />
+                  <color Name="Color" Value="1 1 1" />
+                  <float Name="Alpha" Value="1" />
+                  <array Name="Textures">
+                    <ref TemplatePath="ingame/mesh/Kamikaze.xml" />
+                  </array>
+                  <ref Name="Shader" TemplatePath="common/shaders/tex.xml" />
+                  <bool Name="UseTextureRenderTarget" Value="0" />
+                </struct>
+              </ref>
+            </array>
+          </ref>
+        </Components>
+      </SubMesh>
+      <ParticleGenerator>
+        <Properties>
+          <uint Name="ID" Value="f9a10380" />
+          <string Name="Name" Value="" />
+          <bool Name="Visible" Value="1" />
+          <bool Name="Enabled" Value="1" />
+          <vec3D Name="Position" Value="3.55093e-005 -1.28025 -0.0950354" />
+          <vec3D Name="Rotation" Value="0 0 0" />
+          <vec3D Name="Scale" Value="1 1 1" />
+          <vec3D Name="Center" Value="0 0 0" />
+          <bool Name="AlwaysActive" Value="0" />
+          <uint Name="MaxParticles" Value="c8" />
+          <int Name="ParticlesPerSecond" Value="60" />
+          <range Name="ParticleLife" Value="0.1 0.1" />
+          <range Name="ParticleSpeed" Value="1 1" />
+          <float Name="ParticleSize" Value="0.2" />
+          <vec3D Name="Direction" Value="0 -1 0" />
+          <vec3D Name="Gravity" Value="0 0 0" />
+          <aabb3D Name="EmitBox" Value="-0.1 -1 -0.1 0.1 0 0.1" />
+          <uint Name="PoolSize" Value="1000" />
+          <float Name="ActiveTime" Value="-1" />
+          <enum Name="EmitType" Value="0" />
+          <enum Name="ParticleShape" Value="0" />
+          <float Name="ConeAngle" Value="45" />
+          <float Name="SparkFactor" Value="1" />
+          <float Name="GrowDuration" Value="0.3" />
+          <bool Name="ApplyWorldTransform" Value="0" />
+          <bool Name="InstancedRendering" Value="0" />
+        </Properties>
+        <Components>
+          <ref Name="" ClassName="GraphicComponent">
+            <uint Name="ID" Value="444f440a" />
+            <string Name="Name" Value="" />
+            <uint Name="RenderingPriority" Value="0" />
+            <enum Name="RenderingPass" Value="2" />
+            <bool Name="ShadowCaster" Value="0" />
+            <array Name="Materials">
+              <ref ClassName="Material">
+                <uint Name="ID" Value="183b3adb" />
+                <string Name="Name" Value="" />
+                <struct Name="CreationInfo">
+                  <bool Name="AlphaBlending" Value="1" />
+                  <enum Name="SrcBlendFactor" Value="4" />
+                  <enum Name="DestBlendFactor" Value="1" />
+                  <enum Name="CullMode" Value="1" />
+                  <color Name="Color" Value="1 1 0" />
+                  <float Name="Alpha" Value="1" />
+                  <array Name="Textures">
+                    <ref TemplatePath="common/tex/Star.xml" />
+                  </array>
+                  <ref Name="Shader" TemplatePath="common/shaders/tex.xml" />
+                  <bool Name="UseTextureRenderTarget" Value="0" />
+                </struct>
+              </ref>
+            </array>
+          </ref>
+        </Components>
+      </ParticleGenerator>
+      <ParticleGenerator>
+        <Properties>
+          <uint Name="ID" Value="5dcb5570" />
+          <string Name="Name" Value="" />
+          <bool Name="Visible" Value="1" />
+          <bool Name="Enabled" Value="1" />
+          <vec3D Name="Position" Value="3.54636e-005 -1.27749 -0.094913" />
+          <vec3D Name="Rotation" Value="0 0 0" />
+          <vec3D Name="Scale" Value="1 1 1" />
+          <vec3D Name="Center" Value="0 0 0" />
+          <bool Name="AlwaysActive" Value="0" />
+          <uint Name="MaxParticles" Value="c8" />
+          <int Name="ParticlesPerSecond" Value="60" />
+          <range Name="ParticleLife" Value="0.1 0.1" />
+          <range Name="ParticleSpeed" Value="2 2" />
+          <float Name="ParticleSize" Value="0.6" />
+          <vec3D Name="Direction" Value="0 -1 0" />
+          <vec3D Name="Gravity" Value="0 0 0" />
+          <aabb3D Name="EmitBox" Value="-0.1 -1 -0.1 0.1 0 0.1" />
+          <uint Name="PoolSize" Value="1000" />
+          <float Name="ActiveTime" Value="-1" />
+          <enum Name="EmitType" Value="0" />
+          <enum Name="ParticleShape" Value="0" />
+          <float Name="ConeAngle" Value="45" />
+          <float Name="SparkFactor" Value="1" />
+          <float Name="GrowDuration" Value="0.3" />
+          <bool Name="ApplyWorldTransform" Value="0" />
+          <bool Name="InstancedRendering" Value="0" />
+        </Properties>
+        <Components>
+          <ref Name="" ClassName="GraphicComponent">
+            <uint Name="ID" Value="b7805825" />
+            <string Name="Name" Value="" />
+            <uint Name="RenderingPriority" Value="0" />
+            <enum Name="RenderingPass" Value="2" />
+            <bool Name="ShadowCaster" Value="0" />
+            <array Name="Materials">
+              <ref ClassName="Material">
+                <uint Name="ID" Value="df8f3294" />
+                <string Name="Name" Value="" />
+                <struct Name="CreationInfo">
+                  <bool Name="AlphaBlending" Value="1" />
+                  <enum Name="SrcBlendFactor" Value="4" />
+                  <enum Name="DestBlendFactor" Value="1" />
+                  <enum Name="CullMode" Value="1" />
+                  <color Name="Color" Value="1 0.501961 0" />
+                  <float Name="Alpha" Value="1" />
+                  <array Name="Textures">
+                    <ref TemplatePath="common/tex/Star.xml" />
+                  </array>
+                  <ref Name="Shader" TemplatePath="common/shaders/tex.xml" />
+                  <bool Name="UseTextureRenderTarget" Value="0" />
+                </struct>
+              </ref>
+            </array>
+          </ref>
+        </Components>
+      </ParticleGenerator>
+    </MeshEntity>
+  </Context>
+</ContextStack>

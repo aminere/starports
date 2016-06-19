@@ -1,0 +1,25 @@
+
+precision mediump float;
+uniform sampler2D uTexture0; // diffuse
+uniform vec4 uAmbientColor;
+uniform float uCurrentAngle;
+
+varying vec2 vTexCoord;
+
+void main()
+{
+	vec2 localCoord = normalize(vTexCoord - vec2(0.5, 0.5));	
+	
+	float Pi = 3.141592;
+	float angle = atan(-localCoord.x, localCoord.y) + Pi;
+	vec4 finalColor;	
+	if(angle < uCurrentAngle)
+	{
+		finalColor = vec4(0.0);
+	}
+	else
+	{
+		finalColor = texture2D(uTexture0, vTexCoord) * uAmbientColor;
+	}		
+	gl_FragColor = finalColor;
+}

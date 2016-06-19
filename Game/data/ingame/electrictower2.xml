@@ -1,0 +1,457 @@
+<ElectricTower>
+	<Properties>
+		<uint Name="ID" Value="7fc8b77d"/>
+		<string Name="Name" Value=""/>
+		<bool Name="Visible" Value="1"/>
+		<bool Name="Enabled" Value="1"/>
+		<vec3D Name="Position" Value="2.81085 2.05615 0"/>
+		<vec3D Name="Rotation" Value="0 0 0"/>
+		<vec3D Name="Scale" Value="1 1 1"/>
+		<vec3D Name="Center" Value="0 0 0"/>
+		<bool Name="AlwaysActive" Value="0"/>
+		<enum Name="ActorType" Value="3"/>
+		<enum Name="ActorLevel" Value="1"/>
+		<bool Name="Immune" Value="0"/>
+		<bool Name="ShakeOnExplode" Value="0"/>
+		<float Name="ExplosionScaleFactor" Value="1"/>
+		<range Name="DampingRange" Value="0.05 1.5"/>
+	</Properties>
+	<MeshEntity>
+		<Properties>
+			<uint Name="ID" Value="c468ae66"/>
+			<string Name="Name" Value="BaseMesh"/>
+			<bool Name="Visible" Value="1"/>
+			<bool Name="Enabled" Value="1"/>
+			<vec3D Name="Position" Value="0 0 0"/>
+			<vec3D Name="Rotation" Value="0 0 0"/>
+			<vec3D Name="Scale" Value="1 1 1"/>
+			<vec3D Name="Center" Value="0 0 0"/>
+			<bool Name="AlwaysActive" Value="0"/>
+			<ref Name="Mesh" TemplatePath="ingame/tesla/Tesla_Lvl2.xml"/>
+		</Properties>
+		<Components>
+			<ref Name="" ClassName="RigidBodyComponent">
+				<uint Name="ID" Value="44b13392"/>
+				<string Name="Name" Value=""/>
+				<enum Name="CollisionGroup" Value="16"/>
+				<struct Name="CollisionMask">
+					<bool Name="Group_1" Value="0"/>
+					<bool Name="Group_2" Value="0"/>
+					<bool Name="Group_3" Value="1"/>
+					<bool Name="Group_4" Value="0"/>
+					<bool Name="Group_5" Value="0"/>
+					<bool Name="Group_6" Value="0"/>
+					<bool Name="Group_7" Value="0"/>
+					<bool Name="Group_8" Value="0"/>
+				</struct>
+				<int Name="Priority" Value="0"/>
+				<float Name="CollisionRadius" Value="0.5"/>
+				<float Name="Mass" Value="1"/>
+				<array Name="Shapes">
+					<ref ClassName="CollisionShapeSphere">
+						<float Name="Radius" Value="1.4"/>
+						<vec3D Name="Center" Value="0 0 0.2"/>
+					</ref>
+					<ref ClassName="CollisionShapeSphere">
+						<float Name="Radius" Value="1"/>
+						<vec3D Name="Center" Value="0 0 1.8"/>
+					</ref>
+				</array>
+			</ref>
+		</Components>
+		<SubMesh>
+			<Properties>
+				<uint Name="ID" Value="554eb423"/>
+				<string Name="Name" Value="Tesla_Lvl2"/>
+				<bool Name="Visible" Value="1"/>
+				<bool Name="Enabled" Value="1"/>
+				<vec3D Name="Position" Value="0 -0 0"/>
+				<vec3D Name="Rotation" Value="0 0 0"/>
+				<vec3D Name="Scale" Value="1 1 1"/>
+				<vec3D Name="Center" Value="0 0 0"/>
+				<bool Name="AlwaysActive" Value="0"/>
+			</Properties>
+			<Components>
+				<ref Name="" ClassName="GraphicComponent">
+					<uint Name="ID" Value="ee880ec2"/>
+					<string Name="Name" Value=""/>
+					<uint Name="RenderingPriority" Value="0"/>
+					<enum Name="RenderingPass" Value="1"/>
+					<bool Name="ShadowCaster" Value="1"/>
+					<array Name="Materials">
+						<ref ClassName="Material">
+							<uint Name="ID" Value="52bffc19"/>
+							<string Name="Name" Value=""/>
+							<struct Name="CreationInfo">
+								<bool Name="AlphaBlending" Value="0"/>
+								<enum Name="SrcBlendFactor" Value="4"/>
+								<enum Name="DestBlendFactor" Value="5"/>
+								<enum Name="CullMode" Value="1"/>
+								<color Name="Color" Value="0.576471 0.576471 0.576471"/>
+								<float Name="Alpha" Value="1"/>
+								<array Name="Textures">
+									<ref TemplatePath="ingame/tesla/Tesla_main.xml"/>
+								</array>
+								<ref Name="Shader" TemplatePath="common/shaders/light.xml"/>
+								<bool Name="UseTextureRenderTarget" Value="0"/>
+								<array Name="ShaderParams">
+									<ref ClassName="MaterialParameterFloat">
+										<string Name="Name" Value="uShininess"/>
+										<float Name="Value" Value="30"/>
+									</ref>
+								</array>
+							</struct>
+						</ref>
+					</array>
+				</ref>
+			</Components>
+		</SubMesh>
+	</MeshEntity>
+	<MeshEntity>
+		<Properties>
+			<uint Name="ID" Value="6ba3339b"/>
+			<string Name="Name" Value="TeslaOverlay"/>
+			<bool Name="Visible" Value="0"/>
+			<bool Name="Enabled" Value="0"/>
+			<vec3D Name="Position" Value="0 0 0"/>
+			<vec3D Name="Rotation" Value="0 0 0"/>
+			<vec3D Name="Scale" Value="2 2 3.19095"/>
+			<vec3D Name="Center" Value="0 0 0"/>
+			<bool Name="AlwaysActive" Value="0"/>
+			<ref Name="Mesh" TemplatePath="ingame/mesh/teslaoverlaymesh.xml"/>
+		</Properties>
+		<SubMesh>
+			<Properties>
+				<uint Name="ID" Value="fbc3b4c4"/>
+				<string Name="Name" Value="Sphere"/>
+				<bool Name="Visible" Value="1"/>
+				<bool Name="Enabled" Value="1"/>
+				<vec3D Name="Position" Value="0 -0 0"/>
+				<vec3D Name="Rotation" Value="0 0 0"/>
+				<vec3D Name="Scale" Value="1 1 1"/>
+				<vec3D Name="Center" Value="0 0 0"/>
+				<bool Name="AlwaysActive" Value="0"/>
+			</Properties>
+			<Components>
+				<ref Name="" ClassName="GraphicComponent">
+					<uint Name="ID" Value="2fb2236c"/>
+					<string Name="Name" Value=""/>
+					<uint Name="RenderingPriority" Value="0"/>
+					<enum Name="RenderingPass" Value="3"/>
+					<bool Name="ShadowCaster" Value="0"/>
+					<array Name="Materials">
+						<ref ClassName="Material">
+							<uint Name="ID" Value="d73fa5e8"/>
+							<string Name="Name" Value=""/>
+							<struct Name="CreationInfo">
+								<bool Name="AlphaBlending" Value="1"/>
+								<enum Name="SrcBlendFactor" Value="4"/>
+								<enum Name="DestBlendFactor" Value="1"/>
+								<enum Name="CullMode" Value="1"/>
+								<color Name="Color" Value="1 1 1"/>
+								<float Name="Alpha" Value="1"/>
+								<array Name="Textures">
+									<ref TemplatePath="ingame/mesh/teslacoil.xml"/>
+								</array>
+								<ref Name="Shader" TemplatePath="common/shaders/tex_col.xml"/>
+								<bool Name="UseTextureRenderTarget" Value="0"/>
+								<array Name="ShaderParams"/>
+							</struct>
+						</ref>
+					</array>
+				</ref>
+				<ref Name="" ClassName="TextureAnimationVisitor">
+					<uint Name="ID" Value="3e07cb66"/>
+					<string Name="Name" Value=""/>
+					<bool Name="AutoStart" Value="1"/>
+					<enum Name="PlaybackType" Value="2"/>
+					<int Name="MaxPlayCount" Value="-1"/>
+					<array Name="KeyFrames">
+						<struct>
+							<float Name="Time" Value="0"/>
+							<vec2D Name="Tiling" Value="1 1"/>
+							<vec2D Name="Offset" Value="0 -1"/>
+							<float Name="Angle" Value="180"/>
+						</struct>
+						<struct>
+							<float Name="Time" Value="3"/>
+							<vec2D Name="Tiling" Value="1 1"/>
+							<vec2D Name="Offset" Value="1 1"/>
+							<float Name="Angle" Value="-180"/>
+						</struct>
+					</array>
+				</ref>
+			</Components>
+		</SubMesh>
+	</MeshEntity>
+	<MeshEntity TemplatePath="ingame/teslaoverlay.xml">
+		<Properties>
+			<bool Name="Visible" Value="0"/>
+			<vec3D Name="Scale" Value="2 2 3.19095"/>
+		</Properties>
+	</MeshEntity>
+	<MeshEntity TemplatePath="ingame/electricgroundflash.xml"/>
+	<BillBoardEntity>
+		<Properties>
+			<uint Name="ID" Value="d8641950"/>
+			<string Name="Name" Value="BeamHalo"/>
+			<bool Name="Visible" Value="0"/>
+			<bool Name="Enabled" Value="0"/>
+			<vec3D Name="Position" Value="0 0 6.51"/>
+			<vec3D Name="Rotation" Value="0 0 0"/>
+			<vec3D Name="Scale" Value="1.6 1.6 1"/>
+			<vec3D Name="Center" Value="0 0 0"/>
+			<bool Name="AlwaysActive" Value="0"/>
+			<bool Name="HasVertexColors" Value="0"/>
+		</Properties>
+		<Components>
+			<ref Name="" ClassName="GraphicComponent">
+				<uint Name="ID" Value="1a46f062"/>
+				<string Name="Name" Value=""/>
+				<uint Name="RenderingPriority" Value="1"/>
+				<enum Name="RenderingPass" Value="3"/>
+				<bool Name="ShadowCaster" Value="0"/>
+				<array Name="Materials">
+					<ref ClassName="Material">
+						<uint Name="ID" Value="8508a815"/>
+						<string Name="Name" Value=""/>
+						<struct Name="CreationInfo">
+							<bool Name="AlphaBlending" Value="1"/>
+							<enum Name="SrcBlendFactor" Value="4"/>
+							<enum Name="DestBlendFactor" Value="5"/>
+							<enum Name="CullMode" Value="1"/>
+							<color Name="Color" Value="0.00784314 0.501961 0.992157"/>
+							<float Name="Alpha" Value="1"/>
+							<array Name="Textures">
+								<ref TemplatePath="common/tex/Star.xml"/>
+							</array>
+							<ref Name="Shader" TemplatePath="common/shaders/tex.xml"/>
+							<bool Name="UseTextureRenderTarget" Value="0"/>
+							<array Name="ShaderParams"/>
+						</struct>
+					</ref>
+				</array>
+			</ref>
+		</Components>
+	</BillBoardEntity>
+	<Entity3D>
+		<Properties>
+			<uint Name="ID" Value="3966ac5f"/>
+			<string Name="Name" Value="Coils"/>
+			<bool Name="Visible" Value="1"/>
+			<bool Name="Enabled" Value="1"/>
+			<vec3D Name="Position" Value="0 0 6.59395"/>
+			<vec3D Name="Rotation" Value="0 0 0"/>
+			<vec3D Name="Scale" Value="1 1 1"/>
+			<vec3D Name="Center" Value="0 0 0"/>
+			<bool Name="AlwaysActive" Value="0"/>
+		</Properties>
+		<Pathway>
+			<Properties>
+				<uint Name="ID" Value="9d33731c"/>
+				<string Name="Name" Value="Coil0"/>
+				<bool Name="Visible" Value="0"/>
+				<bool Name="Enabled" Value="0"/>
+				<vec3D Name="Position" Value="0 0 -0.0810599"/>
+				<vec3D Name="Rotation" Value="0 0 0"/>
+				<vec3D Name="Scale" Value="1 1 1"/>
+				<vec3D Name="Center" Value="0 0 0"/>
+				<bool Name="AlwaysActive" Value="0"/>
+				<bool Name="WrapAround" Value="0"/>
+				<float Name="Tightness" Value="0.5"/>
+				<enum Name="Interpolation" Value="0"/>
+			</Properties>
+			<Components>
+				<ref Name="" ClassName="ElectricityComponent">
+					<uint Name="ID" Value="76c620be"/>
+					<string Name="Name" Value=""/>
+					<uint Name="RenderingPriority" Value="2"/>
+					<enum Name="RenderingPass" Value="2"/>
+					<bool Name="ShadowCaster" Value="0"/>
+					<array Name="Materials">
+						<ref ClassName="Material">
+							<uint Name="ID" Value="686993ed"/>
+							<string Name="Name" Value=""/>
+							<struct Name="CreationInfo">
+								<bool Name="AlphaBlending" Value="1"/>
+								<enum Name="SrcBlendFactor" Value="4"/>
+								<enum Name="DestBlendFactor" Value="5"/>
+								<enum Name="CullMode" Value="1"/>
+								<color Name="Color" Value="1 1 1"/>
+								<float Name="Alpha" Value="0.5"/>
+								<array Name="Textures">
+									<ref TemplatePath="common/tex/WhiteBG.xml"/>
+								</array>
+								<ref Name="Shader" TemplatePath="common/shaders/tex.xml"/>
+								<bool Name="UseTextureRenderTarget" Value="0"/>
+								<array Name="ShaderParams"/>
+							</struct>
+						</ref>
+						<ref ClassName="Material">
+							<uint Name="ID" Value="57e8309b"/>
+							<string Name="Name" Value=""/>
+							<struct Name="CreationInfo">
+								<bool Name="AlphaBlending" Value="1"/>
+								<enum Name="SrcBlendFactor" Value="4"/>
+								<enum Name="DestBlendFactor" Value="1"/>
+								<enum Name="CullMode" Value="2"/>
+								<color Name="Color" Value="0 0.501961 1"/>
+								<float Name="Alpha" Value="0.7"/>
+								<array Name="Textures">
+									<ref TemplatePath="ingame/tex/beam.xml"/>
+								</array>
+								<ref Name="Shader" TemplatePath="common/shaders/tex.xml"/>
+								<bool Name="UseTextureRenderTarget" Value="0"/>
+								<array Name="ShaderParams"/>
+							</struct>
+						</ref>
+					</array>
+					<range Name="ChargeDuration" Value="0.025 0.05"/>
+					<range Name="AmplitudeRange" Value="0.1 1"/>
+					<int Name="NumSegments" Value="20"/>
+					<int Name="CoilCount" Value="4"/>
+					<float Name="BeamThickness" Value="1.6"/>
+				</ref>
+			</Components>
+			<PathwayElement>
+				<Properties>
+					<vec3D Name="Position" Value="0 0 0"/>
+					<float Name="Time" Value="0"/>
+					<float Name="Tilt" Value="0"/>
+				</Properties>
+			</PathwayElement>
+			<PathwayElement>
+				<Properties>
+					<vec3D Name="Position" Value="9.88132 1.06492 0"/>
+					<float Name="Time" Value="0"/>
+					<float Name="Tilt" Value="0"/>
+				</Properties>
+			</PathwayElement>
+			<PathwayElement>
+				<Properties>
+					<vec3D Name="Position" Value="18.1117 0.212307 0"/>
+					<float Name="Time" Value="0"/>
+					<float Name="Tilt" Value="0"/>
+				</Properties>
+			</PathwayElement>
+			<PathwayElement>
+				<Properties>
+					<vec3D Name="Position" Value="25.3811 0.344433 0"/>
+					<float Name="Time" Value="0"/>
+					<float Name="Tilt" Value="0"/>
+				</Properties>
+			</PathwayElement>
+			<PathwayElement>
+				<Properties>
+					<vec3D Name="Position" Value="32.0861 0.692559 0"/>
+					<float Name="Time" Value="0"/>
+					<float Name="Tilt" Value="0"/>
+				</Properties>
+			</PathwayElement>
+		</Pathway>
+		<Pathway>
+			<Properties>
+				<uint Name="ID" Value="d7bc9470"/>
+				<string Name="Name" Value="Coil1"/>
+				<bool Name="Visible" Value="0"/>
+				<bool Name="Enabled" Value="0"/>
+				<vec3D Name="Position" Value="0 0 -0.0810599"/>
+				<vec3D Name="Rotation" Value="0 0 0"/>
+				<vec3D Name="Scale" Value="1 1 1"/>
+				<vec3D Name="Center" Value="0 0 0"/>
+				<bool Name="AlwaysActive" Value="0"/>
+				<bool Name="WrapAround" Value="0"/>
+				<float Name="Tightness" Value="0.5"/>
+				<enum Name="Interpolation" Value="0"/>
+			</Properties>
+			<Components>
+				<ref Name="" ClassName="ElectricityComponent">
+					<uint Name="ID" Value="d950b33"/>
+					<string Name="Name" Value=""/>
+					<uint Name="RenderingPriority" Value="2"/>
+					<enum Name="RenderingPass" Value="2"/>
+					<bool Name="ShadowCaster" Value="0"/>
+					<array Name="Materials">
+						<ref ClassName="Material">
+							<uint Name="ID" Value="686993ed"/>
+							<string Name="Name" Value=""/>
+							<struct Name="CreationInfo">
+								<bool Name="AlphaBlending" Value="1"/>
+								<enum Name="SrcBlendFactor" Value="4"/>
+								<enum Name="DestBlendFactor" Value="5"/>
+								<enum Name="CullMode" Value="1"/>
+								<color Name="Color" Value="1 1 1"/>
+								<float Name="Alpha" Value="0.5"/>
+								<array Name="Textures">
+									<ref TemplatePath="common/tex/WhiteBG.xml"/>
+								</array>
+								<ref Name="Shader" TemplatePath="common/shaders/tex.xml"/>
+								<bool Name="UseTextureRenderTarget" Value="0"/>
+								<array Name="ShaderParams"/>
+							</struct>
+						</ref>
+						<ref ClassName="Material">
+							<uint Name="ID" Value="57e8309b"/>
+							<string Name="Name" Value=""/>
+							<struct Name="CreationInfo">
+								<bool Name="AlphaBlending" Value="1"/>
+								<enum Name="SrcBlendFactor" Value="4"/>
+								<enum Name="DestBlendFactor" Value="1"/>
+								<enum Name="CullMode" Value="2"/>
+								<color Name="Color" Value="0 0.501961 1"/>
+								<float Name="Alpha" Value="0.7"/>
+								<array Name="Textures">
+									<ref TemplatePath="ingame/tex/beam.xml"/>
+								</array>
+								<ref Name="Shader" TemplatePath="common/shaders/tex.xml"/>
+								<bool Name="UseTextureRenderTarget" Value="0"/>
+								<array Name="ShaderParams"/>
+							</struct>
+						</ref>
+					</array>
+					<range Name="ChargeDuration" Value="0.025 0.05"/>
+					<range Name="AmplitudeRange" Value="0.1 1"/>
+					<int Name="NumSegments" Value="20"/>
+					<int Name="CoilCount" Value="4"/>
+					<float Name="BeamThickness" Value="1.6"/>
+				</ref>
+			</Components>
+			<PathwayElement>
+				<Properties>
+					<vec3D Name="Position" Value="0 0 0"/>
+					<float Name="Time" Value="0"/>
+					<float Name="Tilt" Value="0"/>
+				</Properties>
+			</PathwayElement>
+			<PathwayElement>
+				<Properties>
+					<vec3D Name="Position" Value="9.88132 1.06492 0"/>
+					<float Name="Time" Value="0"/>
+					<float Name="Tilt" Value="0"/>
+				</Properties>
+			</PathwayElement>
+			<PathwayElement>
+				<Properties>
+					<vec3D Name="Position" Value="18.1117 0.212307 0"/>
+					<float Name="Time" Value="0"/>
+					<float Name="Tilt" Value="0"/>
+				</Properties>
+			</PathwayElement>
+			<PathwayElement>
+				<Properties>
+					<vec3D Name="Position" Value="25.3811 0.344433 0"/>
+					<float Name="Time" Value="0"/>
+					<float Name="Tilt" Value="0"/>
+				</Properties>
+			</PathwayElement>
+			<PathwayElement>
+				<Properties>
+					<vec3D Name="Position" Value="32.0861 0.692559 0"/>
+					<float Name="Time" Value="0"/>
+					<float Name="Tilt" Value="0"/>
+				</Properties>
+			</PathwayElement>
+		</Pathway>
+	</Entity3D>
+</ElectricTower>
+

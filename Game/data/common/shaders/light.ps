@@ -1,0 +1,46 @@
+
+precision mediump float;
+uniform sampler2D uTexture0; // diffuse
+uniform vec4 uLightColors;//[4];
+//uniform int uLightCount;
+uniform vec3 uLightPositions;//[4];
+uniform float uLightAttenuation;
+uniform vec3 uCameraPos;
+uniform float uShininess;
+
+varying vec3 vVertPos;
+varying vec3 vVertNorm;
+varying vec2 vTexCoord;
+
+void main()
+{	
+	vec4 texColor = texture2D(uTexture0, vTexCoord);
+
+	//diffuse
+	vec3 toLight = uLightPositions - vVertPos;
+	float toLightDist = length(toLight);
+	vec3 toLightDir = toLight / toLightDist;
+    float diffuseCoefficient = max(0.0, dot(vVertNorm, toLightDir));
+    vec3 diffuse = diffuseCoefficient * texColor.rgb * uLightColors.rgb * 2.0; //* light.intensities;
+    
+	//specular
+	vec3 specular = vec3(0.0);    
+    if(diffuseCoefficient > 0.0)
+	{
+		vec3 toEyeDir = normalize(uCameraPos - vVertPos);
+        float specularFactor = pow(max(0.0, dot(toEyeDir, reflect(-toLightDir, vVertNorm))), uShininess);
+		vec4 specularColor = texColor;
+		specular = specularColor.rgb * specularFactor; // * light.intensities;
+	}   
+	
+	//attenuation
+    float attenuation = 1.0 / (1.0 + clamp(uLightAttenuation, 0.0, 0.0) * pow(toLightDist, 2.0));
+
+    //linear color (color before gamma correction)
+    vec3 linearColor = attenuation*(diffuse + specular);
+	
+	//final color (after gamma correction)
+    //vec3 gamma = vec3(1.0/2.2);
+    //linearColor = pow(linearColor, gamma);
+	gl_FragColor = vec4(linearColor, 1.0);
+}

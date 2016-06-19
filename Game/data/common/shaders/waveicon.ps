@@ -1,0 +1,29 @@
+
+precision mediump float;
+
+uniform sampler2D uTexture0; // diffuse
+uniform vec4 uAmbientColor;
+uniform float uLeftCutOffX;
+uniform float uMidCutOffX;
+uniform float uRightCutOffX;
+
+varying vec2 vPosition;
+varying vec2 vTexCoord;
+
+void main()
+{
+	vec4 finalColor;
+	if(vPosition.x < uLeftCutOffX || vPosition.x > uRightCutOffX)
+	{
+		finalColor = vec4(0.0);
+	}
+	else
+	{
+		finalColor = texture2D(uTexture0, vTexCoord) * uAmbientColor;	
+		if(vPosition.x > uMidCutOffX)
+			finalColor.rgb = vec3(finalColor.r*0.2 + finalColor.g*0.6 + finalColor.b*0.2);
+		else
+			finalColor.rgb *= 2.0;		
+	}		
+	gl_FragColor = finalColor;
+}

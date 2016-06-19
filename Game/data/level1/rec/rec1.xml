@@ -1,0 +1,3832 @@
+<DataObject>
+	<file Name="ContextStack" Value="level1/level1_1.xml"/>
+	<vec2D Name="ScreenSize" Value="850 573"/>
+	<array Name="Datas">
+		<struct>
+			<float Name="Time" Value="0.528"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="246 227"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.544"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="245 227"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.56"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="245 229"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.576"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="244 229"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.592"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="243 229"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="0.608"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="243 229"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.186"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="331 241"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.202"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="331 241"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.218"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="331 241"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.234"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="331 241"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.25"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="331 241"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.266"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="332 241"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.475"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="479 278"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.491"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="479 277"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.507"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="479 277"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.523"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="479 276"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.539"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="478 275"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.555"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="471 262"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.571"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="440 242"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.587"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="407 224"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.603"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="324 175"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.619"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="289 154"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.635"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="252 141"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.651"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="234 131"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.667"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="227 126"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.683"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="225 123"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.699"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="220 119"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.715"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="210 117"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.731"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="195 112"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.747"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="172 107"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.763"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="168 107"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.938"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="549 228"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.953"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="550 228"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.966"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="550 228"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.972"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="550 228"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="1.988"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="546 226"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.004"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="507 214"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.02"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="466 201"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.036"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="373 171"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.052"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="316 162"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.068"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="218 135"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.084"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="176 130"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.1"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="164 127"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.116"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="153 125"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.132"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="148 125"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.148"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="144 123"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.164"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="141 122"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.18"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="138 121"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.196"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="137 120"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.212"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="134 120"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.228"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="134 120"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.244"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="134 120"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.26"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="134 120"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.276"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="134 120"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.292"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="134 120"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.308"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="134 120"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.324"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="134 120"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.516"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="473 194"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.532"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="473 194"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.548"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="462 194"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.575"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="443 190"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.591"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="398 179"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.607"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="380 176"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.612"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="327 168"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.628"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="306 166"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.644"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="306 166"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.66"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="306 166"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.676"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="306 166"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.692"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="306 166"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.708"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="306 166"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.724"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="306 166"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.74"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="306 166"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.756"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="306 166"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.772"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="306 166"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="2.788"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="305 167"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.028"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="370 202"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.044"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="370 202"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.06"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="370 202"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.076"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="370 202"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.092"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="370 202"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.108"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="370 202"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.124"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="370 202"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.749"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="380 287"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.765"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="380 287"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.781"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="380 287"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.807"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="380 287"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.842"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="380 287"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="3.856"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="380 287"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.167"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="190 213"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.183"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="190 213"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.199"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="190 213"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.215"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="190 213"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.231"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="190 213"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.247"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="190 213"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.263"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="190 213"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.279"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="190 213"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.96899"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="148 198"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="4.98499"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="148 198"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.00099"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="148 198"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.01699"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="148 198"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.03299"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="148 198"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.04899"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="148 198"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.06499"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="148 198"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.22699"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="176 187"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.23799"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="176 187"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.24399"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="187 187"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.25999"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="213 187"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.27599"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="234 187"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.29199"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="258 187"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.30799"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="271 187"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.32399"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="298 187"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.33999"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="312 187"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.35599"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="338 189"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.37199"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="364 191"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.38799"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="377 196"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.40399"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="405 209"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.41999"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="414 215"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.43599"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="428 224"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.45199"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="431 227"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.46799"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="431 227"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.48399"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="431 227"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.49999"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="431 227"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.51599"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="431 227"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.73599"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="258 236"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.75399"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="257 236"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.77099"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="257 236"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.78799"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="257 236"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.80399"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="257 236"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.81799"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="257 236"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.82399"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="257 236"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.83999"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="257 236"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="5.85599"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="257 236"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.43199"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="218 172"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.45099"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="219 172"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.46499"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="219 172"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.48499"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="219 172"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.49699"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="219 172"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.51299"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="219 172"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.70599"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="366 279"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.72199"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="366 279"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.73899"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="368 279"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.75499"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="368 279"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.77199"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="368 279"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.78799"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="368 279"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="6.80399"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="368 279"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.42099"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="386 352"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.43499"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="386 352"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.45499"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="386 352"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.46699"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="386 352"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.48799"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="386 352"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.49999"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="386 352"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="7.51799"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="386 352"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.08399"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="312 275"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.10199"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="312 275"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.11499"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="312 275"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.13099"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="312 275"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.14999"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="312 275"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.71399"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="306 330"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.72799"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="306 330"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.74399"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="306 330"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.76299"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="306 330"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.77599"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="306 330"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.79499"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="306 330"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="8.80799"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="306 330"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="9.62899"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="138 241"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="9.64799"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="138 241"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="9.66099"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="138 241"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="9.67999"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="138 241"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="9.69299"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="138 241"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="9.71299"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="138 241"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="10.306"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="126 319"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="10.322"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="126 319"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="10.338"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="126 320"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="10.354"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="126 320"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="10.37"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="126 320"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="10.386"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="126 320"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="10.402"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="126 320"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="10.418"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="126 320"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="10.434"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="128 320"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="10.631"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="256 251"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="10.646"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="256 251"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="10.662"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="256 251"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="10.678"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="268 254"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="10.694"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="285 258"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="10.71"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="322 259"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="10.726"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="360 265"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="10.742"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="372 265"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="10.758"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="390 266"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="10.774"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="395 266"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="10.79"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="410 266"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="10.809"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="420 266"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="10.822"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="427 266"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="10.838"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="439 265"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="10.854"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="450 264"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="10.87"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="451 263"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="10.89"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="449 257"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="10.902"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="449 254"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="10.919"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="449 252"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="10.939"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="449 252"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="10.951"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="449 251"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="10.97"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="449 250"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="10.983"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="449 250"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="11.003"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="449 250"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="11.015"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="449 250"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="11.033"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="449 250"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="11.048"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="448 248"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="11.403"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="322 168"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="11.419"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="321 168"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="11.435"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="321 168"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="11.455"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="321 168"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="11.467"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="321 168"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="11.483"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="321 168"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="11.503"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="317 167"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="11.515"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="312 167"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="12.224"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="434 168"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="12.24"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="434 168"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="12.256"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="434 168"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="12.272"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="434 168"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="12.288"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="434 168"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="12.304"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="434 168"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="12.32"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="434 168"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="12.658"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="216 162"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="12.674"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="215 163"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="12.69"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="215 163"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="12.706"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="215 163"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="12.722"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="215 163"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="12.738"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="215 163"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="12.754"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="215 163"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="12.77"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="215 163"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="12.786"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="215 163"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="13.411"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="203 249"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="13.427"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="202 249"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="13.443"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="202 249"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="13.459"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="202 249"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="13.475"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="202 249"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="13.491"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="202 249"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="13.507"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="202 249"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="13.523"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="202 249"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="13.828"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="294 162"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="13.844"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="294 162"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="13.86"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="294 162"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="13.876"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="294 162"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="13.892"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="294 162"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="13.908"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="294 162"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="13.924"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="293 162"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="13.94"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="292 162"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="14.533"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="179 176"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="14.549"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="179 176"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="14.5649"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="179 176"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="14.5809"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="179 176"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="14.5969"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="179 176"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="14.6129"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="179 176"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="14.6289"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="179 176"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="14.8059"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="421 149"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="14.8219"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="421 149"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="14.8379"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="421 149"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="14.8539"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="421 149"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="14.8699"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="421 149"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="14.8859"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="420 149"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="14.9019"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="412 157"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="14.9179"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="389 175"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="14.9339"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="353 190"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="14.9499"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="338 193"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="14.9659"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="317 204"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="14.9819"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="304 212"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="14.9979"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="286 216"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="15.0139"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="274 228"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="15.0299"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="266 229"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="15.0459"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="262 232"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="15.0619"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="260 233"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="15.0779"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="259 234"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="15.0939"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="257 235"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="15.1099"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="257 235"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="15.1259"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="257 235"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="15.1419"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="257 236"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="15.1579"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="257 236"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="15.1749"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="257 236"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="15.1909"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="257 236"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="15.2069"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="257 236"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="15.2229"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="257 236"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="15.2389"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="257 236"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="15.2549"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="257 236"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="15.2709"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="257 236"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="15.2899"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="257 236"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="15.3039"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="257 236"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="15.3199"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="257 236"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="15.3359"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="257 236"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="15.3519"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="257 236"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="15.3679"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="257 236"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="15.3839"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="257 236"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="15.3999"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="257 236"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="15.4159"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="257 236"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="15.4319"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="257 234"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="15.4479"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="257 229"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="15.4639"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="257 222"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="15.4799"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="258 217"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="15.4959"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="256 206"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="15.5119"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="252 192"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="15.5279"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="247 186"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="15.5439"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="238 177"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="15.5599"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="233 174"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="15.5759"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="232 174"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="15.5919"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="231 174"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="15.6079"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="231 174"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="15.6239"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="231 174"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="15.6399"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="231 174"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="15.6559"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="231 174"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="15.6719"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="231 174"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="15.6879"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="231 174"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="16.1679"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="644 265"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="16.1839"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="644 265"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="16.1999"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="644 265"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="16.2159"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="644 265"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="16.2319"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="644 265"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="16.2479"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="644 265"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="16.2639"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="644 265"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="16.905"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="575 264"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="16.921"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="575 264"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="16.937"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="575 264"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="16.953"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="575 264"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="16.969"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="575 264"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="16.985"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="575 264"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="17.001"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="575 264"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="17.017"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="575 264"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="17.21"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="359 160"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="17.226"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="359 160"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="17.242"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="359 160"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="17.258"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="359 160"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="17.292"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="362 159"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="17.307"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="401 163"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="17.323"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="430 164"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="17.339"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="487 164"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="17.355"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="525 165"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="17.371"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="537 165"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="17.387"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="549 165"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="17.403"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="553 165"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="17.419"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="561 164"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="17.435"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="569 164"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="17.451"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="577 164"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="17.467"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="579 164"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="17.483"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="580 164"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="17.499"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="580 163"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="17.515"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="580 163"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="17.531"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="580 163"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="17.547"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="580 163"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="17.563"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="580 163"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="17.579"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="580 163"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="17.595"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="580 162"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="18.21"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="333 254"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="18.223"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="335 255"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="18.243"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="335 255"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="18.255"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="335 255"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="18.274"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="335 255"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="18.288"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="335 255"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="18.304"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="335 255"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="19.125"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="279 265"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="19.137"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="279 265"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="19.153"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="279 266"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="19.174"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="279 266"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="19.186"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="279 266"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="19.202"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="279 266"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="19.218"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="279 266"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="19.234"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="279 266"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="19.5881"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="386 199"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="19.6051"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="386 199"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="19.6201"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="386 199"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="19.6371"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="386 199"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="19.6531"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="386 199"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="19.6691"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="386 199"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="19.6891"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="386 199"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="20.3511"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="301 208"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="20.3671"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="301 208"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="20.3841"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="301 208"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="20.3991"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="301 208"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="20.4181"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="301 208"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="20.4311"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="301 208"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="20.6281"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="228 204"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="20.6411"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="228 204"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="20.6611"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="228 204"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="20.6741"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="228 204"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="20.6901"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="228 204"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="20.7091"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="228 204"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="20.7221"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="228 205"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="21.3371"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="140 196"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="21.3541"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="140 196"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="21.3701"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="140 196"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="21.3881"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="140 196"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="21.4011"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="140 196"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="21.4171"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="140 196"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="21.4361"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="140 196"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="21.4491"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="140 196"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="21.6111"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="587 173"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="21.6291"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="588 173"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="21.6421"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="588 173"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="21.6581"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="588 173"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="21.6771"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="588 173"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="21.6911"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="583 170"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="21.7101"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="563 161"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="21.7281"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="556 158"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="21.7401"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="521 145"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="21.7591"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="502 137"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="21.7761"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="497 134"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="21.7891"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="493 134"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="21.8081"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="490 133"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="21.8211"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="487 133"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="21.8401"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="480 132"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="21.8571"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="477 132"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="21.8701"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="457 127"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="21.8891"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="452 127"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="21.9021"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="436 121"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="22.309"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="590 219"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="22.327"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="584 219"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="22.344"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="582 219"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="22.361"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="578 219"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="22.3771"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="577 219"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="22.3901"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="577 219"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="22.4081"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="577 219"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="22.4251"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="577 219"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="22.4421"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="577 219"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="22.4591"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="577 219"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="22.4711"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="577 219"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="22.489"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="577 219"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="22.844"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="549 223"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="22.862"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="549 223"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="22.874"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="549 223"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="22.891"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="549 223"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="22.907"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="549 223"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="22.924"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="549 223"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="23.5061"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="450 223"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="23.5221"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="450 223"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="23.5381"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="450 223"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="23.5541"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="450 223"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="23.5701"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="450 223"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="23.8741"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="322 89"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="23.8901"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="322 89"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="23.9061"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="322 89"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="23.9221"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="323 89"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="23.9381"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="325 91"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="23.9541"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="341 101"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="23.9701"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="378 118"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="23.9861"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="402 132"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="24.0021"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="437 148"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="24.0181"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="460 158"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="24.0341"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="483 161"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="24.0501"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="503 163"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="24.0661"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="514 164"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="24.0821"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="541 167"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="24.0981"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="558 169"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="24.1141"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="585 172"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="24.1301"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="612 175"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="24.1461"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="617 176"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="24.1621"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="618 176"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="24.1781"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="618 176"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="24.1941"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="619 176"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="24.2101"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="619 176"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="24.4181"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="440 145"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="24.4341"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="440 145"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="24.4501"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="440 145"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="24.4661"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="440 145"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="24.4821"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="440 145"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="24.4981"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="440 145"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="24.5141"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="440 145"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="25.2721"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="297 100"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="25.2881"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="297 100"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="25.3041"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="297 100"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="25.3201"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="297 100"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="25.3361"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="298 102"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="25.3521"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="305 109"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="25.3681"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="311 115"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="25.3841"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="322 122"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="25.4001"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="329 125"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="25.4161"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="330 125"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="25.4321"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="333 125"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="25.4481"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="334 125"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="25.4641"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="334 125"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="25.4801"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="335 124"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="25.4961"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="335 123"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="25.5121"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="335 122"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="25.5281"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="335 121"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="25.5441"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="335 119"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="25.5601"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="335 118"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="25.5761"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="335 118"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="25.5921"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="335 118"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="25.6081"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="335 118"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="25.6241"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="335 118"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="25.6401"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="335 118"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="25.6561"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="335 118"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="25.6721"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="335 118"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="25.6881"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="335 118"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="25.7041"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="335 118"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="25.7201"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="335 118"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="25.9601"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="231 169"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="25.9761"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="231 169"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="25.9921"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="231 169"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="26.0081"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="231 169"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="26.0241"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="231 170"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="26.0401"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="231 170"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="26.5042"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="679 226"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="26.5202"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="670 226"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="26.5362"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="662 226"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="26.5522"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="639 224"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="26.5682"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="623 224"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="26.5842"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="596 223"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="26.6002"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="563 217"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="26.6162"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="538 208"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="26.6322"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="478 188"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="26.6482"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="394 157"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="26.6642"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="367 142"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="26.6802"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="316 110"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="26.6962"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="275 85"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="26.7122"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="260 81"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="26.7282"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="233 68"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="26.7442"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="226 66"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="26.7602"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="221 64"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="26.7762"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="220 64"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="26.7922"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="220 64"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="26.8082"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="220 64"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="26.8242"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="220 64"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="26.8402"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="220 64"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="26.8562"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="220 64"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="26.8722"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="220 64"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="26.8882"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="220 64"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="27.1062"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="387 138"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="27.1232"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="387 152"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="27.1402"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="387 163"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="27.1572"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="387 181"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="27.1702"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="388 187"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="27.1762"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="390 208"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="27.1922"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="392 220"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="27.2082"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="396 231"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="27.2242"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="398 236"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="27.2402"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="406 240"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="27.2562"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="416 246"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="27.2722"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="426 248"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="27.2882"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="435 250"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="27.3042"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="451 252"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="27.3202"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="460 252"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="27.3362"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="474 255"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="27.3522"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="484 255"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="27.3682"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="489 256"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="27.3842"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="496 256"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="27.4002"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="500 256"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="27.4162"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="506 256"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="27.4322"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="508 255"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="27.4482"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="510 255"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="27.4642"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="510 253"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="27.7042"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="258 141"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="27.7202"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="258 141"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="27.7362"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="258 141"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="27.7522"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="258 141"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="27.7682"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="258 141"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="27.7842"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="275 148"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="27.8002"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="285 152"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="27.8162"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="326 161"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="27.8322"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="353 169"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="27.8482"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="371 170"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="27.8642"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="387 175"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="27.8802"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="404 177"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="27.8962"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="418 178"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="27.9122"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="450 181"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="27.9282"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="482 183"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="27.9442"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="503 185"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="27.9602"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="523 187"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="27.9762"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="535 187"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="27.9922"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="548 187"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="28.0082"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="553 187"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="28.0242"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="553 187"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="28.0402"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="553 187"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="28.2322"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="341 162"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="28.2482"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="341 162"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="28.2642"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="341 162"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="28.2802"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="341 166"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="28.2962"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="344 171"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="28.3123"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="356 181"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="28.3283"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="370 188"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="28.3443"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="388 196"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="28.3603"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="421 205"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="28.3763"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="435 208"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="28.3923"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="468 221"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="28.4083"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="484 229"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="28.4243"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="494 230"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="28.4403"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="500 230"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="28.4563"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="504 230"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="28.4723"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="504 230"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="28.4883"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="504 230"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="28.5043"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="504 230"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="28.5203"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="504 230"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="28.5363"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="504 230"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="28.5523"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="504 230"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="28.7443"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="325 172"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="28.7603"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="323 170"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="28.7763"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="323 170"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="28.7923"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="323 170"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="28.8083"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="322 171"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="28.8373"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="344 188"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="28.8673"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="376 211"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="28.8893"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="399 224"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="28.9003"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="418 235"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="28.9193"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="441 244"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="28.9333"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="456 251"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="28.9523"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="464 254"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="28.9693"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="473 256"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="28.9813"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="477 257"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="29.0003"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="483 257"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="29.0133"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="486 257"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="29.0333"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="488 257"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="29.0463"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="492 257"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="29.0523"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="493 257"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="29.0683"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="497 257"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="29.0843"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="498 257"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="29.1003"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="498 257"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="29.1163"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="498 257"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="29.6563"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="328 183"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="29.6753"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="328 183"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="29.6933"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="328 183"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="29.7043"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="328 183"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="29.7233"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="328 183"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="29.7363"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="328 183"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="29.7553"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="328 183"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="30.3383"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="234 192"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="30.3493"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="234 192"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="30.3683"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="234 192"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="30.3813"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="234 192"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="30.4003"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="234 192"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="30.4133"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="234 192"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="30.4303"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="234 192"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="31.1113"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="365 107"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="31.1303"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="368 116"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="31.1433"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="371 124"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="31.1603"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="371 138"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="31.1753"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="372 149"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="31.1913"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="372 156"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="31.2113"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="372 158"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="31.2233"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="372 161"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="31.2393"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="371 171"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="31.2593"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="372 175"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="31.2713"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="375 183"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="31.2923"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="377 186"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="31.3043"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="377 192"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="31.3213"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="378 196"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="31.3413"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="378 206"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="31.3533"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="380 216"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="31.3743"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="380 218"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="31.3853"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="380 224"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="31.4013"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="380 227"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="31.4173"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="380 227"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="31.4333"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="380 227"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="31.4503"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="380 227"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="31.4663"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="380 227"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="31.4813"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="380 227"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="31.4993"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="379 220"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="31.5133"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="376 214"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="31.5323"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="363 195"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="31.5463"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="348 177"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="31.5643"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="321 139"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="31.5783"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="306 123"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="31.5943"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="294 111"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="31.6143"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="285 103"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="31.6273"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="277 97"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="31.6433"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="269 92"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="31.6633"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="263 88"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="31.6763"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="262 88"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="31.6953"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="258 88"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="31.7083"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="255 88"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="31.9023"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="506 251"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="31.9183"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="506 251"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="31.9383"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="506 251"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="31.9503"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="506 251"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="31.9703"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="506 251"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="31.9833"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="503 253"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="32.0003"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="446 222"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="32.0203"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="396 200"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="32.0323"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="352 177"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="32.0483"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="261 145"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="32.0643"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="234 138"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="32.0803"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="231 136"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="32.0963"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="229 135"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="32.1123"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="226 134"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="32.1293"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="222 133"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="32.1453"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="212 129"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="32.3413"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="539 220"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="32.3543"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="540 220"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="32.3713"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="536 219"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="32.3903"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="533 219"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="32.4033"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="508 212"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="32.4223"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="500 210"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="32.4353"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="459 203"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="32.4513"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="430 191"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="32.4723"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="410 186"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="32.4843"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="396 182"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="32.5033"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="382 177"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="32.5163"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="378 177"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="32.5363"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="361 172"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="32.5483"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="344 168"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="32.5673"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="335 167"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="32.5803"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="323 165"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="32.5993"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="322 165"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="32.6123"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="322 165"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="32.6323"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="322 165"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="32.6453"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="322 165"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="32.6653"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="320 165"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="32.6773"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="318 165"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="32.6933"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="317 165"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="32.7123"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="317 165"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="32.7253"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="317 165"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="32.7443"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="317 165"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="32.7573"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="317 165"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="32.7733"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="317 165"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="32.7923"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="317 165"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="32.8053"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="317 165"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="32.8253"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="317 165"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="32.8373"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="317 165"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="32.8533"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="317 165"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="32.8733"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="317 165"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="32.8853"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="317 165"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="32.9013"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="317 165"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="32.9213"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="317 165"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="32.9333"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="317 165"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="32.9533"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="317 165"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="32.9653"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="317 165"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="32.9853"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="317 165"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="32.9973"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="317 165"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="33.0133"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="317 165"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="33.0333"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="317 165"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="33.0453"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="317 165"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="33.0653"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="317 165"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="33.0783"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="317 165"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="33.0943"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="317 165"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="33.1153"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="319 166"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="33.1273"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="321 166"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="33.1473"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="321 167"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="33.1593"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="321 167"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="33.1753"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="321 167"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="33.1953"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="321 167"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="33.2083"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="321 167"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="33.2283"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="321 167"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="33.2413"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="321 167"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="33.2573"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="321 167"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="33.2763"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="321 167"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="33.2893"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="321 167"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="33.3093"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="321 167"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="33.3213"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="321 167"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="33.3373"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="321 167"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="33.3533"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="321 167"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="33.3703"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="321 167"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="33.3853"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="317 164"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="33.4063"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="315 163"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="33.4183"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="296 157"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="33.4393"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="286 154"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="33.4513"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="283 154"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="33.4713"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="279 152"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="33.4833"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="279 152"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="33.4993"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="276 152"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="33.5193"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="269 152"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="33.5323"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="263 150"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="33.5483"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="257 150"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="33.5643"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="257 150"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="33.5803"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="256 150"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="33.6003"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="256 150"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="33.6123"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="256 150"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="33.6323"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="256 150"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="33.6443"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="256 150"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="33.6603"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="256 150"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="33.6763"/>
+			<bool Name="Touched" Value="1"/>
+			<vec2D Name="Pos" Value="256 150"/>
+		</struct>
+		<struct>
+			<float Name="Time" Value="33.6923"/>
+			<bool Name="Touched" Value="0"/>
+			<vec2D Name="Pos" Value="256 150"/>
+		</struct>
+	</array>
+</DataObject>
+

@@ -1,0 +1,98 @@
+
+precision mediump float;
+uniform sampler2D uTexture0; // diffuse
+uniform sampler2D uTexture1; // normal map
+uniform sampler2D uShadowMaps;//[4];
+
+uniform vec4 uAmbientColor;
+uniform vec4 uLightColors;//[4];
+//uniform int uLightCount;
+uniform vec3 uLightPositions;//[4];
+uniform float uShadowDecr;
+uniform float uLightAttenuation;
+uniform vec3 uCameraPos;
+uniform float uShininess;
+
+varying vec3 vVertPos;
+varying vec2 vTexCoord;
+varying vec3 vVertNorm;
+varying vec3 vVertTangent;
+varying vec3 vVertBinormal;
+varying vec4 vLightSpacePositions;//[4];
+
+void main()
+{
+	vec4 texColor = texture2D(uTexture0, vTexCoord);
+	vec4 normalColor = texture2D(uTexture1, vTexCoord);
+	normalColor = (normalColor * 2.0) - 1.0;  // convert from [0, 1] to [-1, 1]
+	vec3 normal = normalize((vVertTangent * normalColor.x) + (vVertBinormal * normalColor.y ) + (vVertNorm * normalColor.z));
+	vec2 poissonDisk[4];
+	poissonDisk[0] = vec2(-0.94201624, -0.39906216 );
+	poissonDisk[1] = vec2(0.94558609, -0.76890725  );
+	poissonDisk[2] = vec2(-0.094184101, -0.92938870);
+	poissonDisk[3] = vec2(0.34495938, 0.29387760   );
+	
+	// determine shadow factor	
+	float shadowFactor = 1.0;
+	float shadowBias = 0.00001;
+	//bool outside = false;
+	//for(int i=0; i<uLightCount; i++)
+	//{		
+		//vec3 vLightSpacePosNDC = vLightSpacePositions.xyz / vLightSpacePositions.w;
+		// convert xy to [0 - 1] sampler space and z to [0 - 1] depth range
+		//vLightSpacePosNDC = vLightSpacePosNDC*0.5 + 0.5;
+		
+		// check if fragment is in the light frustum
+		if((clamp(vLightSpacePositions.x, 0.0, 1.0) == vLightSpacePositions.x) && (clamp(vLightSpacePositions.y, 0.0, 1.0) == vLightSpacePositions.y))
+		{
+			for(int j=0; j<4; j++)
+			{
+				float depth = texture2D(uShadowMaps, vLightSpacePositions.xy+poissonDisk[j].xy/800.0).x;			
+				if(depth < vLightSpacePositions.z + shadowBias)
+				{
+					shadowFactor-=uShadowDecr;
+				}
+			}			
+		}
+		/*else //if(i == 0)
+		{
+		   outside = true;
+		}*/
+	//}
+	
+	/*if(outside)
+	{
+		gl_FragColor = vec4(1.0, 0.0, 0.0, 1.0);
+	}
+	else*/
+	{
+		shadowFactor = clamp(shadowFactor, 0.0, 1.0);
+		
+		//diffuse
+		vec3 toLight = uLightPositions - vVertPos;
+		float toLightDist = length(toLight);
+		vec3 toLightDir = toLight / toLightDist;
+		float diffuseCoefficient = max(0.0, dot(normal, toLightDir));
+		vec3 diffuse = diffuseCoefficient * texColor.rgb * uLightColors.rgb; //* light.intensities;
+		
+		//specular
+		vec3 specular = vec3(0.0);    
+		if(diffuseCoefficient > 0.0)
+		{
+			vec3 toEyeDir = normalize(uCameraPos - vVertPos);
+			float specularFactor = pow(max(0.0, dot(toEyeDir, reflect(-toLightDir, normal))), uShininess);
+			vec4 specularColor = texture2D(uTexture0, vTexCoord) * 1.0;
+			specular = specularColor.rgb * specularFactor; // * light.intensities;
+		}			
+		
+		//attenuation
+		float attenuation = 1.0 / (1.0 + clamp(uLightAttenuation, 0.0, 0.0) * pow(toLightDist, 2.0));
+	
+		//linear color (color before gamma correction)
+		vec3 linearColor = uAmbientColor.rgb + attenuation*shadowFactor*(diffuse + specular);		
+		gl_FragColor = vec4(linearColor, uAmbientColor.a);
+		
+		//vec4 color = texColor * (uAmbientColor + (lightColor * 2.0 * uAmbientColor.a) * shadowFactor);
+		//gl_FragColor = vec4(color.rgb, color.a*0.5 + (1.0-shadowFactor)*0.5);
+	}	
+}

@@ -1,0 +1,119 @@
+<ExplosionVisitor>
+  <float Name="Intensity" Value="-1" />
+  <float Name="Duration" Value="-1" />
+  <bool Name="DepthTest" Value="0" />
+  <ref Name="Mesh" TemplatePath="ingame/tesla/Tesla_Lvl1.xml" />
+  <array Name="ChunkGroups">
+    <struct>
+      <array Name="Chunks">
+        <struct>
+          <array Name="Triangles">
+            <uint Value="1cf" />
+            <uint Value="1ce" />
+            <uint Value="1ad" />
+            <uint Value="1af" />
+            <uint Value="1ae" />
+            <uint Value="1c6" />
+            <uint Value="1c7" />
+            <uint Value="1ac" />
+            <uint Value="1be" />
+            <uint Value="1bf" />
+            <uint Value="1b1" />
+            <uint Value="1b6" />
+            <uint Value="1b7" />
+            <uint Value="1d6" />
+            <uint Value="1b0" />
+          </array>
+        </struct>
+        <struct>
+          <array Name="Triangles">
+            <uint Value="280" />
+            <uint Value="281" />
+            <uint Value="291" />
+            <uint Value="28a" />
+            <uint Value="28b" />
+            <uint Value="290" />
+            <uint Value="27a" />
+            <uint Value="27b" />
+            <uint Value="283" />
+            <uint Value="282" />
+            <uint Value="288" />
+            <uint Value="273" />
+            <uint Value="272" />
+            <uint Value="278" />
+            <uint Value="279" />
+            <uint Value="289" />
+            <uint Value="26b" />
+            <uint Value="26a" />
+            <uint Value="270" />
+            <uint Value="271" />
+            <uint Value="2c8" />
+            <uint Value="2c3" />
+            <uint Value="2c9" />
+            <uint Value="2c2" />
+            <uint Value="2c1" />
+            <uint Value="2bb" />
+            <uint Value="2c0" />
+            <uint Value="2ba" />
+            <uint Value="2b2" />
+            <uint Value="2b3" />
+            <uint Value="2b8" />
+            <uint Value="2ab" />
+            <uint Value="2aa" />
+            <uint Value="2b9" />
+            <uint Value="2b0" />
+            <uint Value="2b1" />
+            <uint Value="2a9" />
+            <uint Value="2a3" />
+            <uint Value="2a2" />
+            <uint Value="2a0" />
+            <uint Value="29b" />
+            <uint Value="2a1" />
+            <uint Value="2a8" />
+            <uint Value="29a" />
+          </array>
+        </struct>
+        <struct>
+          <array Name="Triangles">
+            <uint Value="130" />
+            <uint Value="13a" />
+            <uint Value="13d" />
+            <uint Value="13b" />
+            <uint Value="12f" />
+            <uint Value="139" />
+            <uint Value="12d" />
+            <uint Value="12e" />
+            <uint Value="12c" />
+            <uint Value="137" />
+            <uint Value="135" />
+            <uint Value="134" />
+            <uint Value="142" />
+            <uint Value="133" />
+            <uint Value="132" />
+            <uint Value="131" />
+            <uint Value="143" />
+            <uint Value="136" />
+            <uint Value="138" />
+          </array>
+        </struct>
+        <struct>
+          <array Name="Triangles">
+            <uint Value="247" />
+            <uint Value="246" />
+            <uint Value="24e" />
+            <uint Value="24f" />
+            <uint Value="243" />
+            <uint Value="24a" />
+            <uint Value="250" />
+            <uint Value="249" />
+            <uint Value="242" />
+            <uint Value="248" />
+            <uint Value="23b" />
+            <uint Value="23a" />
+            <uint Value="24b" />
+          </array>
+        </struct>
+      </array>
+    </struct>
+  </array>
+</ExplosionVisitor>

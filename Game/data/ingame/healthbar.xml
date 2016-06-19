@@ -1,0 +1,85 @@
+<BillBoardEntity>
+  <Properties>
+    <uint Name="ID" Value="d51cb07f" />
+    <string Name="Name" Value="HealthBG" />
+    <bool Name="Visible" Value="1" />
+    <bool Name="Enabled" Value="1" />
+    <vec3D Name="Position" Value="11.245 2.79312 0" />
+    <vec3D Name="Rotation" Value="0 0 0" />
+    <vec3D Name="Scale" Value="1.3 0.15 1" />
+    <vec3D Name="Center" Value="0 0 0" />
+    <bool Name="AlwaysActive" Value="0" />
+    <bool Name="HasVertexColors" Value="0" />
+  </Properties>
+  <Components>
+    <ref Name="" ClassName="GraphicComponent">
+      <uint Name="ID" Value="f966632c" />
+      <string Name="Name" Value="" />
+      <uint Name="RenderingPriority" Value="0" />
+      <enum Name="RenderingPass" Value="3" />
+      <bool Name="ShadowCaster" Value="0" />
+      <array Name="Materials">
+        <ref ClassName="Material">
+          <uint Name="ID" Value="380e0ff3" />
+          <string Name="Name" Value="" />
+          <struct Name="CreationInfo">
+            <bool Name="AlphaBlending" Value="0" />
+            <enum Name="SrcBlendFactor" Value="4" />
+            <enum Name="DestBlendFactor" Value="5" />
+            <enum Name="CullMode" Value="1" />
+            <color Name="Color" Value="0 0 0" />
+            <float Name="Alpha" Value="1" />
+            <array Name="Textures">
+              <ref TemplatePath="common/tex/WhiteBG.xml" />
+            </array>
+            <ref Name="Shader" TemplatePath="common/shaders/tex.xml" />
+            <bool Name="UseTextureRenderTarget" Value="0" />
+          </struct>
+        </ref>
+      </array>
+    </ref>
+  </Components>
+  <ProgressBar>
+    <Properties>
+      <uint Name="ID" Value="66afe47a" />
+      <string Name="Name" Value="HealthBar" />
+      <bool Name="Visible" Value="1" />
+      <bool Name="Enabled" Value="1" />
+      <vec3D Name="Position" Value="0 0 0" />
+      <vec3D Name="Rotation" Value="0 0 0" />
+      <vec3D Name="Scale" Value="1 1 1" />
+      <vec3D Name="Center" Value="0 0 0" />
+      <bool Name="AlwaysActive" Value="0" />
+      <color Name="ColorFull" Value="1 1 0" />
+      <color Name="ColorEmpty" Value="1 1 0" />
+    </Properties>
+    <Components>
+      <ref Name="" ClassName="GraphicComponent">
+        <uint Name="ID" Value="5fef299" />
+        <string Name="Name" Value="" />
+        <uint Name="RenderingPriority" Value="1" />
+        <enum Name="RenderingPass" Value="3" />
+        <bool Name="ShadowCaster" Value="0" />
+        <array Name="Materials">
+          <ref ClassName="Material">
+            <uint Name="ID" Value="5cdb261d" />
+            <string Name="Name" Value="" />
+            <struct Name="CreationInfo">
+              <bool Name="AlphaBlending" Value="0" />
+              <enum Name="SrcBlendFactor" Value="4" />
+              <enum Name="DestBlendFactor" Value="5" />
+              <enum Name="CullMode" Value="1" />
+              <color Name="Color" Value="1 1 1" />
+              <float Name="Alpha" Value="1" />
+              <array Name="Textures">
+                <ref TemplatePath="common/tex/WhiteBG.xml" />
+              </array>
+              <ref Name="Shader" TemplatePath="common/shaders/tex_col.xml" />
+              <bool Name="UseTextureRenderTarget" Value="0" />
+            </struct>
+          </ref>
+        </array>
+      </ref>
+    </Components>
+  </ProgressBar>
+</BillBoardEntity>

@@ -1,0 +1,198 @@
+<GameSettings>
+	<Properties>
+		<uint Name="ID" Value="8546b5f"/>
+		<string Name="Name" Value=""/>
+		<bool Name="Visible" Value="1"/>
+		<bool Name="Enabled" Value="1"/>
+		<float Name="SpawnAnimDuration" Value="0.5"/>
+		<float Name="DragTreshold" Value="1"/>
+		<float Name="AvoidanceDist" Value="7"/>
+		<float Name="AvoidanceLateralRadius" Value="2"/>
+		<float Name="AccelZFactor" Value="0.1"/>
+		<float Name="SpawnDuration" Value="2.5"/>
+		<float Name="SpawnProgressBarOffset" Value="1"/>
+		<float Name="MinSpeedForLookAtChange" Value="0.5"/>
+		<float Name="SteerRayCastDist" Value="5"/>
+		<int Name="PathwaySegmentsPerTile" Value="6"/>
+		<int Name="RepairCost" Value="25"/>
+		<int Name="NukeCost" Value="600"/>
+		<float Name="FireDamageDuration" Value="1"/>
+		<float Name="DefenderImpactEffectMinDist" Value="4"/>
+		<float Name="TowerImpactEffectMinDist" Value="8"/>
+		<float Name="RangeCheckTreshold" Value="2"/>
+		<float Name="MuzzleFlashDuration" Value="0.1"/>
+		<float Name="GunTowerRecoilDist" Value="8.5"/>
+		<float Name="DefaultCrashDamage" Value="10"/>
+		<color Name="PlayfieldHighlight" Value="0 0 0"/>
+		<float Name="PlayfieldHighlightAlpha" Value="0.5"/>
+		<ref Name="DefenderSettings" ClassName="DefenderSettings">
+			<float Name="HitPoints" Value="100"/>
+			<float Name="Range" Value="10"/>
+			<float Name="MaxFlySpeed" Value="10"/>
+			<float Name="MaxAccel" Value="60"/>
+			<float Name="SeparationDist" Value="20"/>
+			<float Name="SeparationFactor" Value="25"/>
+			<float Name="SteerFactor" Value="18"/>
+			<float Name="LookAtDuration" Value="0.3"/>
+			<float Name="DecelDuration" Value="0.5"/>
+			<float Name="HQRange" Value="10"/>
+			<float Name="HQTreshold" Value="1"/>
+			<int Name="Reward" Value="25"/>
+			<float Name="MinAccelFactor" Value="5"/>
+			<float Name="PullbackSteerFactor" Value="20"/>
+			<float Name="PullbackAccel" Value="60"/>
+			<float Name="PullbackSpeed" Value="15"/>
+		</ref>
+		<ref Name="GunTowerSettings1" ClassName="TowerSettings">
+			<float Name="HitPoints" Value="100"/>
+			<float Name="Range" Value="14"/>
+			<float Name="AimDuration" Value="0.2"/>
+			<float Name="DamagePerSecond" Value="30"/>
+		</ref>
+		<ref Name="GunTowerSettings2" ClassName="TowerSettings">
+			<float Name="HitPoints" Value="100"/>
+			<float Name="Range" Value="17"/>
+			<float Name="AimDuration" Value="0.2"/>
+			<float Name="DamagePerSecond" Value="60"/>
+		</ref>
+		<ref Name="GunTowerSettings3" ClassName="TowerSettings">
+			<float Name="HitPoints" Value="100"/>
+			<float Name="Range" Value="22"/>
+			<float Name="AimDuration" Value="0.3"/>
+			<float Name="DamagePerSecond" Value="120"/>
+		</ref>
+		<ref Name="ElectricTowerSettings1" ClassName="ElectricTowerSettings">
+			<float Name="HitPoints" Value="100"/>
+			<float Name="Range" Value="12"/>
+			<float Name="AimDuration" Value="0.3"/>
+			<float Name="DamagePerSecond" Value="40"/>
+		</ref>
+		<ref Name="ElectricTowerSettings2" ClassName="ElectricTowerSettings">
+			<float Name="HitPoints" Value="100"/>
+			<float Name="Range" Value="14"/>
+			<float Name="AimDuration" Value="0.3"/>
+			<float Name="DamagePerSecond" Value="40"/>
+		</ref>
+		<ref Name="ElectricTowerSettings3" ClassName="ElectricTowerSettings">
+			<float Name="HitPoints" Value="100"/>
+			<float Name="Range" Value="16"/>
+			<float Name="AimDuration" Value="0.3"/>
+			<float Name="DamagePerSecond" Value="80"/>
+		</ref>
+		<ref Name="FlameTowerSettings1" ClassName="TowerSettings">
+			<float Name="HitPoints" Value="100"/>
+			<float Name="Range" Value="10"/>
+			<float Name="AimDuration" Value="0.3"/>
+			<float Name="DamagePerSecond" Value="25"/>
+		</ref>
+		<ref Name="FlameTowerSettings2" ClassName="TowerSettings">
+			<float Name="HitPoints" Value="100"/>
+			<float Name="Range" Value="12"/>
+			<float Name="AimDuration" Value="0.3"/>
+			<float Name="DamagePerSecond" Value="35"/>
+		</ref>
+		<ref Name="FlameTowerSettings3" ClassName="TowerSettings">
+			<float Name="HitPoints" Value="100"/>
+			<float Name="Range" Value="14"/>
+			<float Name="AimDuration" Value="0.3"/>
+			<float Name="DamagePerSecond" Value="55"/>
+		</ref>
+		<ref Name="NuclearTowerSettings" ClassName="NuclearTowerSettings">
+			<float Name="HitPoints" Value="100"/>
+			<float Name="Range" Value="10"/>
+			<float Name="LaunchDelay" Value="50"/>
+			<float Name="AcceleratedLaunchDelayhDelay" Value="10"/>
+			<float Name="ExplosionRadius" Value="50"/>
+			<float Name="StrikeDuration" Value="2"/>
+			<float Name="LookAtDampDuration" Value="0.2"/>
+		</ref>
+		<ref Name="DefenderManagerSettings" ClassName="DefenderManagerSettings">
+			<float Name="Radius" Value="40"/>
+			<int Name="SpotsPerQuarter" Value="3"/>
+			<int Name="CountPerWavePerQuarter" Value="2"/>
+			<float Name="WaveFrequency" Value="1"/>
+			<float Name="SpawnDuration" Value="2"/>
+			<float Name="AngleRange" Value="20"/>
+			<float Name="Cooldown" Value="60"/>
+			<float Name="PullBackTreshold" Value="15"/>
+			<float Name="DiseappearTime" Value="4"/>
+		</ref>
+		<array Name="PreloadedActors">
+			<struct>
+				<enum Name="Type" Value="1"/>
+				<ref Name="Icon" TemplatePath="ingame/ui/IconGunTower.xml"/>
+				<array Name="Levels">
+					<struct>
+						<ref Name="Actor" TemplatePath="ingame/guntower.xml"/>
+						<int Name="Diamonds" Value="100"/>
+						<ref Name="UpgradeIcon" TemplatePath="ingame/ui/IconGunTowerUp.xml"/>
+					</struct>
+					<struct>
+						<ref Name="Actor" TemplatePath="ingame/guntower2.xml"/>
+						<int Name="Diamonds" Value="300"/>
+						<ref Name="UpgradeIcon" TemplatePath="ingame/ui/IconGunTowerUp2.xml"/>
+					</struct>
+					<struct>
+						<ref Name="Actor" TemplatePath="ingame/guntower3.xml"/>
+						<int Name="Diamonds" Value="500"/>
+						<ref Name="UpgradeIcon" ClassName="Texture"/>
+					</struct>
+				</array>
+			</struct>
+			<struct>
+				<enum Name="Type" Value="2"/>
+				<ref Name="Icon" TemplatePath="ingame/ui/IconFlameTower.xml"/>
+				<array Name="Levels">
+					<struct>
+						<ref Name="Actor" TemplatePath="ingame/flametower.xml"/>
+						<int Name="Diamonds" Value="150"/>
+						<ref Name="UpgradeIcon" TemplatePath="ingame/ui/IconFlameTowerUp.xml"/>
+					</struct>
+					<struct>
+						<ref Name="Actor" TemplatePath="ingame/flametower2.xml"/>
+						<int Name="Diamonds" Value="400"/>
+						<ref Name="UpgradeIcon" TemplatePath="ingame/ui/IconFlameTowerUp2.xml"/>
+					</struct>
+					<struct>
+						<ref Name="Actor" TemplatePath="ingame/flametower3.xml"/>
+						<int Name="Diamonds" Value="600"/>
+						<ref Name="UpgradeIcon" ClassName="Texture"/>
+					</struct>
+				</array>
+			</struct>
+			<struct>
+				<enum Name="Type" Value="3"/>
+				<ref Name="Icon" TemplatePath="ingame/ui/IconElectricTower.xml"/>
+				<array Name="Levels">
+					<struct>
+						<ref Name="Actor" TemplatePath="ingame/electrictower.xml"/>
+						<int Name="Diamonds" Value="175"/>
+						<ref Name="UpgradeIcon" TemplatePath="ingame/ui/IconElectricTowerUp.xml"/>
+					</struct>
+					<struct>
+						<ref Name="Actor" TemplatePath="ingame/electrictower2.xml"/>
+						<int Name="Diamonds" Value="500"/>
+						<ref Name="UpgradeIcon" TemplatePath="ingame/ui/IconElectricTowerUp2.xml"/>
+					</struct>
+					<struct>
+						<ref Name="Actor" TemplatePath="ingame/electrictower3.xml"/>
+						<int Name="Diamonds" Value="700"/>
+						<ref Name="UpgradeIcon" ClassName="Texture"/>
+					</struct>
+				</array>
+			</struct>
+			<struct>
+				<enum Name="Type" Value="4"/>
+				<ref Name="Icon" TemplatePath="ingame/ui/IconNuclearTower.xml"/>
+				<array Name="Levels">
+					<struct>
+						<ref Name="Actor" TemplatePath="ingame/nucleartower.xml"/>
+						<int Name="Diamonds" Value="600"/>
+						<ref Name="UpgradeIcon" ClassName="Texture"/>
+					</struct>
+				</array>
+			</struct>
+		</array>
+	</Properties>
+</GameSettings>
+

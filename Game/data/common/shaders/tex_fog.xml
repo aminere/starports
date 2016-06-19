@@ -1,0 +1,26 @@
+<Shader>    
+	<enum Name="Type" Value="3" />
+	<array Name="Attributes">
+        <string Value="aPosition" />
+		<string Value="aUV" />
+		<string Value="aColor" />
+    </array>
+	<array Name="Constants">
+		<ref ClassName="ShaderParameter">
+			<string Name="Name" Value="uTexture0" />
+            <enum Name="Type" Value="4" />
+        </ref>
+		<ref ClassName="ShaderParameter">
+			<string Name="Name" Value="uAmbientColor" />
+            <enum Name="Type" Value="2" />
+		</ref>
+		<ref ClassName="ShaderParameter">
+			<string Name="Name" Value="uFogColor" />
+            <enum Name="Type" Value="2" />
+		</ref>
+		<ref ClassName="ShaderParameter">
+			<string Name="Name" Value="uCameraPos" />
+            <enum Name="Type" Value="6" />
+		</ref>
+	</array>
+</Shader>

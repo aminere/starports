@@ -1,0 +1,13 @@
+<GameManager>
+	<Properties>
+		<uint Name="ID" Value="129e0bd2"/>
+		<string Name="Name" Value="GameManager"/>
+		<bool Name="Visible" Value="1"/>
+		<bool Name="Enabled" Value="1"/>
+		<float Name="UITransitionDuration" Value="0.2"/>
+		<float Name="UITransitionOriginTop" Value="-350"/>
+		<float Name="UITransitionOriginBottom" Value="100"/>
+		<float Name="ContextTransitionDuration" Value="0.45"/>
+	</Properties>
+</GameManager>
+

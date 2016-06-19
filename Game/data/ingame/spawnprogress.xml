@@ -1,0 +1,90 @@
+<ProgressIndicator>
+	<Properties>
+		<uint Name="ID" Value="bdd7e97c"/>
+		<string Name="Name" Value="ProgressIndicator"/>
+		<bool Name="Visible" Value="1"/>
+		<bool Name="Enabled" Value="1"/>
+		<vec3D Name="Position" Value="0 0 0"/>
+		<vec3D Name="Rotation" Value="0 0 0"/>
+		<vec3D Name="Scale" Value="1 1 1"/>
+		<vec3D Name="Center" Value="0 0 0"/>
+		<bool Name="AlwaysActive" Value="0"/>
+		<int Name="Segments" Value="20"/>
+		<float Name="Radius" Value="3.5"/>
+		<float Name="Thickness" Value="0.2"/>
+		<float Name="Duration" Value="1"/>
+	</Properties>
+	<Components>
+		<ref Name="" ClassName="GraphicComponent">
+			<uint Name="ID" Value="b3ec6500"/>
+			<string Name="Name" Value=""/>
+			<uint Name="RenderingPriority" Value="0"/>
+			<enum Name="RenderingPass" Value="3"/>
+			<bool Name="ShadowCaster" Value="0"/>
+			<array Name="Materials">
+				<ref ClassName="Material">
+					<uint Name="ID" Value="d1e467d"/>
+					<string Name="Name" Value=""/>
+					<struct Name="CreationInfo">
+						<bool Name="AlphaBlending" Value="0"/>
+						<enum Name="SrcBlendFactor" Value="4"/>
+						<enum Name="DestBlendFactor" Value="5"/>
+						<enum Name="CullMode" Value="1"/>
+						<color Name="Color" Value="1 1 1"/>
+						<float Name="Alpha" Value="1"/>
+						<array Name="Textures">
+							<ref TemplatePath="common/tex/WhiteBG.xml"/>
+						</array>
+						<ref Name="Shader" TemplatePath="common/shaders/tex.xml"/>
+						<bool Name="UseTextureRenderTarget" Value="0"/>
+						<array Name="ShaderParams"/>
+					</struct>
+				</ref>
+			</array>
+		</ref>
+	</Components>
+	<BillBoardEntity>
+		<Properties>
+			<uint Name="ID" Value="9e135a0d"/>
+			<string Name="Name" Value="Tip"/>
+			<bool Name="Visible" Value="0"/>
+			<bool Name="Enabled" Value="1"/>
+			<vec3D Name="Position" Value="0 0 0"/>
+			<vec3D Name="Rotation" Value="0 0 0"/>
+			<vec3D Name="Scale" Value="1 1 1"/>
+			<vec3D Name="Center" Value="0 0 0"/>
+			<bool Name="AlwaysActive" Value="0"/>
+			<bool Name="HasVertexColors" Value="0"/>
+		</Properties>
+		<Components>
+			<ref Name="" ClassName="GraphicComponent">
+				<uint Name="ID" Value="93eebf22"/>
+				<string Name="Name" Value=""/>
+				<uint Name="RenderingPriority" Value="0"/>
+				<enum Name="RenderingPass" Value="8"/>
+				<bool Name="ShadowCaster" Value="0"/>
+				<array Name="Materials">
+					<ref ClassName="Material">
+						<uint Name="ID" Value="555405fb"/>
+						<string Name="Name" Value=""/>
+						<struct Name="CreationInfo">
+							<bool Name="AlphaBlending" Value="1"/>
+							<enum Name="SrcBlendFactor" Value="4"/>
+							<enum Name="DestBlendFactor" Value="5"/>
+							<enum Name="CullMode" Value="1"/>
+							<color Name="Color" Value="1 1 1"/>
+							<float Name="Alpha" Value="1"/>
+							<array Name="Textures">
+								<ref TemplatePath="common/tex/Star.xml"/>
+							</array>
+							<ref Name="Shader" TemplatePath="common/shaders/tex.xml"/>
+							<bool Name="UseTextureRenderTarget" Value="0"/>
+							<array Name="ShaderParams"/>
+						</struct>
+					</ref>
+				</array>
+			</ref>
+		</Components>
+	</BillBoardEntity>
+</ProgressIndicator>
+

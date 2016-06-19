@@ -1,0 +1,6 @@
+<MeshResource>	
+	<bool Name="Dynamic" Value="0" />
+	<bool Name="VertexNormals" Value="1" />	
+	<bool Name="TangentBinormals" Value="1" />	
+	<bool Name="MergeSubmeshes" Value="1" />	
+</MeshResource>

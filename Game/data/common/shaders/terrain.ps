@@ -1,0 +1,27 @@
+
+precision mediump float;
+uniform sampler2D uTexture0; // diffuse
+uniform sampler2D uTexture1; // detail map
+uniform vec4 uAmbientColor;
+uniform vec4 uFogColor;
+uniform vec3 uCameraPos;
+
+varying vec2 vTexCoord;
+varying vec3 vVertPos;
+
+void main()
+{	
+	vec4 texColor = texture2D(uTexture0, vTexCoord);
+	
+	vec2 detailCoord = vTexCoord * 32.0;
+	vec4 detail = texture2D(uTexture1, detailCoord) * texture2D(uTexture1, detailCoord * -0.25) * 4.0;
+	detail = clamp(detail, 0.7, 1.0);	
+	
+	float maxDist = 500.0;
+	float minDist = 100.0;
+	float dist = length(uCameraPos-vVertPos);
+	float fogDistFactor = ((clamp(dist, minDist, maxDist)-minDist)/(maxDist-minDist));	
+	float fogFactor = clamp((fogDistFactor*fogDistFactor), 0.0, 1.0);	
+	
+	gl_FragColor =  ((texColor * detail * (1.0-fogFactor)) * uAmbientColor) + (uFogColor*fogFactor);
+}

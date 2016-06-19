@@ -1,0 +1,4 @@
+<MeshResource>	
+	<bool Name="Dynamic" Value="0" />
+	<bool Name="VertexNormals" Value="1" />
+</MeshResource>

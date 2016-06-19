@@ -1,0 +1,55 @@
+<Shader>
+	<enum Name="Type" Value="2" />   
+	<array Name="Attributes">
+        <string Value="aPosition" />
+		<string Value="aUV" />
+		<string Value="aNormal" />
+		<string Value="aTangent" />
+    </array>
+    <array Name="Constants">
+		<ref ClassName="ShaderParameter">
+			<string Name="Name" Value="uTexture0" />
+            <enum Name="Type" Value="4" />
+        </ref>
+		<ref ClassName="ShaderParameter">
+			<string Name="Name" Value="uTexture1" />
+            <enum Name="Type" Value="4" />
+        </ref>		
+		<ref ClassName="ShaderParameter">
+			<string Name="Name" Value="uShadowMaps" />
+            <enum Name="Type" Value="4" />
+        </ref>
+		<ref ClassName="ShaderParameter">
+			<string Name="Name" Value="uAmbientColor" />
+            <enum Name="Type" Value="2" />
+        </ref>
+        <ref ClassName="ShaderParameter">
+			<string Name="Name" Value="uLightPositions" />
+            <enum Name="Type" Value="6" />
+        </ref>
+		<ref ClassName="ShaderParameter">
+			<string Name="Name" Value="uLightColors" />
+            <enum Name="Type" Value="2" />
+        </ref>
+		<ref ClassName="ShaderParameter">
+			<string Name="Name" Value="uLightVPs" />
+            <enum Name="Type" Value="3" />
+        </ref>			
+		<ref ClassName="ShaderParameter">
+			<string Name="Name" Value="uShadowDecr" />
+            <enum Name="Type" Value="0" />
+        </ref>
+		<ref ClassName="ShaderParameter">
+			<string Name="Name" Value="uCameraPos" />
+            <enum Name="Type" Value="6" />
+		</ref>
+		<ref ClassName="ShaderParameter">
+			<string Name="Name" Value="uLightAttenuation" />
+            <enum Name="Type" Value="0" />
+        </ref>
+		<ref ClassName="ShaderParameter">
+			<string Name="Name" Value="uShininess" />
+            <enum Name="Type" Value="0" />
+        </ref>	
+    </array>
+</Shader>
