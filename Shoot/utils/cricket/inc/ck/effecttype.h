@@ -1,4 +1,4 @@
-// Copyright 2013 Cricket Technology
+// Copyright 2016 Cricket Technology
 // www.crickettechnology.com
 /** @file */
 /** @defgroup CkEffectType CkEffectType */
@@ -30,3 +30,4 @@ typedef enum
 } CkEffectType;
 
 
+/** @} */

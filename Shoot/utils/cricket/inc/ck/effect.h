@@ -1,4 +1,4 @@
-// Copyright 2013 Cricket Technology
+// Copyright 2016 Cricket Technology
 // www.crickettechnology.com
 /** @file */
 /** @defgroup CkEffect CkEffect */
@@ -56,7 +56,7 @@ public:
     static CkEffect* newEffect(CkEffectType);
 
 
-    /* Factory function for creating effect processors for custom effects. */
+    /** Factory function for creating effect processors for custom effects. */
     typedef CkEffectProcessor* (*CustomEffectFunc)(void* arg);
 
     /** Register a custom effect. 

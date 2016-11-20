@@ -1,10 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
-    <ProjectConfiguration Include="Release|Win32">
-      <Configuration>Release</Configuration>
-      <Platform>Win32</Platform>
-    </ProjectConfiguration>
     <ProjectConfiguration Include="Release|x64">
       <Configuration>Release</Configuration>
       <Platform>x64</Platform>
@@ -17,25 +13,15 @@
     <ProjectName>EditorLauncher</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v120</PlatformToolset>
-    <CharacterSet>Unicode</CharacterSet>
-    <CLRSupport>false</CLRSupport>
-    <WholeProgramOptimization>true</WholeProgramOptimization>
-  </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v120</PlatformToolset>
+    <PlatformToolset>v140</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
     <CLRSupport>false</CLRSupport>
     <WholeProgramOptimization>true</WholeProgramOptimization>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
-  </ImportGroup>
-  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
-    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -44,49 +30,12 @@
   <PropertyGroup>
     <_ProjectFileVersion>11.0.50727.1</_ProjectFileVersion>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <OutDir>$(SolutionDir)\..\..\..\.\</OutDir>
-    <IntDir>$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
-    <LinkIncremental>false</LinkIncremental>
-    <TargetName>$(ProjectName)$(Configuration)</TargetName>
-  </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
     <TargetName>$(ProjectName)$(Configuration)</TargetName>
     <OutDir>$(SolutionDir)\..\..\..\.\</OutDir>
     <IntDir>$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
   </PropertyGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <ClCompile>
-      <Optimization>Disabled</Optimization>
-      <IntrinsicFunctions>true</IntrinsicFunctions>
-      <AdditionalIncludeDirectories>.\..\..\..\..\ShootEditor\include;.\..\..\..\..\shoot\include;.\..\..\..\..\shoot\include\OpenGL;.\..\..\..\..\extern\wxWidgets\include;.\..\..\..\..\extern\wxWidgets\lib\vc_dll\mswu;.\..\..\..\..\extern\SDL\include;.\..\..\..\src\game;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_WARNINGS;WXUSINGDLL;NDEBUG;_WINDOWS;__WXMSW__;SHOOT_EDITOR;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <MinimalRebuild>false</MinimalRebuild>
-      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
-      <FunctionLevelLinking>true</FunctionLevelLinking>
-      <RuntimeTypeInfo>false</RuntimeTypeInfo>
-      <PrecompiledHeader>Use</PrecompiledHeader>
-      <WarningLevel>Level3</WarningLevel>
-      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <PrecompiledHeaderFile>GameEditorCommon.h</PrecompiledHeaderFile>
-    </ClCompile>
-    <Link>
-      <AdditionalDependencies>wxmsw30u_core.lib;wxmsw30u_aui.lib;wxmsw30u_propgrid.lib;wxmsw30u_adv.lib;wxbase30u.lib;wxmsw30u_gl.lib;wxpng.lib;uuid.lib;rpcrt4.lib;comctl32.lib;SDL.lib;SDLMain.lib;opengl32.lib;glu32.lib;libfbxsdk-md.lib;ck.lib;xaudio2.lib;ws2_32.lib;XINPUT9_1_0.lib;freetype253.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>$(OutDir)$(TargetName).exe</OutputFile>
-      <AdditionalLibraryDirectories>.\..\..\..\..\shoot\utils\freetype\win\lib\x86;.\..\..\..\..\extern\wxWidgets\lib\vc_dll;.\..\..\..\..\extern\SDL\lib\x86;.\..\..\..\..\extern\FBXSDK\lib\vs2013\x86\release;.\..\..\..\..\shoot\utils\cricket\lib\win\vs12.0\x86\ReleaseDynamic7;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
-      <ProgramDatabaseFile>$(IntDir)$(TargetName).pdb</ProgramDatabaseFile>
-      <GenerateMapFile>true</GenerateMapFile>
-      <SubSystem>Windows</SubSystem>
-      <OptimizeReferences>true</OptimizeReferences>
-      <EnableCOMDATFolding>true</EnableCOMDATFolding>
-      <ProfileGuidedDatabase />
-      <TargetMachine>MachineX86</TargetMachine>
-      <CLRThreadAttribute>STAThreadingAttribute</CLRThreadAttribute>
-      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
-    </Link>
-  </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
       <Optimization>Disabled</Optimization>
@@ -103,9 +52,9 @@
       <PrecompiledHeaderFile>GameEditorCommon.h</PrecompiledHeaderFile>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>wxmsw30u_core.lib;wxmsw30u_aui.lib;wxmsw30u_propgrid.lib;wxmsw30u_adv.lib;wxbase30u.lib;wxmsw30u_gl.lib;wxpng.lib;uuid.lib;rpcrt4.lib;comctl32.lib;SDL.lib;SDLMain.lib;opengl32.lib;glu32.lib;libfbxsdk-md.lib;ck.lib;xaudio2.lib;ws2_32.lib;XINPUT9_1_0.lib;freetype253.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>wxmsw31u_core.lib;wxmsw31u_aui.lib;wxmsw31u_propgrid.lib;wxmsw31u_adv.lib;wxbase31u.lib;wxmsw31u_gl.lib;wxpng.lib;uuid.lib;rpcrt4.lib;comctl32.lib;SDL.lib;SDLMain.lib;opengl32.lib;glu32.lib;libfbxsdk-md.lib;ck.lib;xaudio2.lib;ws2_32.lib;XINPUT9_1_0.lib;freetype.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)$(TargetName).exe</OutputFile>
-      <AdditionalLibraryDirectories>.\..\..\..\..\shoot\utils\freetype\win\lib\x64;.\..\..\..\..\extern\wxWidgets\lib\vc_x64_dll;.\..\..\..\..\extern\SDL\lib\x64;.\..\..\..\..\extern\FBXSDK\lib\vs2013\x64\release;.\..\..\..\..\shoot\utils\cricket\lib\win\vs12.0\x64\ReleaseDynamic7;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>.\..\..\..\..\extern\freetype\lib\Release;.\..\..\..\..\extern\wxWidgets\lib\vc_x64_dll;.\..\..\..\..\extern\SDL\lib\x64;.\..\..\..\..\extern\FBXSDK\lib\vs2015\x64\release;.\..\..\..\..\shoot\utils\cricket\lib\win\vs14.0\x64\ReleaseDynamic;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ProgramDatabaseFile>$(IntDir)$(TargetName).pdb</ProgramDatabaseFile>
       <GenerateMapFile>true</GenerateMapFile>
@@ -127,11 +76,9 @@
     <ClCompile Include="..\..\..\src\editor\GameToolbar.cpp" />
     <ClCompile Include="..\..\..\src\editor\GameViewPort.cpp" />
     <ClCompile Include="..\..\..\src\editor\main.cpp">
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="..\..\..\src\editor\pch.cpp">
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
   </ItemGroup>

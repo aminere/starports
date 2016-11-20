@@ -11,7 +11,7 @@ Created: July 17th 2013
 #include "MeshResource.h"
 
 // forwards
-namespace fbxsdk_2015_1
+namespace fbxsdk
 {
 	class FbxManager;
 	class FbxNode;
@@ -41,14 +41,14 @@ namespace shoot
 	private:
 
 		//! FBX Loading
-		void LoadNode(fbxsdk_2015_1::FbxNode* node);
-		void LoadMesh(fbxsdk_2015_1::FbxNode* meshNode);
-		void LoadVertices(fbxsdk_2015_1::FbxMesh* mesh, Vertex3D* pVertices, int numVertices, bool orientable);
-		void LoadUVs(fbxsdk_2015_1::FbxMesh* mesh, Vertex3D* pVertices, int numVertices, uint& vertexFormat);
-		void LoadVertexColors(fbxsdk_2015_1::FbxMesh* mesh, Vertex3D* pVertices, int numVertices, uint& vertexFormat);
-		void LoadVertexNormals(fbxsdk_2015_1::FbxMesh* mesh, Vertex3D* pVertices, int numVertices, uint& vertexFormat, bool orientable);
-		void LoadTangentBinormals(fbxsdk_2015_1::FbxMesh* mesh, Vertex3D* pVertices, int numVertices, uint& vertexFormat);
-		Material::CreationInfo LoadMaterial(fbxsdk_2015_1::FbxNode* node);
+		void LoadNode(fbxsdk::FbxNode* node);
+		void LoadMesh(fbxsdk::FbxNode* meshNode);
+		void LoadVertices(fbxsdk::FbxMesh* mesh, Vertex3D* pVertices, int numVertices, bool orientable);
+		void LoadUVs(fbxsdk::FbxMesh* mesh, Vertex3D* pVertices, int numVertices, uint& vertexFormat);
+		void LoadVertexColors(fbxsdk::FbxMesh* mesh, Vertex3D* pVertices, int numVertices, uint& vertexFormat);
+		void LoadVertexNormals(fbxsdk::FbxMesh* mesh, Vertex3D* pVertices, int numVertices, uint& vertexFormat, bool orientable);
+		void LoadTangentBinormals(fbxsdk::FbxMesh* mesh, Vertex3D* pVertices, int numVertices, uint& vertexFormat);
+		Material::CreationInfo LoadMaterial(fbxsdk::FbxNode* node);
 				
 		MeshResource* m_pMesh;
 		std::string m_Path;
@@ -73,7 +73,7 @@ namespace shoot
 		};
 
 		std::vector<Group> m_Groups;
-		static fbxsdk_2015_1::FbxManager* ms_pManager;
+		static fbxsdk::FbxManager* ms_pManager;
 	};
 }
 

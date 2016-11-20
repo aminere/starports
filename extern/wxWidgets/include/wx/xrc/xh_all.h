@@ -13,6 +13,7 @@
 
 // Existing handlers:
 
+#include "wx/xrc/xh_activityindicator.h"
 #include "wx/xrc/xh_animatctrl.h"
 #include "wx/xrc/xh_bannerwindow.h"
 #include "wx/xrc/xh_bmp.h"
@@ -56,6 +57,7 @@
 #include "wx/xrc/xh_radbx.h"
 #include "wx/xrc/xh_scrol.h"
 #include "wx/xrc/xh_scwin.h"
+#include "wx/xrc/xh_simplebook.h"
 #include "wx/xrc/xh_sizer.h"
 #include "wx/xrc/xh_slidr.h"
 #include "wx/xrc/xh_spin.h"
