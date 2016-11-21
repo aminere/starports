@@ -6,3 +6,4 @@ Game/DebugLog.txt
 Game/build/vc/editor/x64/
 *.VC.db
 *.VC.opendb
+*.ipch

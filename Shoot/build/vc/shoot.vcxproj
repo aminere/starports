@@ -76,7 +76,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <WholeProgramOptimization>true</WholeProgramOptimization>
       <AdditionalIncludeDirectories>.\..\..\include;.\..\..\utils\cricket\inc;.\..\..\..\extern\freetype\include;.\..\..\include\OpenGL;.\..\..\include\DX11;.\..\..\include\rapidxml;.\..\..\..\extern\SDL\include;.\..\..\src\zlib;.\..\..\src\libpng;.\..\..\src\;.\..\..\..\extern\FBXSDK\include;.\..\..\..\extern\FreeImage\Dist\x64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;SHOOT_EDITOR;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;SHOOT_EDITOR;FBXSDK_SHARED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>false</MinimalRebuild>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
