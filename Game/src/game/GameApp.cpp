@@ -29,7 +29,7 @@ namespace shoot
 				if (event.type == SDL_KEYUP
 				 || event.type == SDL_KEYDOWN)
 				{
-					SDLKey sdlKey = event.key.keysym.sym;
+					auto sdlKey = event.key.keysym.sym;
 					InputManager::E_KeyType shootKey = static_cast<InputManagerSDL*>(InputManager::Instance())->GetShootKeyType(sdlKey);
 					InputManager::Instance()->SetKeyPressed(shootKey, (event.type == SDL_KEYDOWN));
 				}
@@ -41,7 +41,7 @@ namespace shoot
 					{
 						InputManager::TouchState state;
 						state.bPressed = (event.type == SDL_MOUSEBUTTONDOWN);
-						state.vPosition.Set(event.button.x, event.button.y);
+						state.vPosition.Set((float)event.button.x, (float)event.button.y);
 						InputManager::Instance()->SetTouchState(state);
 						m_MousePressed = state.bPressed;
 
@@ -59,26 +59,20 @@ namespace shoot
 						{
 							gameMgr->ResetMenuTimer();
 						}
-					}
-					else if (buttonIndex == SDL_BUTTON_WHEELUP)
-					{
-						shoot::WheelEvent* pEvent = snew shoot::WheelEvent();
-						pEvent->m_Up = true;
-						EventManager::Instance()->SendEvent(pEvent);						
-					}
-					else if (buttonIndex == SDL_BUTTON_WHEELDOWN)
-					{
-						shoot::WheelEvent* pEvent = snew shoot::WheelEvent();
-						pEvent->m_Up = false;
-						EventManager::Instance()->SendEvent(pEvent);						
-					}
+					}					
 				}
 				else if (event.type == SDL_MOUSEMOTION)
 				{
 					InputManager::TouchState state;
 					state.bPressed = m_MousePressed;
-					state.vPosition.Set(event.button.x, event.button.y);
+					state.vPosition.Set((float)event.button.x, (float)event.button.y);
 					InputManager::Instance()->SetTouchState(state);
+				}
+				else if (event.type == SDL_MOUSEWHEEL)
+				{
+					shoot::WheelEvent* pEvent = snew shoot::WheelEvent();
+					pEvent->m_Up = event.wheel.y > 0;
+					EventManager::Instance()->SendEvent(pEvent);
 				}
 			} // end while (event)
 

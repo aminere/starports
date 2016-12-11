@@ -40,7 +40,7 @@
     <ClCompile>
       <Optimization>Disabled</Optimization>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <AdditionalIncludeDirectories>.\..\..\..\..\ShootEditor\include;.\..\..\..\..\shoot\include;.\..\..\..\..\shoot\include\OpenGL;.\..\..\..\..\extern\wxWidgets\include;.\..\..\..\..\extern\wxWidgets\lib\vc_x64_dll\mswu;.\..\..\..\..\extern\SDL\include;.\..\..\..\src\game;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\..\..\..\..\ShootEditor\include;.\..\..\..\..\shoot\include;.\..\..\..\..\shoot\include\OpenGL;.\..\..\..\..\extern\wxWidgets\include;.\..\..\..\..\extern\wxWidgets\lib\vc_x64_dll\mswu;.\..\..\..\..\extern\SDL2\include;.\..\..\..\src\game;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_WARNINGS;WXUSINGDLL;NDEBUG;_WINDOWS;__WXMSW__;SHOOT_EDITOR;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>false</MinimalRebuild>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
@@ -52,9 +52,9 @@
       <PrecompiledHeaderFile>GameEditorCommon.h</PrecompiledHeaderFile>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>wxmsw31u_core.lib;wxmsw31u_aui.lib;wxmsw31u_propgrid.lib;wxmsw31u_adv.lib;wxbase31u.lib;wxmsw31u_gl.lib;wxpng.lib;uuid.lib;rpcrt4.lib;comctl32.lib;SDL.lib;SDLMain.lib;opengl32.lib;glu32.lib;libfbxsdk.lib;ck.lib;xaudio2.lib;ws2_32.lib;XINPUT9_1_0.lib;freetype.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>wxmsw31u_core.lib;wxmsw31u_aui.lib;wxmsw31u_propgrid.lib;wxmsw31u_adv.lib;wxbase31u.lib;wxmsw31u_gl.lib;wxpng.lib;uuid.lib;rpcrt4.lib;comctl32.lib;SDL2.lib;SDL2Main.lib;opengl32.lib;glu32.lib;libfbxsdk.lib;ck.lib;xaudio2.lib;ws2_32.lib;XINPUT9_1_0.lib;freetype.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)$(TargetName).exe</OutputFile>
-      <AdditionalLibraryDirectories>.\..\..\..\..\extern\freetype\lib\Release;.\..\..\..\..\extern\wxWidgets\lib\vc_x64_dll;.\..\..\..\..\extern\SDL\lib\x64;.\..\..\..\..\extern\FBXSDK\lib\vs2015\x64\release;.\..\..\..\..\shoot\utils\cricket\lib\win\vs14.0\x64\ReleaseDynamic;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>.\..\..\..\..\extern\freetype\lib\Release;.\..\..\..\..\extern\wxWidgets\lib\vc_x64_dll;.\..\..\..\..\extern\SDL2\lib\x64;.\..\..\..\..\extern\FBXSDK\lib\vs2015\x64\release;.\..\..\..\..\shoot\utils\cricket\lib\win\vs14.0\x64\ReleaseDynamic;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ProgramDatabaseFile>$(IntDir)$(TargetName).pdb</ProgramDatabaseFile>
       <GenerateMapFile>true</GenerateMapFile>

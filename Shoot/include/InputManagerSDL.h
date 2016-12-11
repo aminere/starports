@@ -61,12 +61,17 @@ namespace shoot
 		void SetKeyPressed(E_KeyType eKey, bool bSet);
 
 		//! returns shoot type for an SDL type
-		inline E_KeyType GetShootKeyType(SDLKey sdlKey) const { return m_aShootKeyTypes[sdlKey]; }
+		inline E_KeyType GetShootKeyType(SDL_Keycode sdlKey) const 
+		{
+			auto it = m_aShootKeyTypes.find(sdlKey);
+			SHOOT_ASSERT(it != m_aShootKeyTypes.end(), "Unsupported SDL Key");
+			return it->second;
+		}
 
 	private:
 
 		// converts an SDL key type to a shoot key type
-		E_KeyType m_aShootKeyTypes[SDLK_LAST];
+		std::map<SDL_Keycode, E_KeyType> m_aShootKeyTypes;
 
 		bool m_aKeyStates[KT_Count];
 		bool m_aPreviousKeyStates[KT_Count];

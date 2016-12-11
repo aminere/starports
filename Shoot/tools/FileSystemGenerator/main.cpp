@@ -14,6 +14,10 @@ Created: April 28th 2012
 
 #include "File.h"
 
+void EditorOutput(const char* strMessage)
+{
+}
+
 int main(int argc, char** argv)
 {
 	shoot::HighResTimer timer;
@@ -40,7 +44,6 @@ int main(int argc, char** argv)
 	shoot::Log << "Duration: " << (float)msec / 1000.0f << " secs\n";
 	shoot::Log << "Success!\n";
 	shoot::Log.Close();
-	system("pause");
 	return 0;
 }
 

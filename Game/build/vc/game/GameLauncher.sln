@@ -3,16 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GameLauncher", "GameLauncher.vcxproj", "{80E4980F-B2B8-4F23-BEAB-83DC930E0360}"
+	ProjectSection(ProjectDependencies) = postProject
+		{02CD2C0D-B04D-4C6E-80F7-0B41C7616AAF} = {02CD2C0D-B04D-4C6E-80F7-0B41C7616AAF}
+	EndProjectSection
+EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Game", "Game.vcxproj", "{02CD2C0D-B04D-4C6E-80F7-0B41C7616AAF}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "shoot", "..\..\..\..\Shoot\build\vc\shoot.vcxproj", "{18CA3F84-75A7-43C4-8388-34C2E384C80F}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zlib", "..\..\..\..\Shoot\build\vc\zlib.vcxproj", "{65F1FE0F-7C70-451A-9FE2-B25535AA1185}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GameLauncher", "GameLauncher.vcxproj", "{80E4980F-B2B8-4F23-BEAB-83DC930E0360}"
-	ProjectSection(ProjectDependencies) = postProject
-		{02CD2C0D-B04D-4C6E-80F7-0B41C7616AAF} = {02CD2C0D-B04D-4C6E-80F7-0B41C7616AAF}
-	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libpng", "..\..\..\..\Shoot\build\vc\libpng.vcxproj", "{145E8C22-BFC3-45A7-A30D-F88D61C8BF11}"
 EndProject

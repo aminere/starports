@@ -23,7 +23,7 @@ namespace shoot
 	void ThreadSDL::Start(ThreadFunc threadFunc, void* pParam /*= 0*/)
 	{
 		typedef int SDLThreadFunc(void* pParam);
-		m_pThread = SDL_CreateThread((SDLThreadFunc*)threadFunc, pParam);
+		m_pThread = SDL_CreateThread((SDLThreadFunc*)threadFunc, 0, pParam);
 	}
 }
 

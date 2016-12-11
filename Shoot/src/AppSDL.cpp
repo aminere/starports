@@ -38,9 +38,10 @@ namespace shoot
 
 			if(bFullScreen)
 			{
-				VideoFlags |= SDL_FULLSCREEN;
+				VideoFlags |= SDL_WINDOW_FULLSCREEN;
 			}
-			SDL_SetVideoMode(screenSize.Width, screenSize.Height, BitsPerPixel, VideoFlags);
+			m_Window = SDL_CreateWindow("Shoot Engine", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, screenSize.Width, screenSize.Height, VideoFlags);
+			SDL_GL_CreateContext(m_Window);
 			SDL_ShowCursor(SDL_DISABLE);
 
 #ifdef DX11
@@ -79,7 +80,7 @@ namespace shoot
 
 				if(GraphicsDriver::Instance()->GetType() == GraphicsDriver::DT_OpenGL)
 				{
-					SDL_GL_SwapBuffers();
+					SDL_GL_SwapWindow(m_Window);
 				}
 				else
 				{
@@ -107,7 +108,7 @@ namespace shoot
 				if(event.type == SDL_KEYUP
 				|| event.type == SDL_KEYDOWN) 
 				{
-					SDLKey sdlKey = event.key.keysym.sym;
+					auto sdlKey = event.key.keysym.sym;
 					InputManager::E_KeyType shootKey = static_cast<InputManagerSDL*>(InputManager::Instance())->GetShootKeyType(sdlKey);
 					InputManager::Instance()->SetKeyPressed(shootKey, (event.type == SDL_KEYDOWN));
 				}
@@ -116,14 +117,14 @@ namespace shoot
 				{
 					InputManager::TouchState state;
 					state.bPressed = (event.type == SDL_MOUSEBUTTONDOWN);
-					state.vPosition.Set(event.button.x, event.button.y);
+					state.vPosition.Set((float)event.button.x, (float)event.button.y);
 					InputManager::Instance()->SetTouchState(state);
 				}
 				else if(event.type == SDL_MOUSEMOTION)
 				{
 					InputManager::TouchState state;
 					state.bPressed = InputManager::Instance()->IsTouchPressed();
-					state.vPosition.Set(event.button.x, event.button.y);
+					state.vPosition.Set((float)event.button.x, (float)event.button.y);
 					InputManager::Instance()->SetTouchState(state);
 				}
 			} // end while (event)

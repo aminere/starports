@@ -18,10 +18,6 @@ namespace shoot
 		memset(m_aPreviousKeyStates, 0, KT_Count*sizeof(bool));
 
 		// init SDL to shoot mappings
-		for(int i=0; i<SDLK_LAST; ++i)
-		{
-			m_aShootKeyTypes[i] = KT_None;
-		}
 		m_aShootKeyTypes[SDLK_LEFT] = KT_Left;
 		m_aShootKeyTypes[SDLK_RIGHT] = KT_Right;
 		m_aShootKeyTypes[SDLK_UP] = KT_Up;

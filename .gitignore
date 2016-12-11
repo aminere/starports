@@ -7,3 +7,6 @@ Game/build/vc/editor/x64/
 *.VC.db
 *.VC.opendb
 *.ipch
+/Game/data.fs
+/Shoot/tools/FileSystemGenerator/vc/x64/
+
