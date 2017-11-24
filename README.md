@@ -8,7 +8,7 @@ In addition to the game source, this includes the full game pipeline (engine, ed
 
 <b>Why make a game engine from scratch?</b>
 
-I've been interested in game development technology for a long time, even more than playing or making games. I made my university's thesis project about a <a href="https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxhbWluZXJlaGlvdWl8Z3g6NzQxZDllNWVlMzNkOTIzNQ">Game Development Environment</a>. However, I must say that although this has great educational and professional value, it's obviously not the most efficient way of making a game today, for an indie.
+I've been interested in game development technology for a long time, even more than playing or making games. I made my university's thesis project about a <a href="https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxhbWluZXJlaGlvdWl8Z3g6NzQxZDllNWVlMzNkOTIzNQ">Game Development Environment</a>. 
 
 <b>Non exhaustive list of Engine Features</b>
 
