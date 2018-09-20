@@ -2,9 +2,9 @@
 
 <b>What is this repository about?</b>
 
-This is the full source code to <a href="http://www.franticsoftware.com">Starports Space Defense</a>, a mobile 3D tower defense I made and released throughout 2014/2015
+This is the full source code to <a href="http://www.franticsoftware.com/starports">Starports Space Defense</a>, a mobile 3D tower defense I made and released throughout 2014/2015
 
-In addition to the game source, this includes the full game pipeline (engine, editor, and tools), which I developed from scratch on my free time, starting around January 2010. This engine is a continuation of <a href="http://www.franticsoftware.com/vlad.html">VLAD Heavy Strike</a>'s engine.
+In addition to the game source, this includes the full game pipeline (engine, editor, and tools), which I developed from scratch on my free time, starting around January 2010. This engine is a continuation of <a href="http://www.franticsoftware.com/vlad">VLAD Heavy Strike</a>'s engine.
 
 <b>Why make a game engine from scratch?</b>
 
