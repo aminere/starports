@@ -1,7 +1,7 @@
 # Starports Space Defense
 
-![Thumbnail](https://franticsoftware.com/wp-content/uploads/2019/03/wsp_12.jpg)
-![Thumbnail2](https://franticsoftware.com/wp-content/uploads/2019/03/wsp_15.jpg)
+![Thumbnail](https://franticsoftware.com/public/starports/4.jpg)
+![Thumbnail2](https://franticsoftware.com/public/starports/3.jpg)
 
 This is the full C++ source code to <a href="https://www.franticsoftware.com/starports">Starports Space Defense</a>, a mobile 3D tower defense released in 2015.
 
