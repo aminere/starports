@@ -403,6 +403,7 @@ namespace shoot
 		}
 		else
 		{
+			auto c = GetClassName();
 			SHOOT_ASSERT(std::string(GetClassName()) == strClassName, "Trying to load and entity into an entity of incompatible type");
 			pEntity = this;
 		}		

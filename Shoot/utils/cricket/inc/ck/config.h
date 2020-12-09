@@ -121,7 +121,7 @@ struct _CkConfig
       decoder take slightly longer (~300ms) to initialize, and our tests have shown
       a negligible effect on CPU usage, so the default value is false.
       @par Only available on iOS. */
-    bool enableHardwareDecoding;
+    int enableHardwareDecoding;
 #endif
 
     /** Memory allocation function.

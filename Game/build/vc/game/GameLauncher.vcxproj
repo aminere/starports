@@ -14,7 +14,7 @@
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
     <WholeProgramOptimization>true</WholeProgramOptimization>
   </PropertyGroup>
@@ -51,7 +51,7 @@
     <Link>
       <AdditionalDependencies>SDL2.lib;SDL2Main.lib;opengl32.lib;glu32.lib;ck.lib;xaudio2.lib;ws2_32.lib;XINPUT9_1_0.lib;freetype.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)$(TargetName).exe</OutputFile>
-      <AdditionalLibraryDirectories>..\..\..\..\extern\SDL2\lib\x64;.\..\..\..\..\shoot\utils\cricket\lib\win\vs14.0\x64\ReleaseDynamic;.\..\..\..\..\extern\freetype\lib\Release\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\..\..\extern\SDL2\lib\x64;.\..\..\..\..\shoot\utils\cricket\lib\win\vs16.0\x64\ReleaseDynamic;.\..\..\..\..\extern\freetype\lib\Release\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Console</SubSystem>
       <OptimizeReferences>true</OptimizeReferences>

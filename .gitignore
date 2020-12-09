@@ -10,3 +10,7 @@ Game/build/vc/editor/x64/
 /Game/data.fs
 /Shoot/tools/FileSystemGenerator/vc/x64/
 
+*.exe
+*.pdb
+.vs/
+*.vcxproj.user

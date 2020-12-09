@@ -90,8 +90,9 @@ namespace shoot
 	TextureAnimationVisitor::KeyFrame TextureAnimationVisitor::GetInterpolatedKey() const
 	{
 		auto it = std::find_if(m_KeyFrames.begin(), m_KeyFrames.end(), [this](const KeyFrame* k) { return Math::FEqual(k->Time, m_fCurrentTime); });
-		if(it != m_KeyFrames.end())
+		if (it != m_KeyFrames.end()) {
 			return *(*it);
+		}			
 
 		using namespace cpplinq;
 		auto afterKeys = from(m_KeyFrames.Elements()) >> where ([this](const KeyFrame* k) { return k->Time > m_fCurrentTime; }) >> to_vector();

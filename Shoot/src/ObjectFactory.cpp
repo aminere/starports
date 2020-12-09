@@ -270,7 +270,7 @@ namespace shoot
 		Register<TextVisitor>();
 		Register<LoadContextVisitor>();
 		Register<LightVisitor>();
-		Register<TextureAnimationVisitor>();
+		//Register<TextureAnimationVisitor>();
 
 		// Components
 		Register<Component>();

@@ -15,7 +15,7 @@
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
     <CLRSupport>false</CLRSupport>
     <WholeProgramOptimization>true</WholeProgramOptimization>
@@ -54,7 +54,7 @@
     <Link>
       <AdditionalDependencies>wxmsw31u_core.lib;wxmsw31u_aui.lib;wxmsw31u_propgrid.lib;wxmsw31u_adv.lib;wxbase31u.lib;wxmsw31u_gl.lib;wxpng.lib;uuid.lib;rpcrt4.lib;comctl32.lib;SDL2.lib;SDL2Main.lib;opengl32.lib;glu32.lib;libfbxsdk.lib;ck.lib;xaudio2.lib;ws2_32.lib;XINPUT9_1_0.lib;freetype.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)$(TargetName).exe</OutputFile>
-      <AdditionalLibraryDirectories>.\..\..\..\..\extern\freetype\lib\Release;.\..\..\..\..\extern\wxWidgets\lib\vc_x64_dll;.\..\..\..\..\extern\SDL2\lib\x64;.\..\..\..\..\extern\FBXSDK\lib\vs2015\x64\release;.\..\..\..\..\shoot\utils\cricket\lib\win\vs14.0\x64\ReleaseDynamic;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>.\..\..\..\..\extern\freetype\lib\Release;.\..\..\..\..\extern\wxWidgets\lib\vc_x64_dll;.\..\..\..\..\extern\SDL2\lib\x64;.\..\..\..\..\extern\FBXSDK\lib\vs2015\x64\release;.\..\..\..\..\shoot\utils\cricket\lib\win\vs16.0\x64\ReleaseDynamic;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ProgramDatabaseFile>$(IntDir)$(TargetName).pdb</ProgramDatabaseFile>
       <GenerateMapFile>true</GenerateMapFile>

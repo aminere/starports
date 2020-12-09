@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Windows Desktop
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GameEntityProcessor", "GameEntityProcessor.vcxproj", "{B80B6B25-50F6-4883-A9D9-3D6CD16247AC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "shoot", "..\..\..\..\..\shoot\build\vc\shoot.vcxproj", "{18CA3F84-75A7-43C4-8388-34C2E384C80F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zlib", "..\..\..\..\..\shoot\build\vc\zlib.vcxproj", "{65F1FE0F-7C70-451A-9FE2-B25535AA1185}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libpng", "..\..\..\..\..\shoot\build\vc\libpng.vcxproj", "{145E8C22-BFC3-45A7-A30D-F88D61C8BF11}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Game", "..\..\game\Game.vcxproj", "{02CD2C0D-B04D-4C6E-80F7-0B41C7616AAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|Win32 = Debug|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B80B6B25-50F6-4883-A9D9-3D6CD16247AC}.Debug|ARM.ActiveCfg = Debug|Win32
+		{B80B6B25-50F6-4883-A9D9-3D6CD16247AC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B80B6B25-50F6-4883-A9D9-3D6CD16247AC}.Debug|Win32.Build.0 = Debug|Win32
+		{18CA3F84-75A7-43C4-8388-34C2E384C80F}.Debug|ARM.ActiveCfg = Debug|ARM
+		{18CA3F84-75A7-43C4-8388-34C2E384C80F}.Debug|ARM.Build.0 = Debug|ARM
+		{18CA3F84-75A7-43C4-8388-34C2E384C80F}.Debug|Win32.ActiveCfg = Debug Editor|Win32
+		{18CA3F84-75A7-43C4-8388-34C2E384C80F}.Debug|Win32.Build.0 = Debug Editor|Win32
+		{65F1FE0F-7C70-451A-9FE2-B25535AA1185}.Debug|ARM.ActiveCfg = Debug|ARM
+		{65F1FE0F-7C70-451A-9FE2-B25535AA1185}.Debug|ARM.Build.0 = Debug|ARM
+		{65F1FE0F-7C70-451A-9FE2-B25535AA1185}.Debug|Win32.ActiveCfg = Debug|Win32
+		{65F1FE0F-7C70-451A-9FE2-B25535AA1185}.Debug|Win32.Build.0 = Debug|Win32
+		{145E8C22-BFC3-45A7-A30D-F88D61C8BF11}.Debug|ARM.ActiveCfg = Debug|ARM
+		{145E8C22-BFC3-45A7-A30D-F88D61C8BF11}.Debug|ARM.Build.0 = Debug|ARM
+		{145E8C22-BFC3-45A7-A30D-F88D61C8BF11}.Debug|Win32.ActiveCfg = Debug|Win32
+		{145E8C22-BFC3-45A7-A30D-F88D61C8BF11}.Debug|Win32.Build.0 = Debug|Win32
+		{02CD2C0D-B04D-4C6E-80F7-0B41C7616AAF}.Debug|ARM.ActiveCfg = Debug|ARM
+		{02CD2C0D-B04D-4C6E-80F7-0B41C7616AAF}.Debug|ARM.Build.0 = Debug|ARM
+		{02CD2C0D-B04D-4C6E-80F7-0B41C7616AAF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{02CD2C0D-B04D-4C6E-80F7-0B41C7616AAF}.Debug|Win32.Build.0 = Debug|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
