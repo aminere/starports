@@ -5,7 +5,8 @@
 
 This is the full C++ source code to <a href="https://franticsoftware.com/#/starports">Starports Space Defense</a>, a mobile 3D tower defense released in 2015.
 
-In addition to the game source, this includes the full game pipeline (engine, editor, and tools). This engine is a continuation of <a href="https://franticsoftware.com/#/vlad">VLAD Heavy Strike</a>'s engine.
+In addition to the game source, this includes the full game pipeline (engine, editor, and tools). 
+This engine is a continuation of <a href="https://franticsoftware.com/#/vlad">VLAD Heavy Strike</a>'s engine.
 
 ## How To Build (Windows 10)
 
