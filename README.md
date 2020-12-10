@@ -1,4 +1,4 @@
-# Starports Space Defense
+## Starports Space Defense
 
 ![Thumbnail](https://franticsoftware.com/public/starports/4.jpg)
 ![Thumbnail2](https://franticsoftware.com/public/starports/3.jpg)
@@ -7,7 +7,18 @@ This is the full C++ source code to <a href="https://franticsoftware.com/#/starp
 
 In addition to the game source, this includes the full game pipeline (engine, editor, and tools). This engine is a continuation of <a href="https://franticsoftware.com/#/vlad">VLAD Heavy Strike</a>'s engine.
 
-<b>Non exhaustive list of Engine Features</b>
+## How To Build (Windows 10)
+
+* Requires Visual Studio 2019 :warning:
+* Run `BuildEditor.bat` or `BuildGame.bat`
+* Or build from the solution files located in:
+  * `Game\build\vc\game\EditorLauncher.sln`
+  * `Game\build\vc\game\GameLauncher.sln`
+
+## How To Run (Windows 10)
+* Run `LaunchEditor.bat` or `LaunchGame.bat`
+
+## Engine Features
 
 Low Level:
 
