@@ -64,7 +64,9 @@ namespace shoot
 		inline E_KeyType GetShootKeyType(SDL_Keycode sdlKey) const 
 		{
 			auto it = m_aShootKeyTypes.find(sdlKey);
-			SHOOT_ASSERT(it != m_aShootKeyTypes.end(), "Unsupported SDL Key");
+			if (it == m_aShootKeyTypes.end()) {
+				return KT_None;
+			}
 			return it->second;
 		}
 
