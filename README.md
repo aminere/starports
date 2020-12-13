@@ -15,7 +15,20 @@ This engine is a continuation of <a href="https://franticsoftware.com/#/vlad">VL
 * Or build from the solution files `EditorLauncher.sln` or `GameLauncher.sln`  
 
 ## How To Run (Windows 10)
-* Run `LaunchEditor.bat` or `LaunchGame.bat`
+* Run `LaunchEditor.bat` to launch the editor
+  * Open `Game/data/menu/touchtostartscene.xml` to play the game in the editor
+* Run `LaunchGame.bat` to launch the game
+  
+## How To Debug (Windows 10)
+* From `EditorLauncher.sln`
+  * Ensure the working directory is `Game`
+  * Hit Play
+  
+* From `GameLauncher.sln`
+  * Ensure `Shoot\tools\FileSystemGenerator\vc\FileSystemGenerator.sln` was built
+  * Ensure game data was built by running `Game/FileSystemGenerator.bat`
+  * Ensure the working directory is `Game`
+  * Hit Play
 
 ## Engine Features
 
