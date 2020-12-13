@@ -22,13 +22,13 @@ This engine is a continuation of <a href="https://franticsoftware.com/#/vlad">VL
   
 ## How To Debug
 * From `EditorLauncher.sln`
-  * Ensure the working directory is `Game`
+  * Ensure the `Debugging -> Working Directory` is `Game`
   * Hit Play
   
 * From `GameLauncher.sln`
   * Ensure `Shoot\tools\FileSystemGenerator\vc\FileSystemGenerator.sln` was built
   * Ensure game data was built by running `Game/FileSystemGenerator.bat`
-  * Ensure the working directory is `Game`
+  * Ensure the `Debugging -> Working Directory` is `Game`
   * Hit Play
 
 ## Engine Features
