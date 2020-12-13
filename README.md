@@ -8,18 +8,19 @@ This is the full C++ source code to <a href="https://franticsoftware.com/#/starp
 In addition to the game source, this includes the full game pipeline (engine, editor, and tools). 
 This engine is a continuation of <a href="https://franticsoftware.com/#/vlad">VLAD Heavy Strike</a>'s engine.
 
-## How To Build (Windows 10)
+:warning: Windows 10 and Visual Studio 2019 are required
 
-* Requires Visual Studio 2019 :warning:
+## How To Build
+
 * Run `BuildEditor.bat` or `BuildGame.bat`
 * Or build from the solution files `EditorLauncher.sln` or `GameLauncher.sln`  
 
-## How To Run (Windows 10)
+## How To Run
 * Run `LaunchEditor.bat` to launch the editor
   * Open `Game/data/menu/touchtostartscene.xml` to play the game in the editor
 * Run `LaunchGame.bat` to launch the game
   
-## How To Debug (Windows 10)
+## How To Debug
 * From `EditorLauncher.sln`
   * Ensure the working directory is `Game`
   * Hit Play
