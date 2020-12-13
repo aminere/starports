@@ -39,7 +39,9 @@ namespace shoot
 			return;
 		}
 		
-		std::sort(m_KeyFrames.begin(), m_KeyFrames.end(), [](KeyFrame* a, KeyFrame* b) { return a->Time < b->Time; });
+		auto keyframes = m_KeyFrames.Elements();
+		std::sort(keyframes.begin(), keyframes.end(), [](KeyFrame* a, KeyFrame* b) { return a->Time < b->Time; });
+
 		m_fCurrentTime = 0.0f;
 
 		if(m_KeyFrames.GetSize() > 1)

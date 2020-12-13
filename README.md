@@ -12,9 +12,7 @@ This engine is a continuation of <a href="https://franticsoftware.com/#/vlad">VL
 
 * Requires Visual Studio 2019 :warning:
 * Run `BuildEditor.bat` or `BuildGame.bat`
-* Or build from the solution files located in:
-  * `Game\build\vc\game\EditorLauncher.sln`
-  * `Game\build\vc\game\GameLauncher.sln`
+* Or build from the solution files `EditorLauncher.sln` or `GameLauncher.sln`  
 
 ## How To Run (Windows 10)
 * Run `LaunchEditor.bat` or `LaunchGame.bat`

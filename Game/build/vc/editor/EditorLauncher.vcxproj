@@ -11,6 +11,7 @@
     <RootNamespace>ShootTestEditorLauncher</RootNamespace>
     <Keyword>Win32Proj</Keyword>
     <ProjectName>EditorLauncher</ProjectName>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
@@ -33,7 +34,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
     <TargetName>$(ProjectName)$(Configuration)</TargetName>
-    <OutDir>$(SolutionDir)\..\..\..\.\</OutDir>
+    <OutDir>$(ProjectDir)\..\..\..\.\</OutDir>
     <IntDir>$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">

@@ -9,6 +9,7 @@ Game/build/vc/editor/x64/
 *.ipch
 /Game/data.fs
 /Shoot/tools/FileSystemGenerator/vc/x64/
+/x64
 
 *.exe
 *.pdb

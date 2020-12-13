@@ -262,7 +262,7 @@ namespace shoot
 		GraphicsDriver::Instance()->SetStencilFunc(GraphicsDriver::CF_Equal, 1 << 1, 0xff); // Render only where stencil is 1
 
 		// render billboards
-		//m_BillBoardEntity->GetComponent<TextureAnimationVisitor>()->Update();
+		m_BillBoardEntity->GetComponent<TextureAnimationVisitor>()->Update();
 		GraphicComponent* pGC = m_BillBoardEntity->GetComponent<GraphicComponent>();
 		VertexBuffer* pVB = pGC->GetVertexBuffer();
 		Material* pMat = pGC->GetMaterial();
